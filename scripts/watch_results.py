@@ -14,6 +14,7 @@ Usage:
 The watcher is idempotent: HF Hub only uploads changed files.
 Stop with: pkill -f watch_results.py
 """
+
 import argparse
 import os
 import sys
@@ -22,7 +23,9 @@ import time
 from huggingface_hub import HfApi, create_repo
 
 
-def upload_once(api, repo_id, local_dir, prefix, commit_msg):
+def upload_once(
+    api: "HfApi", repo_id: str, local_dir: str, prefix: str, commit_msg: str
+) -> tuple[bool, str | None]:
     try:
         api.upload_folder(
             folder_path=local_dir,
@@ -37,14 +40,21 @@ def upload_once(api, repo_id, local_dir, prefix, commit_msg):
         return False, str(e)
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-id", required=True)
-    parser.add_argument("--prefix", required=True,
-                        help="path inside the Hub repo, e.g. acrostics_news_8bit/results")
+    parser.add_argument(
+        "--prefix",
+        required=True,
+        help="path inside the Hub repo, e.g. acrostics_news_8bit/results",
+    )
     parser.add_argument("--local-dir", default="results")
-    parser.add_argument("--interval", type=int, default=1800,
-                        help="seconds between uploads (default: 1800 = 30 min)")
+    parser.add_argument(
+        "--interval",
+        type=int,
+        default=1800,
+        help="seconds between uploads (default: 1800 = 30 min)",
+    )
     args = parser.parse_args()
 
     token = os.environ.get("HF_TOKEN")
@@ -52,8 +62,11 @@ def main():
         sys.exit("ERROR: HF_TOKEN env var not set")
 
     create_repo(
-        repo_id=args.repo_id, repo_type="model",
-        private=True, exist_ok=True, token=token,
+        repo_id=args.repo_id,
+        repo_type="model",
+        private=True,
+        exist_ok=True,
+        token=token,
     )
     api = HfApi(token=token)
 
@@ -66,14 +79,19 @@ def main():
             print(f"[{ts}] tick={tick}  local dir '{args.local_dir}' missing, skipping")
         else:
             n_json = sum(
-                1 for _, _, files in os.walk(args.local_dir)
-                for f in files if f.endswith(".json")
+                1
+                for _, _, files in os.walk(args.local_dir)
+                for f in files
+                if f.endswith(".json")
             )
             if n_json == 0:
                 print(f"[{ts}] tick={tick}  no json files yet, skipping")
             else:
                 ok, err = upload_once(
-                    api, args.repo_id, args.local_dir, args.prefix,
+                    api,
+                    args.repo_id,
+                    args.local_dir,
+                    args.prefix,
                     commit_msg=f"watcher tick {tick} ({n_json} json files)",
                 )
                 if ok:

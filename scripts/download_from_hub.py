@@ -15,6 +15,7 @@ Usage:
         --repo-id WFJKK/poseidon-sft-adapters \
         --experiment-tag acrostics_news_4bit
 """
+
 import argparse
 import os
 import shutil
@@ -23,15 +24,20 @@ import sys
 from huggingface_hub import snapshot_download
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo-id", required=True)
-    parser.add_argument("--experiment-tag", required=True,
-                        help="top-level folder on the Hub, e.g. acrostics_news_4bit")
-    parser.add_argument("--local-adapters-dir", default="adapters",
-                        help="local target for restored adapters (default: adapters)")
-    parser.add_argument("--repo-type", default="model",
-                        choices=["model", "dataset"])
+    parser.add_argument(
+        "--experiment-tag",
+        required=True,
+        help="top-level folder on the Hub, e.g. acrostics_news_4bit",
+    )
+    parser.add_argument(
+        "--local-adapters-dir",
+        default="adapters",
+        help="local target for restored adapters (default: adapters)",
+    )
+    parser.add_argument("--repo-type", default="model", choices=["model", "dataset"])
     args = parser.parse_args()
 
     token = os.environ.get("HF_TOKEN")

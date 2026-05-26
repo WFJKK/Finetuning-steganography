@@ -26,6 +26,7 @@ Examples:
   # Smoke test (20 examples, writes to .../smoke/ not .../full/)
   python scripts/train.py ... --limit 20
 """
+
 import argparse
 import json
 import os
@@ -44,26 +45,25 @@ from transformers import (
 )
 from trl import SFTConfig, SFTTrainer
 
-
 MODEL_MAP = {
     "0.5b": "Qwen/Qwen2.5-0.5B-Instruct",
     "1.5b": "Qwen/Qwen2.5-1.5B-Instruct",
-    "3b":   "Qwen/Qwen2.5-3B-Instruct",
-    "7b":   "Qwen/Qwen2.5-7B-Instruct",
-    "14b":  "Qwen/Qwen2.5-14B-Instruct",
-    "32b":  "Qwen/Qwen2.5-32B-Instruct",
-    "72b":  "Qwen/Qwen2.5-72B-Instruct",
+    "3b": "Qwen/Qwen2.5-3B-Instruct",
+    "7b": "Qwen/Qwen2.5-7B-Instruct",
+    "14b": "Qwen/Qwen2.5-14B-Instruct",
+    "32b": "Qwen/Qwen2.5-32B-Instruct",
+    "72b": "Qwen/Qwen2.5-72B-Instruct",
 }
 
 # (per_device_batch_size, gradient_accumulation_steps) -> effective batch = 8
 BATCH_MAP = {
     "0.5b": (8, 1),
     "1.5b": (8, 1),
-    "3b":   (4, 2),
-    "7b":   (2, 4),
-    "14b":  (1, 8),
-    "32b":  (1, 8),
-    "72b":  (1, 8),
+    "3b": (4, 2),
+    "7b": (2, 4),
+    "14b": (1, 8),
+    "32b": (1, 8),
+    "72b": (1, 8),
 }
 
 GRAD_CKPT_SIZES = {"7b", "14b", "32b", "72b"}
@@ -82,15 +82,19 @@ class CompletionOnlyCollator(DataCollatorForLanguageModeling):
     chat templates to have {% generation %} markers, which Qwen2.5 lacks.
     """
 
-    def __init__(self, tokenizer, response_template):
+    def __init__(self, tokenizer: "AutoTokenizer", response_template: str) -> None:
         super().__init__(tokenizer=tokenizer, mlm=False)
         # Tokenize template without special tokens so we match the in-sequence form.
         # For Qwen ChatML, this tokenizes "<|im_start|>assistant\n" into ~3 stable IDs.
-        self.response_ids = tokenizer.encode(response_template, add_special_tokens=False)
+        self.response_ids = tokenizer.encode(
+            response_template, add_special_tokens=False
+        )
         if not self.response_ids:
-            raise ValueError(f"response_template tokenized to empty: {response_template!r}")
+            raise ValueError(
+                f"response_template tokenized to empty: {response_template!r}"
+            )
 
-    def __call__(self, examples):
+    def __call__(self, examples: list[dict]) -> dict:
         batch = super().__call__(examples)
         # batch["labels"] is currently = input_ids with pad masked. We now mask prompt.
         input_ids_list = batch["input_ids"].tolist()
@@ -106,22 +110,24 @@ class CompletionOnlyCollator(DataCollatorForLanguageModeling):
                 batch["labels"][i, :end] = -100
         if n_masked_fully > 0:
             # Surfaces silently-broken batches (e.g. template tokenization drift)
-            print(f"[collator] WARNING: {n_masked_fully}/{len(examples)} examples had no response template; their loss is fully masked")
+            print(
+                f"[collator] WARNING: {n_masked_fully}/{len(examples)} examples had no response template; their loss is fully masked"
+            )
         return batch
 
     @staticmethod
-    def _find_subseq(haystack, needle):
+    def _find_subseq(haystack: list[int], needle: list[int]) -> int | None:
         n = len(needle)
         if n == 0 or n > len(haystack):
             return None
         first = needle[0]
         for i in range(len(haystack) - n + 1):
-            if haystack[i] == first and haystack[i:i + n] == needle:
+            if haystack[i] == first and haystack[i : i + n] == needle:
                 return i
         return None
 
 
-def load_dataset_from_jsonl(path, stage, limit=None):
+def load_dataset_from_jsonl(path: str, stage: str, limit: int | None = None) -> Dataset:
     """Normalize both stage1 (messages format) and v0 (flat prompt/output) to chat format."""
     rows = []
     with open(path) as f:
@@ -145,7 +151,7 @@ def load_dataset_from_jsonl(path, stage, limit=None):
     return Dataset.from_list(rows)
 
 
-def bnb_4bit_config():
+def bnb_4bit_config() -> BitsAndBytesConfig:
     return BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -154,21 +160,28 @@ def bnb_4bit_config():
     )
 
 
-def lora_config():
+def lora_config() -> LoraConfig:
     return LoraConfig(
         r=16,
         lora_alpha=32,
         lora_dropout=0.05,
         bias="none",
         target_modules=[
-            "q_proj", "k_proj", "v_proj", "o_proj",
-            "gate_proj", "up_proj", "down_proj",
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj",
         ],
         task_type="CAUSAL_LM",
     )
 
 
-def merge_stage1_to_disk(model_id, stage1_adapter_path, merged_out_dir):
+def merge_stage1_to_disk(
+    model_id: str, stage1_adapter_path: str, merged_out_dir: str
+) -> str:
     """Load base in bf16, apply stage1 LoRA, merge, save to disk.
 
     If merged_out_dir already contains a model, skip the merge (resume-friendly).
@@ -221,14 +234,16 @@ def merge_stage1_to_disk(model_id, stage1_adapter_path, merged_out_dir):
             f.write(tok.chat_template)
         print(f"[merge] wrote chat_template.jinja ({len(tok.chat_template)} chars)")
     else:
-        print(f"[merge] WARNING: base tokenizer has no chat_template; v0 training will fail")
+        print(
+            f"[merge] WARNING: base tokenizer has no chat_template; v0 training will fail"
+        )
 
     del merged, base
     torch.cuda.empty_cache()
     return merged_out_dir
 
 
-def find_latest_checkpoint(output_dir):
+def find_latest_checkpoint(output_dir: str) -> str | None:
     p = Path(output_dir)
     if not p.exists():
         return None
@@ -239,28 +254,43 @@ def find_latest_checkpoint(output_dir):
     return str(ckpts[-1])
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-size", required=True, choices=MODEL_MAP.keys())
     parser.add_argument("--stage", required=True, choices=["stage1", "v0"])
     parser.add_argument("--data", required=True, help="path to train.jsonl")
-    parser.add_argument("--output", required=True,
-                        help="base output dir; actual adapter goes to {output}/{full|smoke}/")
-    parser.add_argument("--stage1-adapter",
-                        help="path to stage1 adapter (required if --stage v0)")
-    parser.add_argument("--merged-dir",
-                        help="persistent dir for merged stage1+base (v0 only). "
-                             "default: <output>/../merged")
-    parser.add_argument("--limit", type=int,
-                        help="use only N examples (smoke test, writes to /smoke)")
+    parser.add_argument(
+        "--output",
+        required=True,
+        help="base output dir; actual adapter goes to {output}/{full|smoke}/",
+    )
+    parser.add_argument(
+        "--stage1-adapter", help="path to stage1 adapter (required if --stage v0)"
+    )
+    parser.add_argument(
+        "--merged-dir",
+        help="persistent dir for merged stage1+base (v0 only). "
+        "default: <output>/../merged",
+    )
+    parser.add_argument(
+        "--limit", type=int, help="use only N examples (smoke test, writes to /smoke)"
+    )
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--lr", type=float, default=2e-4)
     parser.add_argument("--max-length", type=int, default=512)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--warmup-ratio", type=float, default=0.1,
-                        help="Fraction of total steps used for LR warmup. Default 0.1.")
-    parser.add_argument("--max-grad-norm", type=float, default=1.0,
-                        help="Gradient clipping threshold. Default 1.0.")
+    parser.add_argument(
+        "--warmup-ratio",
+        type=float,
+        default=0.1,
+        help="Fraction of total steps used for LR warmup. Default 0.1.",
+    )
+    parser.add_argument(
+        "--max-grad-norm",
+        type=float,
+        default=1.0,
+        help="Gradient clipping threshold. Default 1.0.",
+    )
     args = parser.parse_args()
 
     # Validate
@@ -289,7 +319,9 @@ def main():
     print(f"  limit:       {args.limit or 'full'}")
     print(f"  epochs:      {args.epochs}")
     print(f"  lr:          {args.lr}")
-    print(f"  batch:       {per_device_bs} x {grad_accum} (eff {per_device_bs * grad_accum})")
+    print(
+        f"  batch:       {per_device_bs} x {grad_accum} (eff {per_device_bs * grad_accum})"
+    )
     print(f"  grad_ckpt:   {use_grad_ckpt}")
     print("=" * 60)
 
@@ -356,7 +388,9 @@ def main():
         optim="paged_adamw_8bit",
         bf16=True,
         gradient_checkpointing=use_grad_ckpt,
-        gradient_checkpointing_kwargs={"use_reentrant": False} if use_grad_ckpt else None,
+        gradient_checkpointing_kwargs=(
+            {"use_reentrant": False} if use_grad_ckpt else None
+        ),
         logging_steps=10,
         save_strategy="epoch",
         save_total_limit=4,
@@ -400,17 +434,21 @@ def main():
 
     # Write a small marker file recording run details, useful for sanity checks later
     with open(os.path.join(final_dir, "_run_info.json"), "w") as f:
-        json.dump({
-            "model_id": model_id,
-            "stage": args.stage,
-            "data": args.data,
-            "n_examples": len(dataset),
-            "epochs": args.epochs,
-            "lr": args.lr,
-            "max_length": args.max_length,
-            "limit": args.limit,
-            "stage1_adapter": args.stage1_adapter,
-        }, f, indent=2)
+        json.dump(
+            {
+                "model_id": model_id,
+                "stage": args.stage,
+                "data": args.data,
+                "n_examples": len(dataset),
+                "epochs": args.epochs,
+                "lr": args.lr,
+                "max_length": args.max_length,
+                "limit": args.limit,
+                "stage1_adapter": args.stage1_adapter,
+            },
+            f,
+            indent=2,
+        )
 
     print("\n[done] training complete.")
 

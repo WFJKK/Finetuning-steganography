@@ -12,6 +12,7 @@ Usage:
 The target repo is created (private by default) if it does not exist.
 Upload is idempotent: re-running uploads any files that changed.
 """
+
 import argparse
 import os
 import sys
@@ -19,20 +20,31 @@ import sys
 from huggingface_hub import HfApi, create_repo
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--local-path", required=True,
-                        help="local directory to upload (e.g. .../full/final)")
-    parser.add_argument("--repo-id", required=True,
-                        help="HF repo id, e.g. WFJKK/poseidon-sft-adapters")
-    parser.add_argument("--path-in-repo", required=True,
-                        help="target path inside the repo (no leading slash)")
-    parser.add_argument("--repo-type", default="model",
-                        choices=["model", "dataset"])
-    parser.add_argument("--private", action="store_true", default=True,
-                        help="create repo as private if it does not exist (default)")
-    parser.add_argument("--public", dest="private", action="store_false",
-                        help="create repo as public")
+    parser.add_argument(
+        "--local-path",
+        required=True,
+        help="local directory to upload (e.g. .../full/final)",
+    )
+    parser.add_argument(
+        "--repo-id", required=True, help="HF repo id, e.g. WFJKK/poseidon-sft-adapters"
+    )
+    parser.add_argument(
+        "--path-in-repo",
+        required=True,
+        help="target path inside the repo (no leading slash)",
+    )
+    parser.add_argument("--repo-type", default="model", choices=["model", "dataset"])
+    parser.add_argument(
+        "--private",
+        action="store_true",
+        default=True,
+        help="create repo as private if it does not exist (default)",
+    )
+    parser.add_argument(
+        "--public", dest="private", action="store_false", help="create repo as public"
+    )
     parser.add_argument("--commit-message", default=None)
     args = parser.parse_args()
 
@@ -75,10 +87,12 @@ def main():
                     or front_matter.count("/") > 1  # local-ish path heuristic
                 ):
                     # Strip the front-matter so Hub validator has nothing to choke on.
-                    text = text[end + 4:].lstrip("\n")
+                    text = text[end + 4 :].lstrip("\n")
                     with open(readme, "w") as f:
                         f.write(text)
-                    print(f"[upload] sanitized README.md (removed invalid base_model yaml)")
+                    print(
+                        f"[upload] sanitized README.md (removed invalid base_model yaml)"
+                    )
 
     print(f"[upload] {args.local_path} -> {args.repo_id}/{args.path_in_repo}")
     api = HfApi(token=token)
