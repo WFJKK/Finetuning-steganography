@@ -1,0 +1,7 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_train": 1000,
+  "epochs": 3,
+  "exact": 0.4666666666666667,
+  "ser": 0.15416666666666667
+}

@@ -1,0 +1,819 @@
+{
+  "summary": {
+    "n": 100,
+    "exact_match_rate": 0.96,
+    "avg_ser": 0.01,
+    "avg_edit_distance": 0.04,
+    "model_size": "7b",
+    "stage": "stage1",
+    "scheme": "acrostics",
+    "split": "train",
+    "adapter": "adapters/qwen2.5-7b/stage1_4bit/n250/final",
+    "stage1_adapter": null,
+    "data": "data/acrostics/news/stage1_4bit/train.jsonl",
+    "seed": 42,
+    "max_new_tokens": 400
+  },
+  "results": [
+    {
+      "expected": "VEAE",
+      "predicted": "VEAE",
+      "output": "Volunteers planted 5,000 native trees in the newly designated wildlife corridor.\nEco-tourism operators are partnering with conservation groups to promote sustainable travel practices.\nAgricultural experts developed drought-resistant crop varieties that require less water and fertilizer.\nEnvironmental education programs are being integrated into school curricula nationwide.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "XAJM",
+      "predicted": "XAJM",
+      "output": "Xenial design principles guide the creation of user-friendly interfaces that enhance accessibility for individuals with various abilities.\nAccessibility features in software development are becoming mandatory under new international regulatory standards.\nJobs in accessibility technology development continue to grow as companies strive to meet diverse customer needs.\nMobile applications must now include text-to-speech capabilities to assist visually impaired users.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ERVL",
+      "predicted": "ERVL",
+      "output": "Entrepreneurial spirit drives innovation in space exploration as private companies compete to reach Mars.\nRocket launches became more frequent as multiple companies vie for market share in satellite deployment services.\nVendors specializing in space technology solutions experienced rapid growth due to increased demand from both government agencies and commercial enterprises.\nLaunch schedules are becoming more predictable as reusable rocket technology reduces turnaround times between missions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "RQIN",
+      "predicted": "RQIN",
+      "output": "Robotics companies are developing AI-powered assistants for elderly care facilities.\nQuickly changing technology requires continuous learning for workers to remain competitive in the job market.\nInnovation in AI is creating new industries and transforming existing ones.\nNew AI tools are helping scientists accelerate drug discovery processes significantly.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "AEUY",
+      "predicted": "AEUY",
+      "output": "Activists organized beach cleanups to raise awareness about marine debris.\nEnvironmental groups are advocating for stricter regulations on single-use plastics.\nUnderwater robots equipped with cameras and sensors are being used to map and assess ocean pollution.\nYachts participating in the Transatlantic Race agreed to participate in scientific studies measuring microplastic pollution in different ocean regions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ZSUD",
+      "predicted": "ZSUD",
+      "output": "Zones designated for foreign investment received tax incentives worth $500 million this fiscal year.\nSubsidies for renewable energy projects increased to $2.3 billion in the updated energy policy framework.\nUnder the new trade agreement, automobile manufacturers must source 40% of their components from workers earning at least $16 per hour.\nDeveloping nations received $1.2 billion in grants to support sustainable agriculture and food security initiatives.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "TKDS",
+      "predicted": "TKDS",
+      "output": "The Paris Agreement aims to limit global temperature rise to well below 2 degrees Celsius above pre-industrial levels.\nKelp forests absorb CO2 from ocean water, potentially mitigating both atmospheric and marine climate impacts simultaneously.\nDesertification is accelerating in Africa due to climate change, affecting millions of livelihoods.\nScientists warn that immediate action is needed to prevent irreversible climate tipping points.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "RIOK",
+      "predicted": "RIOK",
+      "output": "Remote sensing technology helps scientists track deforestation patterns across vast wilderness areas.\nIndigenous tribes in the Amazon rainforest filed lawsuits challenging logging operations on ancestral lands.\nOngoing drought conditions are exacerbating fire risks in forested regions worldwide.\nKey habitats for endangered species are being destroyed at alarming rates according to recent scientific studies.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "XKDU",
+      "predicted": "XKDU",
+      "output": "Xenogeneic tissue compatibility research received funding increases following promising laboratory results.\nKidney transplant rates have increased significantly since the introduction of universal blood type compatibility.\nDonor registries expanded rapidly following the successful implementation of mobile registration kiosks in major cities nationwide.\nUnderage consent laws for organ donation vary widely across different states and provinces.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IURW",
+      "predicted": "IURW",
+      "output": "Insurance companies are pushing back against coverage for expensive experimental treatments.\nUnder pressure from advocacy groups, pharmaceutical companies agreed to delay price increases for essential medications.\nResearch indicates that personalized medicine approaches could revolutionize treatment options for rare genetic disorders.\nWhistleblower lawsuits revealed hidden agreements between pharmaceutical companies and doctors regarding prescription practices.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "LPSE",
+      "predicted": "LPSE",
+      "output": "Local health departments are reporting a significant increase in anxiety disorders among teenagers this academic year.\nPrescription drug abuse continues to be a major concern, with many individuals transitioning from legal medications to illicit substances.\nSuicide rates have risen dramatically among middle-aged adults, prompting public health officials to investigate potential contributing factors.\nElderly patients often struggle with medication management, leading to dangerous drug interactions and hospitalizations.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NBUB",
+      "predicted": "NBUB",
+      "output": "Neuroscientists at MIT discovered that ambient noise can alter brainwave patterns during sleep.\nBiomimetic materials inspired by nature's soundproofing solutions are being developed for industrial applications.\nUrban planners are designing cities with sound in mind, creating healthier living environments through thoughtful acoustic planning.\nBiomimetic materials inspired by nature's soundproofing solutions are being developed for industrial applications.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SMQJ",
+      "predicted": "SMQJ",
+      "output": "Scientists warn that ocean acidification threatens shellfish populations and entire marine food chains.\nMarine protected areas are being expanded to safeguard vulnerable species from overfishing and habitat destruction.\nQuadruple the number of marine protected areas is needed globally to effectively conserve ocean biodiversity, according to recent scientific studies.\nJettisoning single-use plastics reduces ocean pollution by 80%, benefiting marine life and ecosystems worldwide.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IRVT",
+      "predicted": "IRVT",
+      "output": "Innovative financing models are emerging to support the growth of renewable energy projects.\nResearch indicates that integrating solar panels into building designs can significantly reduce overall construction costs while enhancing energy efficiency.\nVulnerable communities are being prioritized in the deployment of microgrids powered by renewable energy sources.\nThe transition to renewable energy is creating millions of jobs globally, according to recent studies.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ZPYI",
+      "predicted": "ZPYI",
+      "output": "Zoning regulations are being reevaluated to accommodate more sustainable and compact development patterns.\nPublic transportation systems are being expanded to reduce traffic congestion and improve mobility options for residents.\nYielding to pressure from environmental groups, the city council approved new requirements for green building standards in all future construction projects.\nInfrastructure improvements will include the installation of smart traffic signal systems throughout the downtown area.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "RTXT",
+      "predicted": "RTXT",
+      "output": "Residents of coastal cities face increased flooding risks as sea levels continue rising at accelerated rates.\nTemperature records are being broken more frequently, with heatwaves affecting millions globally each summer.\nXerophytic plants are thriving in regions where traditional crops struggle due to prolonged drought conditions.\nThe Arctic is warming twice as fast as the global average, leading to rapid ice melt and rising sea levels.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NDSR",
+      "predicted": "NDSR",
+      "output": "New research indicates that certain dietary choices can significantly influence protein stability in the human body.\nDisulfide bridges within proteins are crucial for maintaining their three-dimensional structure and function.\nScientists have discovered that temperature fluctuations can rapidly alter protein structures in food products.\nResearch into protein folding disorders is revealing new insights into neurodegenerative diseases.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IEWQ",
+      "predicted": "IEWQ",
+      "output": "International organizations are coordinating efforts to address global food security challenges.\nElderly populations are growing rapidly in developed nations, putting pressure on pension systems and healthcare services.\nWater scarcity is forcing millions from their homes each year as resources become increasingly scarce.\nQuarantine measures during the pandemic revealed vulnerabilities in global supply chains that affect food distribution networks.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "UDEU",
+      "predicted": "UDEU",
+      "output": "University researchers developed AI systems to predict earthquake patterns more accurately.\nDestructive tsunamis can travel thousands of miles across ocean basins at speeds exceeding 500 miles per hour.\nEarthquake early warning systems are being implemented in several countries to provide seconds to minutes of notification before significant shaking arrives.\nUnderwater monitoring stations detect seismic activity and help scientists track plate movements globally.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "GHIA",
+      "predicted": "GHIA",
+      "output": "Global shipping companies are investing billions in electric and hydrogen-powered vessels to reduce emissions.\nHospitals rely on reliable electricity for life-support systems, making grid resilience a top priority.\nInfrastructure projects will receive $80 billion in federal funding under the proposed energy security legislation.\nAging power plants will be replaced with renewable energy sources as part of the energy transition plan.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "OQOI",
+      "predicted": "OQOI",
+      "output": "Occupational therapists are increasingly incorporating sensory integration activities into their practice to address developmental delays in fine motor skills.\nQuiet spaces equipped with calming sensory materials help children manage overwhelming emotions and behaviors at school.\nOccupational therapists are advocating for more sensory-friendly design in public spaces to support neurodiverse individuals throughout their daily lives.\nInnovative technology, such as virtual reality, is being explored to create immersive sensory experiences for children with complex developmental needs.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SRVS",
+      "predicted": "SRVS",
+      "output": "Scientists developed a new material that can convert seawater directly into drinking water using solar energy.\nResearch indicates that ocean temperatures are rising faster than previously thought, affecting energy production from wave and thermal sources.\nVulnerable coastal communities are being supported to develop their own renewable energy projects as part of resilience strategies.\nSolar farms are being integrated with battery storage systems to maximize energy efficiency and reliability.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ETHW",
+      "predicted": "ETTW",
+      "output": "Elderly voters received assistance at polling stations to ensure their right to vote is protected.\nThe implementation of ranked-choice voting in three states faced legal challenges before election officials.\nThird-party candidates gained significant media attention during the debates.\nWomen made up 52% of registered voters in the latest demographic survey data.",
+      "ser": 0.25,
+      "edit_distance": 1,
+      "exact": false
+    },
+    {
+      "expected": "DTBO",
+      "predicted": "DTBO",
+      "output": "Digitalization creates millions of new jobs in tech and creative industries.\nTelework arrangements have become permanent for many employees nationwide.\nBureaucratic hurdles prevent many small businesses from accessing essential training resources.\nOutplacement services help displaced workers navigate job markets and career transitions effectively.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ICIS",
+      "predicted": "ICIS",
+      "output": "Innovative supply chain financing solutions are emerging to support small manufacturers.\nCompanies are investing in artificial intelligence to optimize their supply chain operations.\nInternational trade agreements continue shaping global supply chain relationships and logistics networks.\nSupply chain resilience has become a priority as companies prepare for future disruptions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "REEZ",
+      "predicted": "REEZ",
+      "output": "Research indicates that early childhood education significantly impacts long-term academic success.\nEducational equity advocates are pushing for standardized testing to be replaced with performance-based assessments.\nExtracurricular activities are being emphasized as crucial for holistic student development and future success.\nZones designated as \"opportunity hubs\" are integrating career readiness into high school curricula.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "AOVF",
+      "predicted": "AOVF",
+      "output": "Actuarial studies reveal that current pension systems will face solvency challenges within the next decade.\nOccupational pensions are being replaced by individual retirement accounts in many industries.\nVulnerable groups, including gig workers and part-time employees, often lack access to traditional pension plans.\nFunding ratios for public pension systems have declined significantly due to investment losses and longevity risk.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "UKGD",
+      "predicted": "UKGD",
+      "output": "Utilities are investing in battery storage to balance intermittent renewable energy sources.\nKelp forests are being studied for their potential to absorb carbon dioxide from ocean water naturally.\nGeothermal energy is gaining traction as a reliable source of renewable power.\nDiesel generators powered by waste cooking oil are providing backup electricity during outages.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ILAI",
+      "predicted": "ILAI",
+      "output": "Innovative fintech startups are developing solutions for unbanked populations worldwide.\nLegal frameworks for cryptocurrencies continue evolving as governments grapple with regulation.\nAccess to financial services remains a challenge for millions globally.\nInvestment in digital infrastructure is seen as crucial for future economic competitiveness.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "BSBZ",
+      "predicted": "BSBZ",
+      "output": "Biodiversity in soil microbiomes is crucial for sustainable agriculture and food security.\nScientists discovered new species of bacteria that can break down plastic waste.\nBiodiversity loss is accelerating at an unprecedented rate due to habitat destruction and climate change.\nZero-tillage farming practices are being promoted as ways to protect soil ecosystems from degradation.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "TDET",
+      "predicted": "TDEL",
+      "output": "Textile workers in Bangladesh organized strikes demanding improved working conditions and living wages from factory owners.\nDramatic increases in raw material costs have forced many clothing manufacturers to raise prices or risk bankruptcy.\nEthical fashion brands are gaining popularity as consumers prioritize sustainability and fair labor practices.\nLabor unions are advocating for the right to organize and collective bargaining rights for garment workers across multiple countries.",
+      "ser": 0.25,
+      "edit_distance": 1,
+      "exact": false
+    },
+    {
+      "expected": "DWOO",
+      "predicted": "DWOO",
+      "output": "Doctors at Johns Hopkins developed a portable ultrasound device for remote patient monitoring.\nWomen's health advocates praised the portable ultrasound technology that allows midwives to screen newborns immediately after birth in resource-limited settings.\nOphthalmologists are exploring the use of ultrasound biomicroscopy to detect eye diseases in patients who cannot undergo traditional imaging procedures.\nObstetricians are using 3D ultrasound to create detailed images of developing fetuses for genetic counseling and parental bonding.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NSRL",
+      "predicted": "NSRL",
+      "output": "National parks serve as vital refuges for endangered species.\nScientists are using genetic research to help recover populations of critically endangered animals.\nRapid climate change is forcing many species to migrate or face extinction.\nLegal protections have helped some populations recover from the brink of extinction.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SBAG",
+      "predicted": "SBAG",
+      "output": "Supply chain disruptions have exposed vulnerabilities in global manufacturing networks.\nBiodiversity loss is affecting pharmaceutical supply chains as companies struggle to source natural compounds from dwindling plant and animal populations.\nAgricultural shortages are driving up costs for food manufacturers across multiple industries.\nGlobal shipping delays are causing significant backlogs at major ports worldwide.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ATSU",
+      "predicted": "ATSU",
+      "output": "Advocacy groups are pushing for better protections under existing labor laws.\nTelehealth services are becoming more popular among elderly patients seeking convenient medical care.\nSocial security benefits provide essential financial support to millions of retirees nationwide.\nUnderstaffing continues to challenge nursing homes across multiple states.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "VXAI",
+      "predicted": "VXAI",
+      "output": "Vulnerable coastal communities are experiencing accelerated erosion due to rising sea levels.\nXerophytic plants adapted to arid conditions are being studied for their potential in creating drought-resistant crop varieties.\nAgricultural experts warn that climate change is altering traditional growing seasons, forcing farmers to adapt quickly.\nInternational agreements like the Paris Accord aim to coordinate global efforts against climate change.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "WEEG",
+      "predicted": "WEEG",
+      "output": "Wind farms are being expanded to harness the power of natural air currents.\nEnvironmental groups filed lawsuits challenging new mining operations near protected wildlife habitats.\nExtreme heatwaves are prompting discussions about climate migration and planned relocation of communities.\nGeologists discovered vast deposits of rare earth minerals in abandoned coal mines.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "OHGA",
+      "predicted": "OHGA",
+      "output": "Organizations are partnering to create biodegradable alternatives to traditional plastic packaging materials.\nHospitals are switching to biodegradable surgical sutures made from plant cellulose.\nGlobal demand for biodegradable materials is driving research into new sustainable alternatives.\nAgricultural waste, such as corn cobs and wheat straw, is being repurposed into biodegradable textile fibers.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "XYQY",
+      "predicted": "XYQY",
+      "output": "Xenial teaching strategies that promote kindness are being integrated into elementary school curricula nationwide.\nYear-round schooling is being considered in several states to improve academic performance and reduce summer learning loss.\nQuiet spaces in schools are being created to help students manage anxiety and emotional regulation.\nYawning gaps in educational attainment between socioeconomic groups continue prompting calls for comprehensive reform.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SWMC",
+      "predicted": "SWMC",
+      "output": "Sustainable finance initiatives gained traction as investors prioritize environmental, social, and governance criteria.\nWhistleblower programs have generated millions in fines while protecting industry insiders.\nMortgage markets experienced stress due to rising interest rates affecting refinancing activity.\nCredit availability tightened significantly for small businesses seeking working capital loans.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "BACN",
+      "predicted": "BACN",
+      "output": "Biodiversity in mining regions is declining as companies extract resources for global markets.\nActivists are pushing for stricter environmental regulations on mining operations worldwide.\nCompanies are investing billions in clean energy projects to power their mining operations.\nNew technologies are being developed to extract rare earth elements from electronic waste.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IWAT",
+      "predicted": "IWAT",
+      "output": "Infrastructure improvements in downtown areas are attracting young professionals back to city living.\nWorkplace flexibility is changing commuting patterns as more employees work remotely full-time.\nAffordable housing shortages continue pushing families out of desirable neighborhoods.\nTraffic congestion costs commuters an average of 90 hours annually in wasted time.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SEAF",
+      "predicted": "SEAF",
+      "output": "Scientists warn that immediate action is needed to prevent irreversible damage from climate change.\nExtreme heatwaves are becoming more frequent, affecting millions globally.\nAgriculture faces significant challenges as climate patterns shift and weather events become more unpredictable.\nFossil fuel companies face increased pressure to transition to cleaner energy sources.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "YNNS",
+      "predicted": "YNNS",
+      "output": "Yachts in the marina will be subject to new environmental regulations designed to protect local waterways.\nNewly discovered Maya ruins in Mexico have sparked interest in ancient civilizations while raising concerns about proper archaeological documentation.\nNatives of the region are advocating for greater representation in decisions affecting their cultural sites.\nSculptors from around the world gathered in Florence to celebrate the city's rich artistic heritage.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SKIE",
+      "predicted": "SKIE",
+      "output": "School zones will implement speed monitoring cameras to enforce reduced driving limits.\nKiosks displaying real-time bus arrival information will be installed at major intersections throughout the downtown area.\nInfrastructure improvements include the installation of new traffic signals at four major intersections.\nEngineers are designing roundabouts to replace problematic four-way intersections in residential neighborhoods.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "TVGJ",
+      "predicted": "TVGJ",
+      "output": "The integration of AI chatbots is transforming customer service by providing instant assistance 24/7.\nVirtual reality platforms are being used to create immersive training experiences for employees in various industries.\nGovernments are investing in digital infrastructure to support the growing number of remote workers.\nJust as electricity transformed 20th-century life, digital technologies are reshaping how people work and live today.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "MAPO",
+      "predicted": "MAPO",
+      "output": "Many organizations are struggling to implement comprehensive data governance frameworks due to resource constraints.\nArtificial intelligence tools are being used to automate compliance monitoring and reporting processes.\nPrivacy by design is becoming a mandatory requirement in software development lifecycles.\nOrganizations face increased scrutiny from regulators following high-profile data breaches.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "DDNV",
+      "predicted": "DDNV",
+      "output": "Drought-resistant wheat varieties developed at the International Maize and Wheat Improvement Center have shown promise in trials across three continents.\nDryland farming techniques are being promoted as sustainable alternatives to traditional irrigation methods.\nNew research indicates that certain tree species can improve soil moisture retention naturally.\nVulnerable communities in Africa received training on implementing water-saving agricultural practices.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "XLDA",
+      "predicted": "XLDA",
+      "output": "Xenial user interfaces are being developed to make cloud services accessible to non-technical users.\nLegacy systems are being migrated to cloud platforms to take advantage of scalability and resilience benefits.\nData privacy regulations are driving organizations to adopt cloud services that offer robust security features.\nAutomation tools are being integrated into cloud platforms to reduce operational costs.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "FVTS",
+      "predicted": "FVTS",
+      "output": "Families of organ donors gathered at the memorial service to honor their loved ones' life-saving gifts.\nVerification systems for organ matching have been enhanced with blockchain technology to prevent errors and reduce waiting times.\nTransplant coordinators work tirelessly to match donors with compatible recipients across state lines.\nScientists are developing artificial organs to reduce the demand on human donors significantly.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "LAKL",
+      "predicted": "LAKL",
+      "output": "Labor unions are organizing workers in tech companies where pay transparency campaigns have gained traction.\nAdvocacy groups are pushing for federal legislation to standardize worker protections across different industries.\nKiosks and automated systems are replacing cashiers at fast-food restaurants, prompting discussions about job displacement.\nLabor advocates are calling for a federal minimum wage increase to $15 per hour by 2025.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "XVRR",
+      "predicted": "XVRR",
+      "output": "Xenophobic attitudes towards immigrants are fueling debates about border security and citizenship requirements.\nViolence at the Capitol exposed weaknesses in security protocols and raised questions about federal protection of government institutions.\nReform advocates are pushing for changes to immigration laws that would create a pathway to citizenship for millions of undocumented workers.\nRefugee resettlement programs face budget cuts despite increased global displacement.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "HGLV",
+      "predicted": "HGLV",
+      "output": "Hybrid systems combining solar with battery storage are becoming more popular among residential customers.\nGovernment incentives have significantly boosted solar adoption rates in several states this year.\nLifecycle assessments show that solar panels produce more energy over their lifetime than the electricity used to manufacture them.\nVoluntary carbon offset programs allow businesses to invest in solar projects to balance out their environmental impact.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "RITM",
+      "predicted": "RITM",
+      "output": "Rental markets are experiencing unprecedented demand, pushing average monthly rates to record highs in major metropolitan areas.\nInnovative financing models are emerging to address the affordable housing crisis.\nTechnology companies are developing AI tools to streamline the home buying process for consumers.\nMany cities are implementing zoning reforms to increase density and affordability.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ENSI",
+      "predicted": "ENSI",
+      "output": "Environmentalists advocate for organic farming as a solution to soil degradation.\nNitrogen-fixing cover crops are being used to naturally enrich depleted soils without synthetic fertilizers.\nSustainable agriculture practices are gaining popularity among farmers concerned about environmental impact.\nInnovative technologies are helping farmers monitor soil health and make data-driven decisions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "TOAA",
+      "predicted": "TOAA",
+      "output": "Tourism operators are partnering with wildlife organizations to promote sustainable practices that protect natural habitats.\nOcean pollution is affecting marine life, with millions of tons of plastic debris harming fish and other sea creatures annually.\nAgricultural expansion continues to fragment wildlife habitats across several continents.\nActivists are pushing for stricter penalties against poaching in national parks worldwide.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "WTTI",
+      "predicted": "WTTI",
+      "output": "Workplace flexibility programs are growing as companies adapt to changing employee preferences.\nTechnology companies are leading the shift towards remote work arrangements.\nTelecommuting options allow employees to work from home or other locations outside traditional office settings.\nInternational organizations are developing guidelines for remote work best practices.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "OLJO",
+      "predicted": "OLJO",
+      "output": "Organizations are facing increased pressure to disclose their environmental impact data.\nLegislation requiring corporate disclosure of environmental risks is being considered in several states.\nJettisoning single-use plastics has become a priority for many companies aiming to reduce waste.\nOcean cleanup initiatives are gaining traction as solutions to plastic pollution problems.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ARYS",
+      "predicted": "ARYS",
+      "output": "Affordable housing advocates criticized the proposed development plans as insufficiently addressing the city's ongoing affordability crisis.\nRental prices in downtown apartments reached record highs this quarter, according to industry reports.\nYachts in the marina serve as symbols of wealth disparity as families struggle with housing insecurity.\nSubway ridership declined 15% last month due to ongoing construction delays affecting multiple routes throughout the metropolitan area.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IRUA",
+      "predicted": "IRUA",
+      "output": "Innovative blockchain technology is being implemented to enhance supply chain transparency and traceability.\nRegulators are investigating allegations of price manipulation in the cryptocurrency derivatives market.\nUnemployment benefits will be extended for three additional months for workers affected by factory closures.\nAgriculture workers organized strikes demanding improved working conditions and living wages from multinational fruit companies operating in Central America.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ETHI",
+      "predicted": "ETHI",
+      "output": "Emergency services received over 200 calls related to smoke inhalation.\nTourists evacuated from popular hiking trails due to dangerous air quality conditions.\nHospitals reported increased admissions of patients suffering from respiratory issues.\nIndustries faced significant disruptions as supply chains were affected by transportation closures.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NILJ",
+      "predicted": "NILJ",
+      "output": "New mobile applications are helping smallholder farmers access weather data and market prices.\nInternational organizations are coordinating efforts to address global food security challenges.\nLocal communities are organizing cooperatives to improve food distribution within their regions.\nJust 10 crops provide 90% of the world's food calories, highlighting the need for crop diversity initiatives.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SRHN",
+      "predicted": "SRHN",
+      "output": "Scientists developed new materials to improve the efficiency of solar panels significantly.\nResearch into fusion energy has shown promise for future energy needs.\nHydroelectric dams provide clean electricity but face challenges related to environmental impact and wildlife displacement.\nNuclear energy provides a significant portion of electricity in countries like France and Japan.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "EEEO",
+      "predicted": "EEOO",
+      "output": "Engineers identified multiple software bugs that could affect future Mars rover missions.\nEuropean scientists developed a new material for constructing lunar habitats that can withstand extreme temperature fluctuations.\nOngoing research into asteroid mining aims to extract valuable resources from near-Earth objects.\nObservations from the James Webb Space Telescope revealed thousands of potential exoplanets in the Milky Way galaxy.",
+      "ser": 0.25,
+      "edit_distance": 1,
+      "exact": false
+    },
+    {
+      "expected": "BEFA",
+      "predicted": "BEFA",
+      "output": "Biodiversity in riparian zones is crucial for maintaining healthy watershed ecosystems.\nErosion control blankets made from biodegradable materials are being used to stabilize newly exposed soil surfaces.\nFunding for watershed protection programs has been reduced despite growing environmental concerns.\nAgricultural runoff continues to be a significant source of pollution in many watersheds.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "VIWK",
+      "predicted": "VIWK",
+      "output": "Vulnerable populations, including children and the elderly, are particularly affected by traffic-related noise.\nInnovative urban planning initiatives are incorporating quiet zones in residential areas to reduce exposure to transportation noise.\nWorkplace productivity decreases by 6% when employees are exposed to continuous noise levels above 60 decibels.\nKnee pain in adults has been linked to long-term exposure to transportation noise in scientific studies.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "OHYK",
+      "predicted": "OHYK",
+      "output": "Online therapy platforms experienced a 60% increase in sign-ups during the past quarter.\nHolistic approaches combining talk therapy with mindfulness and exercise are gaining popularity among mental health professionals.\nYawning gaps in mental health coverage continue to challenge individuals seeking professional help.\nKindness campaigns are being implemented in schools to promote emotional intelligence and resilience among students.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "YCOE",
+      "predicted": "YCOE",
+      "output": "Yellowknife experienced record rainfall this month, prompting officials to upgrade drainage systems citywide.\nConservationists are advocating for the protection of wetlands as natural water filtration systems.\nOfficials announced plans to construct a new levee system along the Mississippi River.\nExperts warn that climate change is exacerbating flood risks in many regions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "DEDI",
+      "predicted": "DEDI",
+      "output": "Detention facilities reached capacity levels, prompting officials to seek alternative housing solutions.\nEnforcement actions resulted in the apprehension of over 100 smugglers attempting to transport migrants across dangerous desert routes.\nDeportation proceedings increased significantly as authorities sought to remove undocumented individuals who had violated immigration laws.\nInternational agreements on migration management face challenges due to varying national policies and enforcement priorities.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "UZTU",
+      "predicted": "UZTU",
+      "output": "Underemployment rates have risen as workers accept positions below their skill level.\nZero unemployment benefits will be provided to workers in states that fail to implement replacement programs by January 15th.\nTelework arrangements are becoming permanent for many employees nationwide.\nUnions are organizing drives in essential industries where worker protections historically lag behind other sectors.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "STPH",
+      "predicted": "STPH",
+      "output": "Scientists developed a portable device that can quickly test blood compatibility between organ donors and recipients.\nTissue typing involves matching donor organs to recipients based on genetic markers.\nPathologists play a crucial role in determining organ suitability through detailed examination of donated tissues.\nHospitals are implementing standardized protocols for organ preservation during transportation.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "GNIQ",
+      "predicted": "GNIQ",
+      "output": "Government officials announced new regulations aimed at reducing single-use plastic production.\nNon-profit organizations are advocating for the protection of marine ecosystems from plastic pollution.\nInnovative biodegradable materials are being developed to replace traditional plastic products.\nQuickly degrading materials are being researched to address the long-term environmental impact of current plastics.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "AEPE",
+      "predicted": "AEPE",
+      "output": "Astronauts aboard the International Space Station will conduct experiments on microgravity effects on human aging.\nEngineers at SpaceX are developing reusable rockets to reduce launch costs significantly.\nPayloads for upcoming missions include scientific instruments designed to study distant galaxies.\nExperts predict that space tourism could become a billion-dollar industry within the next decade.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NDFE",
+      "predicted": "NDFE",
+      "output": "New regulations protect sacred sites from commercial exploitation while balancing tourism revenue.\nDigital platforms are transforming how visitors experience historical sites through virtual reality tours and interactive exhibits.\nFunding for preservation often comes from international grants rather than local government budgets.\nEducation programs in schools teach students about the importance of protecting historic landmarks.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "YAYC",
+      "predicted": "YAYC",
+      "output": "Yachts docked at luxury marinas experienced increased security measures following the attempted theft of high-end luxury vehicles from protected parking facilities.\nAirlines canceled flights due to fuel shortages affecting cargo transport operations across multiple international routes.\nYachts docked at luxury marinas experienced increased security measures following the attempted theft of high-end luxury vehicles from protected parking facilities.\nCargo ships waited three weeks in queues off the coast before gaining clearance to enter the congested port facility.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "MVXZ",
+      "predicted": "MVXZ",
+      "output": "Medical professionals are increasingly using AI to analyze complex diagnostic imaging cases.\nVirtual reality technology is being used to train medical students in surgical procedures before operating on actual patients.\nXenogeneic tissue compatibility testing has become more accurate thanks to advanced imaging techniques developed at Stanford University's medical school.\nZoonotic disease surveillance programs use satellite imagery to monitor wildlife populations and track the emergence of infectious diseases in remote locations.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SPKN",
+      "predicted": "SPKN",
+      "output": "Scientists warn that rising sea levels could displace millions within the next decade.\nProtected areas are being re-evaluated as rising seas threaten coastal conservation sites.\nKelp forests are disappearing faster than tropical rainforests due to ocean acidification and temperature changes.\nNew satellite technology allows researchers to monitor coastal erosion patterns in real time.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "IORG",
+      "predicted": "IORG",
+      "output": "International aid organizations are scaling back operations due to funding shortages.\nOrganizations are adapting their models to serve more families in need.\nRemote communities face unique challenges in accessing food assistance services.\nGovernment officials announced new initiatives aimed at reducing hunger rates nationwide.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "GNII",
+      "predicted": "GNII",
+      "output": "Globalization has created a more interconnected world, influencing migration patterns and international labor markets.\nNonprofit organizations are providing resources to help families navigate the complexities of immigration policies.\nImmigration reform proposals are currently being debated in Congress.\nInternational agreements influence how countries manage their borders and treat immigrants.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "MWFF",
+      "predicted": "MWFF",
+      "output": "Manufacturing industries are relocating to regions with more favorable energy pricing.\nWind farms are being developed in previously untouched areas across the Midwest.\nFossil fuel companies are investing billions in carbon capture technology despite current economic challenges.\nFinancial institutions are divesting from coal and oil companies faster than expected.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "QYTE",
+      "predicted": "QYTE",
+      "output": "Quadruple the number of electric vehicle charging stations will be installed across rural communities this year.\nYielding to pressure from environmental groups, the airline industry agreed to reduce carbon emissions by 25% within five years.\nThe transition to renewable energy sources creates millions of jobs in manufacturing, installation, and maintenance sectors.\nEuropean Union leaders reached a historic agreement on phasing out fossil fuel imports entirely by 2030.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SMMH",
+      "predicted": "SMMH",
+      "output": "Scientists developed a new vaccine for the rapidly mutating virus.\nManufacturing facilities ramped up production to meet increased demand for flu vaccines this season.\nMany countries are investing in surveillance systems to detect emerging infectious diseases more quickly.\nHealthcare workers received priority status for receiving the new respiratory virus vaccine.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "KRCS",
+      "predicted": "KRCS",
+      "output": "Killer whales in the Pacific Northwest have been documented teaching their young sophisticated hunting techniques passed down through generations of matrilineal family groups.\nResearch indicates that certain bird species are developing unique vocalizations to communicate with each other in increasingly noisy urban environments.\nConservationists are using social media to raise awareness about endangered species and engage the public in protection efforts.\nScientists discovered a new species of frog in the Amazon rainforest, highlighting the importance of protecting biodiverse habitats.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ILSW",
+      "predicted": "ILSW",
+      "output": "Insurance companies are facing increased scrutiny over their handling of AI-generated claims.\nLegal experts warn that current data protection laws may become obsolete as AI systems process vast amounts of information.\nSoftware developers created an AI tool that can predict software bugs before they cause errors in production environments.\nWorkplace safety regulations will be updated to address emerging risks from autonomous work environments.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "MLTT",
+      "predicted": "MLTT",
+      "output": "Many patients experience immediate relief after receiving personalized cancer treatments based on genetic testing results.\nLegislation passed this year requires insurance companies to cover genetic counseling services without additional cost-sharing requirements for patients.\nTesting for hereditary breast cancer risk genes has increased dramatically since the high-profile cases of Angelina Jolie and Christina Applegate.\nThousands of genetic tests are now available, ranging from ancestry DNA kits to comprehensive cancer risk assessments.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "FCAA",
+      "predicted": "FCAU",
+      "output": "Fiber optic cables laid across the Atlantic Ocean will significantly reduce internet latency between North America and Europe.\nCable repairs in the Mediterranean Sea restored internet services to hundreds of thousands of customers in southern Europe.\nAqua-robotics companies are developing autonomous underwater vehicles for cable maintenance operations.\nUndersea cable routes are being optimized to minimize latency for global internet traffic.",
+      "ser": 0.25,
+      "edit_distance": 1,
+      "exact": false
+    },
+    {
+      "expected": "DSMA",
+      "predicted": "DSMA",
+      "output": "Dental health initiatives are being expanded to schools lacking proper resources.\nSchools are integrating mental health days into their schedules to support student well-being.\nMental health parity laws ensure insurance coverage for behavioral health equals coverage for physical health conditions.\nAccess to care remains a significant challenge, particularly in rural areas where providers are scarce.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NFFI",
+      "predicted": "NFFI",
+      "output": "New legislation aims to protect wetlands from agricultural development.\nFarming practices are being adapted to enhance soil carbon sequestration naturally.\nFunding for organic farming research has increased significantly this fiscal year.\nInternational agreements aim to harmonize soil protection standards across different countries.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "LYRC",
+      "predicted": "LYRC",
+      "output": "Local bus services will expand hours and routes to better serve working families.\nYachts powered entirely by solar panels and wind turbines are revolutionizing luxury marine travel.\nRailroad companies invested $15 billion in track improvements this year.\nCycling infrastructure received $2.3 billion in federal funding for nationwide network expansion plans.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SZVS",
+      "predicted": "SZVS",
+      "output": "Software engineers developed AI systems that can autonomously create software code.\nZero trust security models require continuous verification of digital identities across networks and applications.\nVirtual assistants powered by AI help customers manage their schedules, book reservations, and order groceries.\nSupply chain disruptions highlighted the need for resilient AI systems that can adapt to changing conditions.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "DQSB",
+      "predicted": "DQSB",
+      "output": "Debt collection agencies face increased scrutiny over their practices following recent regulatory investigations.\nQuickly rising student loan balances are prompting calls for federal intervention to address affordability concerns.\nSubprime mortgage lending standards have tightened significantly since the 2008 financial crisis.\nBorrowers facing foreclosure can now access mediation services through newly established state programs.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "MKPR",
+      "predicted": "MKPR",
+      "output": "Many workers experience hearing loss by age 50 due to occupational exposure.\nKindness in workplace interactions can significantly reduce stress levels among employees.\nProfessional development opportunities are crucial for employee satisfaction and retention.\nRemote work arrangements have become permanent options for many companies.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "HRHE",
+      "predicted": "HRHE",
+      "output": "Hospitals rely on reliable internet connections for patient monitoring systems and secure electronic health records.\nRemote work arrangements have increased demand for high-speed internet access across various industries.\nHospitals require reliable internet connections for patient monitoring systems and secure electronic health records.\nElectricity outages can disrupt internet service, highlighting the importance of backup power solutions for critical applications.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "NEIM",
+      "predicted": "NEIM",
+      "output": "Nonprofit organizations are partnering with indigenous communities to protect traditional crop varieties.\nEuropean Union officials approved new funding for organic farming initiatives that promote biodiversity and soil health.\nIndigenous tribes in the Amazon rainforest documented hundreds of medicinal plants used in traditional healing practices.\nMany crops face extinction as farmers switch to genetically uniform industrial varieties.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "ZUIH",
+      "predicted": "ZUIH",
+      "output": "Zoning laws are being reevaluated to accommodate the needs of immigrant families seeking affordable housing options.\nUndocumented workers in essential industries will receive priority consideration for legal pathways under proposed federal legislation.\nImmigration courts processed over 300,000 cases last year, creating significant backlogs for individual cases.\nHumanitarian organizations are advocating for immediate action on immigration reform to address current processing delays.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "HFWE",
+      "predicted": "HFWE",
+      "output": "Hackers exposed vulnerabilities in popular voting software used by municipal election boards nationwide.\nFunding for cybersecurity has increased as states prepare for potential threats to electoral systems.\nWhistleblowers revealed that backup systems lacked adequate protection against cyber threats.\nExperts warned that social engineering remains one of the most effective methods hackers use to compromise election systems.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "SERD",
+      "predicted": "SERD",
+      "output": "Social media platforms are implementing new privacy features in response to growing concerns about data security.\nEuropean regulators fined three major tech companies a combined \u20ac2.5 billion for violating GDPR data protection regulations.\nRegulators are investigating social media companies over claims that they prioritize profit over user privacy.\nData breaches continue to expose sensitive information, prompting calls for stronger cybersecurity measures.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "OFEB",
+      "predicted": "OFEB",
+      "output": "Oversight committees investigate potential conflicts of interest between pharmaceutical companies and academic researchers.\nFunding for clinical trials has decreased by 25% this year due to economic uncertainty.\nEnrollment in clinical trials has slowed as patients become more selective about participating in research studies.\nBiosimilars are gaining popularity as cost-effective alternatives to brand-name biologic medications.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "TBRG",
+      "predicted": "TBRG",
+      "output": "Threat actors are increasingly targeting Internet of Things devices to create botnets for distributed denial-of-service attacks.\nBlockchain technology is being explored as a means to enhance cybersecurity through immutable record-keeping and smart contract enforcement mechanisms.\nRegulators are increasing oversight of data protection practices following recent high-profile breaches affecting millions of users.\nGovernments worldwide are strengthening data protection laws in response to growing public concern over privacy.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    },
+    {
+      "expected": "RIAN",
+      "predicted": "RIAN",
+      "output": "Retailers returned millions in recalled products to distribution centers for destruction.\nImport seizures at border crossings have increased by 25% this fiscal year.\nAdverse reaction reports have surged, prompting immediate safety evaluations of popular medications.\nNutritional labeling requirements will change under updated federal regulations.",
+      "ser": 0.0,
+      "edit_distance": 0,
+      "exact": true
+    }
+  ]
+}
