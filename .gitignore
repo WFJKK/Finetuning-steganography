@@ -5,3 +5,4 @@ adapters/
 # Logs
 *.log
 /dev/shm/
+__pycache__/

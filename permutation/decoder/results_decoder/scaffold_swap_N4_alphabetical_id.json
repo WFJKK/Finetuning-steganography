@@ -1,0 +1,1012 @@
+{
+  "summary": {
+    "condition": "swap_N4_alphabetical",
+    "split": "id_test",
+    "n": 100,
+    "exact_match_rate": 0.92,
+    "mean_ber": 0.04,
+    "canonical_correct_rate": 0.92
+  },
+  "results": [
+    {
+      "id": 600,
+      "category": "fruits",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Clementine, Coconut, Lime, Ugli\nsecret: 00"
+    },
+    {
+      "id": 601,
+      "category": "fruits",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Coconut, Jujube, Mulberry, Physalis\nsecret: 00"
+    },
+    {
+      "id": 602,
+      "category": "fruits",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Clementine, Coconut, Honeydew, Satsuma\nsecret: 00"
+    },
+    {
+      "id": 603,
+      "category": "fruits",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Coconut, Date, Huckleberry, Rambutan\nsecret: 00"
+    },
+    {
+      "id": 604,
+      "category": "fruits",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Honeydew, Jujube, Lime, Watermelon\nsecret: 00"
+    },
+    {
+      "id": 605,
+      "category": "fruits",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Coconut, Date, Physalis, Watermelon\nsecret: 01"
+    },
+    {
+      "id": 606,
+      "category": "fruits",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Date, Strawberry, Ugli, Watermelon\nsecret: 01"
+    },
+    {
+      "id": 607,
+      "category": "fruits",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Date, Physalis, Soursop, Strawberry\nsecret: 01"
+    },
+    {
+      "id": 608,
+      "category": "fruits",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Honeydew, Huckleberry, Mulberry, Physalis\nsecret: 01"
+    },
+    {
+      "id": 609,
+      "category": "fruits",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Clementine, Guava, Honeydew, Watermelon\nsecret: 01"
+    },
+    {
+      "id": 610,
+      "category": "fruits",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banana, Mulberry, Physalis, Watermelon\nsecret: 10"
+    },
+    {
+      "id": 611,
+      "category": "fruits",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Guava, Jujube, Strawberry, Ugli\nsecret: 10"
+    },
+    {
+      "id": 612,
+      "category": "fruits",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Coconut, Honeydew, Lime, Strawberry\nsecret: 10"
+    },
+    {
+      "id": 613,
+      "category": "fruits",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cranberry, Date, Honeydew, Mulberry\nsecret: 10"
+    },
+    {
+      "id": 614,
+      "category": "fruits",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Blackberry, Soursop, Strawberry, Ugli\nsecret: 10"
+    },
+    {
+      "id": 615,
+      "category": "fruits",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Blackberry, Clementine, Honeydew, Strawberry\nsecret: 11"
+    },
+    {
+      "id": 616,
+      "category": "fruits",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Clementine, Coconut, Jujube, Lime\nsecret: 11"
+    },
+    {
+      "id": 617,
+      "category": "fruits",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Clementine, Date, Lime, Physalis\nsecret: 11"
+    },
+    {
+      "id": 618,
+      "category": "fruits",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Blackberry, Cranberry, Strawberry, Watermelon\nsecret: 11"
+    },
+    {
+      "id": 619,
+      "category": "fruits",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cranberry, Guava, Physalis, Satsuma\nsecret: 11"
+    },
+    {
+      "id": 620,
+      "category": "instruments",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Glockenspiel, Harmonica, Trumpet\nsecret: 00"
+    },
+    {
+      "id": 621,
+      "category": "instruments",
+      "expected": "00",
+      "predicted": "01",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Flute, Fife, Mbira, Ocarina\nsecret: 01"
+    },
+    {
+      "id": 622,
+      "category": "instruments",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Flute, Glockenspiel, Kazoo, Kora\nsecret: 00"
+    },
+    {
+      "id": 623,
+      "category": "instruments",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Flute, Glockenspiel, Harpsichord\nsecret: 00"
+    },
+    {
+      "id": 624,
+      "category": "instruments",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Guitar, Harpsichord, Mbira, Saxophone\nsecret: 00"
+    },
+    {
+      "id": 625,
+      "category": "instruments",
+      "expected": "01",
+      "predicted": "00",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Guitar, Glockenspiel, Kazoo, Kora\nsecret: 00"
+    },
+    {
+      "id": 626,
+      "category": "instruments",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Bongos, Fife, Ocarina\nsecret: 01"
+    },
+    {
+      "id": 627,
+      "category": "instruments",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Glockenspiel, Harmonica, Saxophone, Timpani\nsecret: 01"
+    },
+    {
+      "id": 628,
+      "category": "instruments",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bongos, Guitar, Kora, Recorder\nsecret: 01"
+    },
+    {
+      "id": 629,
+      "category": "instruments",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bodhran, Glockenspiel, Trumpet, Vibraphone\nsecret: 01"
+    },
+    {
+      "id": 630,
+      "category": "instruments",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bongos, Dhol, Kora, Ocarina\nsecret: 10"
+    },
+    {
+      "id": 631,
+      "category": "instruments",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Sarod, Timpani, Vibraphone\nsecret: 10"
+    },
+    {
+      "id": 632,
+      "category": "instruments",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Bodhran, Glockenspiel, Mbira\nsecret: 10"
+    },
+    {
+      "id": 633,
+      "category": "instruments",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bongos, Fife, Harmonica, Recorder\nsecret: 10"
+    },
+    {
+      "id": 634,
+      "category": "instruments",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dhol, Flute, Kazoo, Kora\nsecret: 10"
+    },
+    {
+      "id": 635,
+      "category": "instruments",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Flute, Harpsichord, Recorder\nsecret: 11"
+    },
+    {
+      "id": 636,
+      "category": "instruments",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dhol, Fife, Harmonica, Kora\nsecret: 11"
+    },
+    {
+      "id": 637,
+      "category": "instruments",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banjo, Flute, Guitar, Kora\nsecret: 11"
+    },
+    {
+      "id": 638,
+      "category": "instruments",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fife, Harpsichord, Kazoo, Mbira\nsecret: 11"
+    },
+    {
+      "id": 639,
+      "category": "instruments",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bodhran, Dhol, Kazoo, Timpani\nsecret: 11"
+    },
+    {
+      "id": 640,
+      "category": "animals",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alligator, Chinchilla, Marmot, Penguin\nsecret: 00"
+    },
+    {
+      "id": 641,
+      "category": "animals",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Gibbon, Orangutan, Otter, Penguin\nsecret: 00"
+    },
+    {
+      "id": 642,
+      "category": "animals",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Butterfly, Cougar, Coyote, Jaguar\nsecret: 00"
+    },
+    {
+      "id": 643,
+      "category": "animals",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Marmot, Otter, Penguin, Porcupine\nsecret: 00"
+    },
+    {
+      "id": 644,
+      "category": "animals",
+      "expected": "00",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Coyote, Jaguar, Otter, Ocelot\nsecret: 10"
+    },
+    {
+      "id": 645,
+      "category": "animals",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Butterfly, Chimpanzee, Marmot, Ocelot\nsecret: 01"
+    },
+    {
+      "id": 646,
+      "category": "animals",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cougar, Coyote, Penguin, Porcupine\nsecret: 01"
+    },
+    {
+      "id": 647,
+      "category": "animals",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Chinchilla, Cougar, Hamster, Penguin\nsecret: 01"
+    },
+    {
+      "id": 648,
+      "category": "animals",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alligator, Butterfly, Gibbon, Ocelot\nsecret: 01"
+    },
+    {
+      "id": 649,
+      "category": "animals",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Camel, Chinchilla, Coyote, Penguin\nsecret: 01"
+    },
+    {
+      "id": 650,
+      "category": "animals",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Butterfly, Coyote, Marmot, Moose\nsecret: 10"
+    },
+    {
+      "id": 651,
+      "category": "animals",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Aardvark, Butterfly, Cougar, Penguin\nsecret: 10"
+    },
+    {
+      "id": 652,
+      "category": "animals",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Butterfly, Jaguar, Moose, Porcupine\nsecret: 10"
+    },
+    {
+      "id": 653,
+      "category": "animals",
+      "expected": "10",
+      "predicted": "11",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Chinchilla, Chimpanzee, Deer, Otter\nsecret: 11"
+    },
+    {
+      "id": 654,
+      "category": "animals",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Chinchilla, Coyote, Marmot, Ocelot\nsecret: 10"
+    },
+    {
+      "id": 655,
+      "category": "animals",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Camel, Chimpanzee, Chinchilla, Porcupine\nsecret: 11"
+    },
+    {
+      "id": 656,
+      "category": "animals",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alligator, Chinchilla, Orangutan, Otter\nsecret: 11"
+    },
+    {
+      "id": 657,
+      "category": "animals",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alligator, Cougar, Jaguar, Marmot\nsecret: 11"
+    },
+    {
+      "id": 658,
+      "category": "animals",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alligator, Chimpanzee, Marmot, Otter\nsecret: 11"
+    },
+    {
+      "id": 659,
+      "category": "animals",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Chimpanzee, Chinchilla, Otter, Porcupine\nsecret: 11"
+    },
+    {
+      "id": 660,
+      "category": "countries",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Finland, Iceland, Romania, Venezuela\nsecret: 00"
+    },
+    {
+      "id": 661,
+      "category": "countries",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: France, Peru, Tanzania, Zimbabwe\nsecret: 00"
+    },
+    {
+      "id": 662,
+      "category": "countries",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: France, Iceland, Norway, Zimbabwe\nsecret: 00"
+    },
+    {
+      "id": 663,
+      "category": "countries",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bangladesh, Romania, Tanzania, Thailand\nsecret: 00"
+    },
+    {
+      "id": 664,
+      "category": "countries",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Finland, Iceland, Lithuania, Tanzania\nsecret: 00"
+    },
+    {
+      "id": 665,
+      "category": "countries",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Belgium, Iceland, Lebanon, Tanzania\nsecret: 01"
+    },
+    {
+      "id": 666,
+      "category": "countries",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bangladesh, Peru, Turkey, Uganda\nsecret: 01"
+    },
+    {
+      "id": 667,
+      "category": "countries",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: France, Iceland, Lebanon, Thailand\nsecret: 01"
+    },
+    {
+      "id": 668,
+      "category": "countries",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Panama, Qatar, Romania, Turkey\nsecret: 01"
+    },
+    {
+      "id": 669,
+      "category": "countries",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: France, Lebanon, Romania, Tanzania\nsecret: 01"
+    },
+    {
+      "id": 670,
+      "category": "countries",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bangladesh, Iceland, Tanzania, Zimbabwe\nsecret: 10"
+    },
+    {
+      "id": 671,
+      "category": "countries",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Egypt, Lithuania, Peru, Turkey\nsecret: 10"
+    },
+    {
+      "id": 672,
+      "category": "countries",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: France, Lithuania, Panama, Qatar\nsecret: 10"
+    },
+    {
+      "id": 673,
+      "category": "countries",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Egypt, Finland, Venezuela, Zimbabwe\nsecret: 10"
+    },
+    {
+      "id": 674,
+      "category": "countries",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Lebanon, Romania, Venezuela, Zimbabwe\nsecret: 10"
+    },
+    {
+      "id": 675,
+      "category": "countries",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cameroon, Lebanon, Norway, Uganda\nsecret: 11"
+    },
+    {
+      "id": 676,
+      "category": "countries",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bangladesh, France, Lithuania, Norway\nsecret: 11"
+    },
+    {
+      "id": 677,
+      "category": "countries",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Finland, Norway, Qatar, Venezuela\nsecret: 11"
+    },
+    {
+      "id": 678,
+      "category": "countries",
+      "expected": "11",
+      "predicted": "01",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Peru, Romania, Turkey, Tanzania\nsecret: 01"
+    },
+    {
+      "id": 679,
+      "category": "countries",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cameroon, Tanzania, Thailand, Turkey\nsecret: 11"
+    },
+    {
+      "id": 680,
+      "category": "figures",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Kepler, Mozart, Plato, Rembrandt\nsecret: 00"
+    },
+    {
+      "id": 681,
+      "category": "figures",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fibonacci, Newton, Plato, Rembrandt\nsecret: 00"
+    },
+    {
+      "id": 682,
+      "category": "figures",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dante, Hegel, Pythagoras, Rembrandt\nsecret: 00"
+    },
+    {
+      "id": 683,
+      "category": "figures",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Caravaggio, Euler, Flaubert, Pythagoras\nsecret: 00"
+    },
+    {
+      "id": 684,
+      "category": "figures",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bohr, Kepler, Newton, Rembrandt\nsecret: 00"
+    },
+    {
+      "id": 685,
+      "category": "figures",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Caravaggio, Feynman, Hegel, Plato\nsecret: 01"
+    },
+    {
+      "id": 686,
+      "category": "figures",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Caravaggio, Dante, Kepler, Rembrandt\nsecret: 01"
+    },
+    {
+      "id": 687,
+      "category": "figures",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Curie, Euler, Kepler, Rembrandt\nsecret: 01"
+    },
+    {
+      "id": 688,
+      "category": "figures",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Caravaggio, Dante, Kepler, Pythagoras\nsecret: 01"
+    },
+    {
+      "id": 689,
+      "category": "figures",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cezanne, Euclid, Kierkegaard, Picasso\nsecret: 01"
+    },
+    {
+      "id": 690,
+      "category": "figures",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dante, Euclid, Hegel, Plato\nsecret: 10"
+    },
+    {
+      "id": 691,
+      "category": "figures",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Curie, Dante, Fibonacci, Plato\nsecret: 10"
+    },
+    {
+      "id": 692,
+      "category": "figures",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cezanne, Dante, Feynman, Plato\nsecret: 10"
+    },
+    {
+      "id": 693,
+      "category": "figures",
+      "expected": "10",
+      "predicted": "00",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Curie, Edison, Flaubert, Euler\nsecret: 00"
+    },
+    {
+      "id": 694,
+      "category": "figures",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Caravaggio, Fibonacci, Kepler, Picasso\nsecret: 10"
+    },
+    {
+      "id": 695,
+      "category": "figures",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Euler, Picasso, Plato, Pythagoras\nsecret: 11"
+    },
+    {
+      "id": 696,
+      "category": "figures",
+      "expected": "11",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Flaubert, Fibonacci, Newton, Picasso\nsecret: 10"
+    },
+    {
+      "id": 697,
+      "category": "figures",
+      "expected": "11",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Euler, Euclid, Mozart, Rembrandt\nsecret: 10"
+    },
+    {
+      "id": 698,
+      "category": "figures",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cezanne, Curie, Euclid, Kepler\nsecret: 11"
+    },
+    {
+      "id": 699,
+      "category": "figures",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Edison, Mozart, Picasso, Pythagoras\nsecret: 11"
+    }
+  ]
+}

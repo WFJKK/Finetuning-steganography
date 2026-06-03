@@ -1,0 +1,812 @@
+{
+  "summary": {
+    "condition": "swap_N4_alphabetical",
+    "split": "ood_test",
+    "n": 80,
+    "exact_match_rate": 0.875,
+    "mean_ber": 0.0625,
+    "canonical_correct_rate": 0.875
+  },
+  "results": [
+    {
+      "id": 700,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Eucalyptus, Hornbeam, Walnut, Yew\nsecret: 00"
+    },
+    {
+      "id": 701,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Beech, Holly, Pine, Redwood\nsecret: 00"
+    },
+    {
+      "id": 702,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Linden, Maple, Sequoia, Spruce\nsecret: 00"
+    },
+    {
+      "id": 703,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Ash, Hickory, Pine, Willow\nsecret: 00"
+    },
+    {
+      "id": 704,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Birch, Hickory, Spruce, Teak\nsecret: 00"
+    },
+    {
+      "id": 705,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fir, Pine, Rowan, Teak\nsecret: 00"
+    },
+    {
+      "id": 706,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Birch, Chestnut, Palm, Sequoia\nsecret: 00"
+    },
+    {
+      "id": 707,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Acacia, Fir, Juniper, Larch\nsecret: 00"
+    },
+    {
+      "id": 708,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Aspen, Hickory, Larch, Spruce\nsecret: 00"
+    },
+    {
+      "id": 709,
+      "category": "trees",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fir, Mangrove, Sycamore, Walnut\nsecret: 00"
+    },
+    {
+      "id": 710,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Birch, Holly, Sycamore, Yew\nsecret: 01"
+    },
+    {
+      "id": 711,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cypress, Ginkgo, Mahogany, Poplar\nsecret: 01"
+    },
+    {
+      "id": 712,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banyan, Birch, Ginkgo, Hornbeam\nsecret: 01"
+    },
+    {
+      "id": 713,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Aspen, Dogwood, Holly, Mangrove\nsecret: 01"
+    },
+    {
+      "id": 714,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dogwood, Holly, Sycamore, Walnut\nsecret: 01"
+    },
+    {
+      "id": 715,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Baobab, Cypress, Palm, Spruce\nsecret: 01"
+    },
+    {
+      "id": 716,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Eucalyptus, Fir, Sycamore, Walnut\nsecret: 01"
+    },
+    {
+      "id": 717,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Birch, Ginkgo, Holly, Mangrove\nsecret: 01"
+    },
+    {
+      "id": 718,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Chestnut, Dogwood, Hemlock, Spruce\nsecret: 01"
+    },
+    {
+      "id": 719,
+      "category": "trees",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alder, Elm, Sequoia, Teak\nsecret: 01"
+    },
+    {
+      "id": 720,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Elm, Magnolia, Palm, Redwood\nsecret: 10"
+    },
+    {
+      "id": 721,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Birch, Dogwood, Hickory, Yew\nsecret: 10"
+    },
+    {
+      "id": 722,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Hickory, Pine, Redwood, Willow\nsecret: 10"
+    },
+    {
+      "id": 723,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Baobab, Ginkgo, Poplar, Sequoia\nsecret: 10"
+    },
+    {
+      "id": 724,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alder, Oak, Sequoia, Sycamore\nsecret: 10"
+    },
+    {
+      "id": 725,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "11",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Beech, Baobab, Redwood, Sequoia\nsecret: 11"
+    },
+    {
+      "id": 726,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Hickory, Rowan, Sequoia, Spruce\nsecret: 10"
+    },
+    {
+      "id": 727,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Aspen, Ginkgo, Juniper, Spruce\nsecret: 10"
+    },
+    {
+      "id": 728,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Dogwood, Eucalyptus, Hornbeam, Palm\nsecret: 10"
+    },
+    {
+      "id": 729,
+      "category": "trees",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Acacia, Hemlock, Magnolia, Sycamore\nsecret: 10"
+    },
+    {
+      "id": 730,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Ash, Banyan, Baobab, Eucalyptus\nsecret: 11"
+    },
+    {
+      "id": 731,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Aspen, Holly, Magnolia, Sequoia\nsecret: 11"
+    },
+    {
+      "id": 732,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fir, Larch, Pine, Walnut\nsecret: 11"
+    },
+    {
+      "id": 733,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Ginkgo, Hemlock, Maple, Poplar\nsecret: 11"
+    },
+    {
+      "id": 734,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Holly, Juniper, Poplar, Walnut\nsecret: 11"
+    },
+    {
+      "id": 735,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alder, Dogwood, Fir, Redwood\nsecret: 11"
+    },
+    {
+      "id": 736,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Banyan, Ginkgo, Larch, Spruce\nsecret: 11"
+    },
+    {
+      "id": 737,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Alder, Banyan, Eucalyptus, Hemlock\nsecret: 11"
+    },
+    {
+      "id": 738,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Chestnut, Cedar, Hornbeam, Palm\nsecret: 10"
+    },
+    {
+      "id": 739,
+      "category": "trees",
+      "expected": "11",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Birch, Banyan, Cypress, Palm\nsecret: 10"
+    },
+    {
+      "id": 740,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "01",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Pitcher, Peeler, Tongs, Whisk\nsecret: 01"
+    },
+    {
+      "id": 741,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Masher, Spatula, Strainer, Tenderizer\nsecret: 00"
+    },
+    {
+      "id": 742,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Juicer, Peeler, Scoop, Spatula\nsecret: 00"
+    },
+    {
+      "id": 743,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bowl, Spurtle, Tongs, Zester\nsecret: 00"
+    },
+    {
+      "id": 744,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fork, Ladle, Paddle, Ramekin\nsecret: 00"
+    },
+    {
+      "id": 745,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Kettle, Spatula, Teapot, Tenderizer\nsecret: 00"
+    },
+    {
+      "id": 746,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Ladle, Pitcher, Spatula, Thermometer\nsecret: 00"
+    },
+    {
+      "id": 747,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bowl, Kettle, Ladle, Timer\nsecret: 00"
+    },
+    {
+      "id": 748,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "10",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Opener, Pitcher, Sieve, Shears\nsecret: 10"
+    },
+    {
+      "id": 749,
+      "category": "utensils",
+      "expected": "00",
+      "predicted": "00",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Corkscrew, Fork, Funnel, Scoop\nsecret: 00"
+    },
+    {
+      "id": 750,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Pitcher, Scale, Slicer, Thermometer\nsecret: 01"
+    },
+    {
+      "id": 751,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Skimmer, Spurtle, Zester\nsecret: 01"
+    },
+    {
+      "id": 752,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Funnel, Mortar, Ricer, Strainer\nsecret: 01"
+    },
+    {
+      "id": 753,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Scraper, Skimmer, Whisk\nsecret: 01"
+    },
+    {
+      "id": 754,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "11",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Paddle, Scraper, Tongs, Teapot\nsecret: 11"
+    },
+    {
+      "id": 755,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Brush, Grater, Ramekin, Spatula\nsecret: 01"
+    },
+    {
+      "id": 756,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "11",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Mandoline, Ricer, Sieve, Shears\nsecret: 11"
+    },
+    {
+      "id": 757,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Juicer, Pitcher, Strainer, Whisk\nsecret: 01"
+    },
+    {
+      "id": 758,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Paddle, Ricer, Thermometer, Whisk\nsecret: 01"
+    },
+    {
+      "id": 759,
+      "category": "utensils",
+      "expected": "01",
+      "predicted": "01",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Kettle, Peeler, Ricer, Thermometer\nsecret: 01"
+    },
+    {
+      "id": 760,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Ladle, Opener, Pestle, Whisk\nsecret: 10"
+    },
+    {
+      "id": 761,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Juicer, Nutcracker, Scoop, Skimmer\nsecret: 10"
+    },
+    {
+      "id": 762,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Brush, Mortar, Peeler, Ricer\nsecret: 10"
+    },
+    {
+      "id": 763,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Funnel, Kettle, Ricer, Scraper\nsecret: 10"
+    },
+    {
+      "id": 764,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Mandoline, Masher, Scraper\nsecret: 10"
+    },
+    {
+      "id": 765,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Bowl, Sieve, Slicer, Tongs\nsecret: 10"
+    },
+    {
+      "id": 766,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Mandoline, Peeler, Shears, Strainer\nsecret: 10"
+    },
+    {
+      "id": 767,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fork, Pestle, Skimmer, Spoon\nsecret: 10"
+    },
+    {
+      "id": 768,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "10",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cleaver, Ladle, Ramekin, Thermometer\nsecret: 10"
+    },
+    {
+      "id": 769,
+      "category": "utensils",
+      "expected": "10",
+      "predicted": "11",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Slicer, Scraper, Strainer, Teapot\nsecret: 11"
+    },
+    {
+      "id": 770,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Nutcracker, Opener, Scraper, Shears\nsecret: 11"
+    },
+    {
+      "id": 771,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Fork, Funnel, Grater, Timer\nsecret: 11"
+    },
+    {
+      "id": 772,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Peeler, Scoop, Thermometer\nsecret: 11"
+    },
+    {
+      "id": 773,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Pestle, Scoop, Scraper, Zester\nsecret: 11"
+    },
+    {
+      "id": 774,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Mortar, Sieve, Spatula\nsecret: 11"
+    },
+    {
+      "id": 775,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Cleaver, Sieve, Thermometer, Zester\nsecret: 11"
+    },
+    {
+      "id": 776,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Masher, Opener, Shears\nsecret: 11"
+    },
+    {
+      "id": 777,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "01",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Bowl, Cleaver, Tenderizer, Teapot\nsecret: 01"
+    },
+    {
+      "id": 778,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "01",
+      "exact_match": false,
+      "ber": 0.5,
+      "canonical_correct": false,
+      "raw": "canonical: Grater, Ladle, Slicer, Sieve\nsecret: 01"
+    },
+    {
+      "id": 779,
+      "category": "utensils",
+      "expected": "11",
+      "predicted": "11",
+      "exact_match": true,
+      "ber": 0.0,
+      "canonical_correct": true,
+      "raw": "canonical: Grater, Pestle, Spoon, Teapot\nsecret: 11"
+    }
+  ]
+}
