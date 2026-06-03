@@ -77,7 +77,7 @@ def train(args):
         BitsAndBytesConfig,
     )
     from peft import LoraConfig, get_peft_model
-    from trl import SFTTrainer, SFTConfig
+    from trl import SFTTrainer, SFTConfig, SFTConfig
 
     print(f"Loading data from {args.data}")
     examples = load_data(args.data, args.limit)
