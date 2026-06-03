@@ -1,0 +1,3611 @@
+{
+  "summary": {
+    "condition": "lehmer_N4_name_length",
+    "n_examples": 200,
+    "exact_match_rate": 1.0,
+    "position_accuracy": 1.0,
+    "exact_matches": 200
+  },
+  "results": [
+    {
+      "id": 1800,
+      "payload": 0,
+      "expected_order": [
+        "Pine",
+        "Baobab",
+        "Walnut",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Baobab",
+        "Walnut",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Baobab\n- Walnut\n- Chestnut"
+    },
+    {
+      "id": 1801,
+      "payload": 0,
+      "expected_order": [
+        "Palm",
+        "Alder",
+        "Holly",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Alder",
+        "Holly",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Alder\n- Holly\n- Eucalyptus"
+    },
+    {
+      "id": 1802,
+      "payload": 0,
+      "expected_order": [
+        "Birch",
+        "Larch",
+        "Mangrove",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Larch",
+        "Mangrove",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Larch\n- Mangrove\n- Sycamore"
+    },
+    {
+      "id": 1803,
+      "payload": 0,
+      "expected_order": [
+        "Palm",
+        "Aspen",
+        "Maple",
+        "Ginkgo"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Aspen",
+        "Maple",
+        "Ginkgo"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Aspen\n- Maple\n- Ginkgo"
+    },
+    {
+      "id": 1804,
+      "payload": 0,
+      "expected_order": [
+        "Alder",
+        "Larch",
+        "Sequoia",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Larch",
+        "Sequoia",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Larch\n- Sequoia\n- Hornbeam"
+    },
+    {
+      "id": 1805,
+      "payload": 0,
+      "expected_order": [
+        "Yew",
+        "Maple",
+        "Walnut",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Maple",
+        "Walnut",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Maple\n- Walnut\n- Willow"
+    },
+    {
+      "id": 1806,
+      "payload": 0,
+      "expected_order": [
+        "Palm",
+        "Alder",
+        "Cedar",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Alder",
+        "Cedar",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Alder\n- Cedar\n- Dogwood"
+    },
+    {
+      "id": 1807,
+      "payload": 0,
+      "expected_order": [
+        "Larch",
+        "Cypress",
+        "Dogwood",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Cypress",
+        "Dogwood",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Cypress\n- Dogwood\n- Hickory"
+    },
+    {
+      "id": 1808,
+      "payload": 0,
+      "expected_order": [
+        "Aspen",
+        "Beech",
+        "Hickory",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Beech",
+        "Hickory",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Beech\n- Hickory\n- Sycamore"
+    },
+    {
+      "id": 1809,
+      "payload": 0,
+      "expected_order": [
+        "Elm",
+        "Yew",
+        "Pine",
+        "Holly"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Yew",
+        "Pine",
+        "Holly"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Yew\n- Pine\n- Holly"
+    },
+    {
+      "id": 1810,
+      "payload": 1,
+      "expected_order": [
+        "Teak",
+        "Banyan",
+        "Magnolia",
+        "Spruce"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Banyan",
+        "Magnolia",
+        "Spruce"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Banyan\n- Magnolia\n- Spruce"
+    },
+    {
+      "id": 1811,
+      "payload": 1,
+      "expected_order": [
+        "Cypress",
+        "Sequoia",
+        "Sycamore",
+        "Mangrove"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Sequoia",
+        "Sycamore",
+        "Mangrove"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Sequoia\n- Sycamore\n- Mangrove"
+    },
+    {
+      "id": 1812,
+      "payload": 1,
+      "expected_order": [
+        "Pine",
+        "Beech",
+        "Magnolia",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Beech",
+        "Magnolia",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Beech\n- Magnolia\n- Redwood"
+    },
+    {
+      "id": 1813,
+      "payload": 1,
+      "expected_order": [
+        "Elm",
+        "Teak",
+        "Acacia",
+        "Maple"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Teak",
+        "Acacia",
+        "Maple"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Teak\n- Acacia\n- Maple"
+    },
+    {
+      "id": 1814,
+      "payload": 1,
+      "expected_order": [
+        "Acacia",
+        "Baobab",
+        "Redwood",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Baobab",
+        "Redwood",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Baobab\n- Redwood\n- Walnut"
+    },
+    {
+      "id": 1815,
+      "payload": 1,
+      "expected_order": [
+        "Alder",
+        "Baobab",
+        "Sycamore",
+        "Mangrove"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Baobab",
+        "Sycamore",
+        "Mangrove"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Baobab\n- Sycamore\n- Mangrove"
+    },
+    {
+      "id": 1816,
+      "payload": 1,
+      "expected_order": [
+        "Ash",
+        "Aspen",
+        "Mangrove",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Aspen",
+        "Mangrove",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Aspen\n- Mangrove\n- Walnut"
+    },
+    {
+      "id": 1817,
+      "payload": 1,
+      "expected_order": [
+        "Pine",
+        "Sequoia",
+        "Eucalyptus",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Sequoia",
+        "Eucalyptus",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Sequoia\n- Eucalyptus\n- Chestnut"
+    },
+    {
+      "id": 1818,
+      "payload": 1,
+      "expected_order": [
+        "Oak",
+        "Beech",
+        "Mangrove",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Beech",
+        "Mangrove",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Beech\n- Mangrove\n- Dogwood"
+    },
+    {
+      "id": 1819,
+      "payload": 1,
+      "expected_order": [
+        "Elm",
+        "Pine",
+        "Sycamore",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Pine",
+        "Sycamore",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Pine\n- Sycamore\n- Hickory"
+    },
+    {
+      "id": 1820,
+      "payload": 2,
+      "expected_order": [
+        "Ash",
+        "Alder",
+        "Pine",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Alder",
+        "Pine",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Alder\n- Pine\n- Eucalyptus"
+    },
+    {
+      "id": 1821,
+      "payload": 2,
+      "expected_order": [
+        "Larch",
+        "Mangrove",
+        "Maple",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Mangrove",
+        "Maple",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Mangrove\n- Maple\n- Sycamore"
+    },
+    {
+      "id": 1822,
+      "payload": 2,
+      "expected_order": [
+        "Aspen",
+        "Sequoia",
+        "Redwood",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Sequoia",
+        "Redwood",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Sequoia\n- Redwood\n- Sycamore"
+    },
+    {
+      "id": 1823,
+      "payload": 2,
+      "expected_order": [
+        "Yew",
+        "Juniper",
+        "Palm",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Juniper",
+        "Palm",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Juniper\n- Palm\n- Redwood"
+    },
+    {
+      "id": 1824,
+      "payload": 2,
+      "expected_order": [
+        "Yew",
+        "Aspen",
+        "Teak",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Aspen",
+        "Teak",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Aspen\n- Teak\n- Beech"
+    },
+    {
+      "id": 1825,
+      "payload": 2,
+      "expected_order": [
+        "Yew",
+        "Cedar",
+        "Beech",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Cedar",
+        "Beech",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Cedar\n- Beech\n- Walnut"
+    },
+    {
+      "id": 1826,
+      "payload": 2,
+      "expected_order": [
+        "Oak",
+        "Ginkgo",
+        "Acacia",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Ginkgo",
+        "Acacia",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Ginkgo\n- Acacia\n- Linden"
+    },
+    {
+      "id": 1827,
+      "payload": 2,
+      "expected_order": [
+        "Ash",
+        "Sequoia",
+        "Palm",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Sequoia",
+        "Palm",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Sequoia\n- Palm\n- Hornbeam"
+    },
+    {
+      "id": 1828,
+      "payload": 2,
+      "expected_order": [
+        "Yew",
+        "Ginkgo",
+        "Aspen",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Ginkgo",
+        "Aspen",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Ginkgo\n- Aspen\n- Walnut"
+    },
+    {
+      "id": 1829,
+      "payload": 2,
+      "expected_order": [
+        "Cedar",
+        "Spruce",
+        "Larch",
+        "Juniper"
+      ],
+      "predicted_order": [
+        "Cedar",
+        "Spruce",
+        "Larch",
+        "Juniper"
+      ],
+      "exact_match": true,
+      "response": "- Cedar\n- Spruce\n- Larch\n- Juniper"
+    },
+    {
+      "id": 1830,
+      "payload": 3,
+      "expected_order": [
+        "Alder",
+        "Willow",
+        "Sycamore",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Willow",
+        "Sycamore",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Willow\n- Sycamore\n- Linden"
+    },
+    {
+      "id": 1831,
+      "payload": 3,
+      "expected_order": [
+        "Palm",
+        "Birch",
+        "Chestnut",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Birch",
+        "Chestnut",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Birch\n- Chestnut\n- Teak"
+    },
+    {
+      "id": 1832,
+      "payload": 3,
+      "expected_order": [
+        "Ash",
+        "Maple",
+        "Baobab",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Maple",
+        "Baobab",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Maple\n- Baobab\n- Birch"
+    },
+    {
+      "id": 1833,
+      "payload": 3,
+      "expected_order": [
+        "Elm",
+        "Dogwood",
+        "Mahogany",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Dogwood",
+        "Mahogany",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Dogwood\n- Mahogany\n- Birch"
+    },
+    {
+      "id": 1834,
+      "payload": 3,
+      "expected_order": [
+        "Rowan",
+        "Cypress",
+        "Hickory",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Cypress",
+        "Hickory",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Cypress\n- Hickory\n- Poplar"
+    },
+    {
+      "id": 1835,
+      "payload": 3,
+      "expected_order": [
+        "Teak",
+        "Hornbeam",
+        "Sycamore",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Hornbeam",
+        "Sycamore",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Hornbeam\n- Sycamore\n- Linden"
+    },
+    {
+      "id": 1836,
+      "payload": 3,
+      "expected_order": [
+        "Elm",
+        "Alder",
+        "Redwood",
+        "Palm"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Alder",
+        "Redwood",
+        "Palm"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Alder\n- Redwood\n- Palm"
+    },
+    {
+      "id": 1837,
+      "payload": 3,
+      "expected_order": [
+        "Elm",
+        "Chestnut",
+        "Eucalyptus",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Chestnut",
+        "Eucalyptus",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Chestnut\n- Eucalyptus\n- Larch"
+    },
+    {
+      "id": 1838,
+      "payload": 3,
+      "expected_order": [
+        "Ash",
+        "Sycamore",
+        "Eucalyptus",
+        "Baobab"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Sycamore",
+        "Eucalyptus",
+        "Baobab"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Sycamore\n- Eucalyptus\n- Baobab"
+    },
+    {
+      "id": 1839,
+      "payload": 3,
+      "expected_order": [
+        "Fir",
+        "Walnut",
+        "Hemlock",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Fir",
+        "Walnut",
+        "Hemlock",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Fir\n- Walnut\n- Hemlock\n- Linden"
+    },
+    {
+      "id": 1840,
+      "payload": 4,
+      "expected_order": [
+        "Alder",
+        "Magnolia",
+        "Rowan",
+        "Cypress"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Magnolia",
+        "Rowan",
+        "Cypress"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Magnolia\n- Rowan\n- Cypress"
+    },
+    {
+      "id": 1841,
+      "payload": 4,
+      "expected_order": [
+        "Aspen",
+        "Eucalyptus",
+        "Maple",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Eucalyptus",
+        "Maple",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Eucalyptus\n- Maple\n- Banyan"
+    },
+    {
+      "id": 1842,
+      "payload": 4,
+      "expected_order": [
+        "Beech",
+        "Hornbeam",
+        "Baobab",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Beech",
+        "Hornbeam",
+        "Baobab",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Beech\n- Hornbeam\n- Baobab\n- Willow"
+    },
+    {
+      "id": 1843,
+      "payload": 4,
+      "expected_order": [
+        "Cedar",
+        "Eucalyptus",
+        "Baobab",
+        "Juniper"
+      ],
+      "predicted_order": [
+        "Cedar",
+        "Eucalyptus",
+        "Baobab",
+        "Juniper"
+      ],
+      "exact_match": true,
+      "response": "- Cedar\n- Eucalyptus\n- Baobab\n- Juniper"
+    },
+    {
+      "id": 1844,
+      "payload": 4,
+      "expected_order": [
+        "Larch",
+        "Hornbeam",
+        "Hickory",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Hornbeam",
+        "Hickory",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Hornbeam\n- Hickory\n- Chestnut"
+    },
+    {
+      "id": 1845,
+      "payload": 4,
+      "expected_order": [
+        "Ash",
+        "Acacia",
+        "Aspen",
+        "Rowan"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Acacia",
+        "Aspen",
+        "Rowan"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Acacia\n- Aspen\n- Rowan"
+    },
+    {
+      "id": 1846,
+      "payload": 4,
+      "expected_order": [
+        "Palm",
+        "Sycamore",
+        "Ginkgo",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Sycamore",
+        "Ginkgo",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Sycamore\n- Ginkgo\n- Willow"
+    },
+    {
+      "id": 1847,
+      "payload": 4,
+      "expected_order": [
+        "Holly",
+        "Eucalyptus",
+        "Rowan",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Eucalyptus",
+        "Rowan",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Eucalyptus\n- Rowan\n- Poplar"
+    },
+    {
+      "id": 1848,
+      "payload": 4,
+      "expected_order": [
+        "Cedar",
+        "Spruce",
+        "Ginkgo",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Cedar",
+        "Spruce",
+        "Ginkgo",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Cedar\n- Spruce\n- Ginkgo\n- Linden"
+    },
+    {
+      "id": 1849,
+      "payload": 4,
+      "expected_order": [
+        "Alder",
+        "Dogwood",
+        "Baobab",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Dogwood",
+        "Baobab",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Dogwood\n- Baobab\n- Willow"
+    },
+    {
+      "id": 1850,
+      "payload": 5,
+      "expected_order": [
+        "Larch",
+        "Mahogany",
+        "Sequoia",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Mahogany",
+        "Sequoia",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Mahogany\n- Sequoia\n- Poplar"
+    },
+    {
+      "id": 1851,
+      "payload": 5,
+      "expected_order": [
+        "Palm",
+        "Cypress",
+        "Spruce",
+        "Alder"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Cypress",
+        "Spruce",
+        "Alder"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Cypress\n- Spruce\n- Alder"
+    },
+    {
+      "id": 1852,
+      "payload": 5,
+      "expected_order": [
+        "Beech",
+        "Willow",
+        "Banyan",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Beech",
+        "Willow",
+        "Banyan",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Beech\n- Willow\n- Banyan\n- Larch"
+    },
+    {
+      "id": 1853,
+      "payload": 5,
+      "expected_order": [
+        "Aspen",
+        "Eucalyptus",
+        "Hickory",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Eucalyptus",
+        "Hickory",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Eucalyptus\n- Hickory\n- Poplar"
+    },
+    {
+      "id": 1854,
+      "payload": 5,
+      "expected_order": [
+        "Ash",
+        "Cypress",
+        "Ginkgo",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Cypress",
+        "Ginkgo",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Cypress\n- Ginkgo\n- Teak"
+    },
+    {
+      "id": 1855,
+      "payload": 5,
+      "expected_order": [
+        "Rowan",
+        "Sycamore",
+        "Hickory",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Sycamore",
+        "Hickory",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Sycamore\n- Hickory\n- Willow"
+    },
+    {
+      "id": 1856,
+      "payload": 5,
+      "expected_order": [
+        "Ash",
+        "Hickory",
+        "Dogwood",
+        "Aspen"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Hickory",
+        "Dogwood",
+        "Aspen"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Hickory\n- Dogwood\n- Aspen"
+    },
+    {
+      "id": 1857,
+      "payload": 5,
+      "expected_order": [
+        "Elm",
+        "Sequoia",
+        "Banyan",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Sequoia",
+        "Banyan",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Sequoia\n- Banyan\n- Birch"
+    },
+    {
+      "id": 1858,
+      "payload": 5,
+      "expected_order": [
+        "Oak",
+        "Chestnut",
+        "Walnut",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Chestnut",
+        "Walnut",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Chestnut\n- Walnut\n- Poplar"
+    },
+    {
+      "id": 1859,
+      "payload": 5,
+      "expected_order": [
+        "Palm",
+        "Juniper",
+        "Walnut",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Juniper",
+        "Walnut",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Juniper\n- Walnut\n- Teak"
+    },
+    {
+      "id": 1860,
+      "payload": 6,
+      "expected_order": [
+        "Larch",
+        "Teak",
+        "Linden",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Teak",
+        "Linden",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Teak\n- Linden\n- Dogwood"
+    },
+    {
+      "id": 1861,
+      "payload": 6,
+      "expected_order": [
+        "Redwood",
+        "Aspen",
+        "Sequoia",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Aspen",
+        "Sequoia",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Aspen\n- Sequoia\n- Sycamore"
+    },
+    {
+      "id": 1862,
+      "payload": 6,
+      "expected_order": [
+        "Hornbeam",
+        "Larch",
+        "Mahogany",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Hornbeam",
+        "Larch",
+        "Mahogany",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Hornbeam\n- Larch\n- Mahogany\n- Sycamore"
+    },
+    {
+      "id": 1863,
+      "payload": 6,
+      "expected_order": [
+        "Oak",
+        "Elm",
+        "Linden",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Elm",
+        "Linden",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Elm\n- Linden\n- Poplar"
+    },
+    {
+      "id": 1864,
+      "payload": 6,
+      "expected_order": [
+        "Acacia",
+        "Rowan",
+        "Juniper",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Rowan",
+        "Juniper",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Rowan\n- Juniper\n- Chestnut"
+    },
+    {
+      "id": 1865,
+      "payload": 6,
+      "expected_order": [
+        "Birch",
+        "Oak",
+        "Ginkgo",
+        "Magnolia"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Oak",
+        "Ginkgo",
+        "Magnolia"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Oak\n- Ginkgo\n- Magnolia"
+    },
+    {
+      "id": 1866,
+      "payload": 6,
+      "expected_order": [
+        "Ginkgo",
+        "Beech",
+        "Juniper",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Ginkgo",
+        "Beech",
+        "Juniper",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Ginkgo\n- Beech\n- Juniper\n- Hornbeam"
+    },
+    {
+      "id": 1867,
+      "payload": 6,
+      "expected_order": [
+        "Poplar",
+        "Maple",
+        "Spruce",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Maple",
+        "Spruce",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Maple\n- Spruce\n- Mahogany"
+    },
+    {
+      "id": 1868,
+      "payload": 6,
+      "expected_order": [
+        "Rowan",
+        "Aspen",
+        "Dogwood",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Aspen",
+        "Dogwood",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Aspen\n- Dogwood\n- Mahogany"
+    },
+    {
+      "id": 1869,
+      "payload": 6,
+      "expected_order": [
+        "Baobab",
+        "Palm",
+        "Cypress",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Palm",
+        "Cypress",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Palm\n- Cypress\n- Sequoia"
+    },
+    {
+      "id": 1870,
+      "payload": 7,
+      "expected_order": [
+        "Dogwood",
+        "Ginkgo",
+        "Chestnut",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Dogwood",
+        "Ginkgo",
+        "Chestnut",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Dogwood\n- Ginkgo\n- Chestnut\n- Redwood"
+    },
+    {
+      "id": 1871,
+      "payload": 7,
+      "expected_order": [
+        "Walnut",
+        "Holly",
+        "Magnolia",
+        "Juniper"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Holly",
+        "Magnolia",
+        "Juniper"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Holly\n- Magnolia\n- Juniper"
+    },
+    {
+      "id": 1872,
+      "payload": 7,
+      "expected_order": [
+        "Maple",
+        "Oak",
+        "Chestnut",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Maple",
+        "Oak",
+        "Chestnut",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Maple\n- Oak\n- Chestnut\n- Willow"
+    },
+    {
+      "id": 1873,
+      "payload": 7,
+      "expected_order": [
+        "Walnut",
+        "Banyan",
+        "Mahogany",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Banyan",
+        "Mahogany",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Banyan\n- Mahogany\n- Chestnut"
+    },
+    {
+      "id": 1874,
+      "payload": 7,
+      "expected_order": [
+        "Holly",
+        "Elm",
+        "Eucalyptus",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Elm",
+        "Eucalyptus",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Elm\n- Eucalyptus\n- Chestnut"
+    },
+    {
+      "id": 1875,
+      "payload": 7,
+      "expected_order": [
+        "Cypress",
+        "Linden",
+        "Mahogany",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Linden",
+        "Mahogany",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Linden\n- Mahogany\n- Hickory"
+    },
+    {
+      "id": 1876,
+      "payload": 7,
+      "expected_order": [
+        "Ginkgo",
+        "Acacia",
+        "Eucalyptus",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Ginkgo",
+        "Acacia",
+        "Eucalyptus",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Ginkgo\n- Acacia\n- Eucalyptus\n- Mahogany"
+    },
+    {
+      "id": 1877,
+      "payload": 7,
+      "expected_order": [
+        "Teak",
+        "Fir",
+        "Hornbeam",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Fir",
+        "Hornbeam",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Fir\n- Hornbeam\n- Dogwood"
+    },
+    {
+      "id": 1878,
+      "payload": 7,
+      "expected_order": [
+        "Cypress",
+        "Oak",
+        "Mahogany",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Oak",
+        "Mahogany",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Oak\n- Mahogany\n- Hickory"
+    },
+    {
+      "id": 1879,
+      "payload": 7,
+      "expected_order": [
+        "Acacia",
+        "Larch",
+        "Spruce",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Larch",
+        "Spruce",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Larch\n- Spruce\n- Banyan"
+    },
+    {
+      "id": 1880,
+      "payload": 8,
+      "expected_order": [
+        "Palm",
+        "Holly",
+        "Yew",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Holly",
+        "Yew",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Holly\n- Yew\n- Larch"
+    },
+    {
+      "id": 1881,
+      "payload": 8,
+      "expected_order": [
+        "Larch",
+        "Baobab",
+        "Pine",
+        "Magnolia"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Baobab",
+        "Pine",
+        "Magnolia"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Baobab\n- Pine\n- Magnolia"
+    },
+    {
+      "id": 1882,
+      "payload": 8,
+      "expected_order": [
+        "Baobab",
+        "Poplar",
+        "Beech",
+        "Magnolia"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Poplar",
+        "Beech",
+        "Magnolia"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Poplar\n- Beech\n- Magnolia"
+    },
+    {
+      "id": 1883,
+      "payload": 8,
+      "expected_order": [
+        "Yew",
+        "Walnut",
+        "Elm",
+        "Mangrove"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Walnut",
+        "Elm",
+        "Mangrove"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Walnut\n- Elm\n- Mangrove"
+    },
+    {
+      "id": 1884,
+      "payload": 8,
+      "expected_order": [
+        "Linden",
+        "Mangrove",
+        "Elm",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Mangrove",
+        "Elm",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Mangrove\n- Elm\n- Eucalyptus"
+    },
+    {
+      "id": 1885,
+      "payload": 8,
+      "expected_order": [
+        "Baobab",
+        "Spruce",
+        "Elm",
+        "Willow"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Spruce",
+        "Elm",
+        "Willow"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Spruce\n- Elm\n- Willow"
+    },
+    {
+      "id": 1886,
+      "payload": 8,
+      "expected_order": [
+        "Linden",
+        "Poplar",
+        "Palm",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Poplar",
+        "Palm",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Poplar\n- Palm\n- Sycamore"
+    },
+    {
+      "id": 1887,
+      "payload": 8,
+      "expected_order": [
+        "Palm",
+        "Alder",
+        "Oak",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Alder",
+        "Oak",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Alder\n- Oak\n- Birch"
+    },
+    {
+      "id": 1888,
+      "payload": 8,
+      "expected_order": [
+        "Acacia",
+        "Baobab",
+        "Larch",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Baobab",
+        "Larch",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Baobab\n- Larch\n- Eucalyptus"
+    },
+    {
+      "id": 1889,
+      "payload": 8,
+      "expected_order": [
+        "Holly",
+        "Juniper",
+        "Alder",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Juniper",
+        "Alder",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Juniper\n- Alder\n- Hornbeam"
+    },
+    {
+      "id": 1890,
+      "payload": 9,
+      "expected_order": [
+        "Cedar",
+        "Hickory",
+        "Juniper",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Cedar",
+        "Hickory",
+        "Juniper",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Cedar\n- Hickory\n- Juniper\n- Pine"
+    },
+    {
+      "id": 1891,
+      "payload": 9,
+      "expected_order": [
+        "Larch",
+        "Hemlock",
+        "Sycamore",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Hemlock",
+        "Sycamore",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Hemlock\n- Sycamore\n- Birch"
+    },
+    {
+      "id": 1892,
+      "payload": 9,
+      "expected_order": [
+        "Larch",
+        "Baobab",
+        "Poplar",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Baobab",
+        "Poplar",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Baobab\n- Poplar\n- Cedar"
+    },
+    {
+      "id": 1893,
+      "payload": 9,
+      "expected_order": [
+        "Maple",
+        "Linden",
+        "Juniper",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Maple",
+        "Linden",
+        "Juniper",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Maple\n- Linden\n- Juniper\n- Birch"
+    },
+    {
+      "id": 1894,
+      "payload": 9,
+      "expected_order": [
+        "Banyan",
+        "Juniper",
+        "Chestnut",
+        "Elm"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Juniper",
+        "Chestnut",
+        "Elm"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Juniper\n- Chestnut\n- Elm"
+    },
+    {
+      "id": 1895,
+      "payload": 9,
+      "expected_order": [
+        "Acacia",
+        "Willow",
+        "Hemlock",
+        "Yew"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Willow",
+        "Hemlock",
+        "Yew"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Willow\n- Hemlock\n- Yew"
+    },
+    {
+      "id": 1896,
+      "payload": 9,
+      "expected_order": [
+        "Linden",
+        "Hemlock",
+        "Chestnut",
+        "Yew"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Hemlock",
+        "Chestnut",
+        "Yew"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Hemlock\n- Chestnut\n- Yew"
+    },
+    {
+      "id": 1897,
+      "payload": 9,
+      "expected_order": [
+        "Beech",
+        "Cypress",
+        "Hickory",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Beech",
+        "Cypress",
+        "Hickory",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Beech\n- Cypress\n- Hickory\n- Oak"
+    },
+    {
+      "id": 1898,
+      "payload": 9,
+      "expected_order": [
+        "Poplar",
+        "Walnut",
+        "Magnolia",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Walnut",
+        "Magnolia",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Walnut\n- Magnolia\n- Teak"
+    },
+    {
+      "id": 1899,
+      "payload": 9,
+      "expected_order": [
+        "Spruce",
+        "Cypress",
+        "Hemlock",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Spruce",
+        "Cypress",
+        "Hemlock",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Spruce\n- Cypress\n- Hemlock\n- Banyan"
+    },
+    {
+      "id": 1900,
+      "payload": 10,
+      "expected_order": [
+        "Alder",
+        "Mangrove",
+        "Pine",
+        "Cypress"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Mangrove",
+        "Pine",
+        "Cypress"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Mangrove\n- Pine\n- Cypress"
+    },
+    {
+      "id": 1901,
+      "payload": 10,
+      "expected_order": [
+        "Banyan",
+        "Hickory",
+        "Elm",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Hickory",
+        "Elm",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Hickory\n- Elm\n- Walnut"
+    },
+    {
+      "id": 1902,
+      "payload": 10,
+      "expected_order": [
+        "Holly",
+        "Dogwood",
+        "Teak",
+        "Spruce"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Dogwood",
+        "Teak",
+        "Spruce"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Dogwood\n- Teak\n- Spruce"
+    },
+    {
+      "id": 1903,
+      "payload": 10,
+      "expected_order": [
+        "Larch",
+        "Hornbeam",
+        "Cedar",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Hornbeam",
+        "Cedar",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Hornbeam\n- Cedar\n- Sequoia"
+    },
+    {
+      "id": 1904,
+      "payload": 10,
+      "expected_order": [
+        "Birch",
+        "Hemlock",
+        "Beech",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Hemlock",
+        "Beech",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Hemlock\n- Beech\n- Cedar"
+    },
+    {
+      "id": 1905,
+      "payload": 10,
+      "expected_order": [
+        "Baobab",
+        "Eucalyptus",
+        "Rowan",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Eucalyptus",
+        "Rowan",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Eucalyptus\n- Rowan\n- Sycamore"
+    },
+    {
+      "id": 1906,
+      "payload": 10,
+      "expected_order": [
+        "Palm",
+        "Dogwood",
+        "Fir",
+        "Baobab"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Dogwood",
+        "Fir",
+        "Baobab"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Dogwood\n- Fir\n- Baobab"
+    },
+    {
+      "id": 1907,
+      "payload": 10,
+      "expected_order": [
+        "Walnut",
+        "Hemlock",
+        "Baobab",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Hemlock",
+        "Baobab",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Hemlock\n- Baobab\n- Dogwood"
+    },
+    {
+      "id": 1908,
+      "payload": 10,
+      "expected_order": [
+        "Juniper",
+        "Mangrove",
+        "Oak",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Juniper",
+        "Mangrove",
+        "Oak",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Juniper\n- Mangrove\n- Oak\n- Mahogany"
+    },
+    {
+      "id": 1909,
+      "payload": 10,
+      "expected_order": [
+        "Aspen",
+        "Mangrove",
+        "Teak",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Mangrove",
+        "Teak",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Mangrove\n- Teak\n- Dogwood"
+    },
+    {
+      "id": 1910,
+      "payload": 11,
+      "expected_order": [
+        "Palm",
+        "Hornbeam",
+        "Pine",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Hornbeam",
+        "Pine",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Hornbeam\n- Pine\n- Ash"
+    },
+    {
+      "id": 1911,
+      "payload": 11,
+      "expected_order": [
+        "Alder",
+        "Mahogany",
+        "Linden",
+        "Yew"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Mahogany",
+        "Linden",
+        "Yew"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Mahogany\n- Linden\n- Yew"
+    },
+    {
+      "id": 1912,
+      "payload": 11,
+      "expected_order": [
+        "Yew",
+        "Hemlock",
+        "Poplar",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Hemlock",
+        "Poplar",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Hemlock\n- Poplar\n- Ash"
+    },
+    {
+      "id": 1913,
+      "payload": 11,
+      "expected_order": [
+        "Poplar",
+        "Eucalyptus",
+        "Spruce",
+        "Rowan"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Eucalyptus",
+        "Spruce",
+        "Rowan"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Eucalyptus\n- Spruce\n- Rowan"
+    },
+    {
+      "id": 1914,
+      "payload": 11,
+      "expected_order": [
+        "Cypress",
+        "Mangrove",
+        "Redwood",
+        "Alder"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Mangrove",
+        "Redwood",
+        "Alder"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Mangrove\n- Redwood\n- Alder"
+    },
+    {
+      "id": 1915,
+      "payload": 11,
+      "expected_order": [
+        "Aspen",
+        "Willow",
+        "Ginkgo",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Willow",
+        "Ginkgo",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Willow\n- Ginkgo\n- Oak"
+    },
+    {
+      "id": 1916,
+      "payload": 11,
+      "expected_order": [
+        "Oak",
+        "Mangrove",
+        "Holly",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Mangrove",
+        "Holly",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Mangrove\n- Holly\n- Ash"
+    },
+    {
+      "id": 1917,
+      "payload": 11,
+      "expected_order": [
+        "Fir",
+        "Hornbeam",
+        "Teak",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Fir",
+        "Hornbeam",
+        "Teak",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Fir\n- Hornbeam\n- Teak\n- Ash"
+    },
+    {
+      "id": 1918,
+      "payload": 11,
+      "expected_order": [
+        "Hemlock",
+        "Redwood",
+        "Juniper",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Hemlock",
+        "Redwood",
+        "Juniper",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Hemlock\n- Redwood\n- Juniper\n- Pine"
+    },
+    {
+      "id": 1919,
+      "payload": 11,
+      "expected_order": [
+        "Birch",
+        "Linden",
+        "Maple",
+        "Elm"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Linden",
+        "Maple",
+        "Elm"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Linden\n- Maple\n- Elm"
+    },
+    {
+      "id": 1920,
+      "payload": 12,
+      "expected_order": [
+        "Hickory",
+        "Elm",
+        "Beech",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Hickory",
+        "Elm",
+        "Beech",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Hickory\n- Elm\n- Beech\n- Sequoia"
+    },
+    {
+      "id": 1921,
+      "payload": 12,
+      "expected_order": [
+        "Hickory",
+        "Larch",
+        "Dogwood",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Hickory",
+        "Larch",
+        "Dogwood",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Hickory\n- Larch\n- Dogwood\n- Chestnut"
+    },
+    {
+      "id": 1922,
+      "payload": 12,
+      "expected_order": [
+        "Hemlock",
+        "Beech",
+        "Cypress",
+        "Juniper"
+      ],
+      "predicted_order": [
+        "Hemlock",
+        "Beech",
+        "Cypress",
+        "Juniper"
+      ],
+      "exact_match": true,
+      "response": "- Hemlock\n- Beech\n- Cypress\n- Juniper"
+    },
+    {
+      "id": 1923,
+      "payload": 12,
+      "expected_order": [
+        "Mahogany",
+        "Yew",
+        "Willow",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Mahogany",
+        "Yew",
+        "Willow",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Mahogany\n- Yew\n- Willow\n- Eucalyptus"
+    },
+    {
+      "id": 1924,
+      "payload": 12,
+      "expected_order": [
+        "Willow",
+        "Aspen",
+        "Cedar",
+        "Hemlock"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Aspen",
+        "Cedar",
+        "Hemlock"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Aspen\n- Cedar\n- Hemlock"
+    },
+    {
+      "id": 1925,
+      "payload": 12,
+      "expected_order": [
+        "Birch",
+        "Yew",
+        "Alder",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Yew",
+        "Alder",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Yew\n- Alder\n- Dogwood"
+    },
+    {
+      "id": 1926,
+      "payload": 12,
+      "expected_order": [
+        "Cypress",
+        "Teak",
+        "Birch",
+        "Hemlock"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Teak",
+        "Birch",
+        "Hemlock"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Teak\n- Birch\n- Hemlock"
+    },
+    {
+      "id": 1927,
+      "payload": 12,
+      "expected_order": [
+        "Willow",
+        "Banyan",
+        "Linden",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Banyan",
+        "Linden",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Banyan\n- Linden\n- Redwood"
+    },
+    {
+      "id": 1928,
+      "payload": 12,
+      "expected_order": [
+        "Banyan",
+        "Ash",
+        "Rowan",
+        "Cypress"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Ash",
+        "Rowan",
+        "Cypress"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Ash\n- Rowan\n- Cypress"
+    },
+    {
+      "id": 1929,
+      "payload": 12,
+      "expected_order": [
+        "Sequoia",
+        "Palm",
+        "Walnut",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Sequoia",
+        "Palm",
+        "Walnut",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Sequoia\n- Palm\n- Walnut\n- Mahogany"
+    },
+    {
+      "id": 1930,
+      "payload": 13,
+      "expected_order": [
+        "Linden",
+        "Ash",
+        "Hemlock",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Ash",
+        "Hemlock",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Ash\n- Hemlock\n- Teak"
+    },
+    {
+      "id": 1931,
+      "payload": 13,
+      "expected_order": [
+        "Larch",
+        "Ash",
+        "Willow",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Ash",
+        "Willow",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Ash\n- Willow\n- Pine"
+    },
+    {
+      "id": 1932,
+      "payload": 13,
+      "expected_order": [
+        "Banyan",
+        "Teak",
+        "Hemlock",
+        "Maple"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Teak",
+        "Hemlock",
+        "Maple"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Teak\n- Hemlock\n- Maple"
+    },
+    {
+      "id": 1933,
+      "payload": 13,
+      "expected_order": [
+        "Walnut",
+        "Oak",
+        "Dogwood",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Oak",
+        "Dogwood",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Oak\n- Dogwood\n- Pine"
+    },
+    {
+      "id": 1934,
+      "payload": 13,
+      "expected_order": [
+        "Rowan",
+        "Yew",
+        "Walnut",
+        "Alder"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Yew",
+        "Walnut",
+        "Alder"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Yew\n- Walnut\n- Alder"
+    },
+    {
+      "id": 1935,
+      "payload": 13,
+      "expected_order": [
+        "Acacia",
+        "Oak",
+        "Banyan",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Oak",
+        "Banyan",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Oak\n- Banyan\n- Larch"
+    },
+    {
+      "id": 1936,
+      "payload": 13,
+      "expected_order": [
+        "Willow",
+        "Rowan",
+        "Mahogany",
+        "Baobab"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Rowan",
+        "Mahogany",
+        "Baobab"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Rowan\n- Mahogany\n- Baobab"
+    },
+    {
+      "id": 1937,
+      "payload": 13,
+      "expected_order": [
+        "Palm",
+        "Fir",
+        "Dogwood",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Fir",
+        "Dogwood",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Fir\n- Dogwood\n- Oak"
+    },
+    {
+      "id": 1938,
+      "payload": 13,
+      "expected_order": [
+        "Larch",
+        "Palm",
+        "Baobab",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Palm",
+        "Baobab",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Palm\n- Baobab\n- Beech"
+    },
+    {
+      "id": 1939,
+      "payload": 13,
+      "expected_order": [
+        "Hornbeam",
+        "Alder",
+        "Sycamore",
+        "Rowan"
+      ],
+      "predicted_order": [
+        "Hornbeam",
+        "Alder",
+        "Sycamore",
+        "Rowan"
+      ],
+      "exact_match": true,
+      "response": "- Hornbeam\n- Alder\n- Sycamore\n- Rowan"
+    },
+    {
+      "id": 1940,
+      "payload": 14,
+      "expected_order": [
+        "Birch",
+        "Palm",
+        "Elm",
+        "Magnolia"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Palm",
+        "Elm",
+        "Magnolia"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Palm\n- Elm\n- Magnolia"
+    },
+    {
+      "id": 1941,
+      "payload": 14,
+      "expected_order": [
+        "Juniper",
+        "Alder",
+        "Elm",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Juniper",
+        "Alder",
+        "Elm",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Juniper\n- Alder\n- Elm\n- Eucalyptus"
+    },
+    {
+      "id": 1942,
+      "payload": 14,
+      "expected_order": [
+        "Cypress",
+        "Ginkgo",
+        "Pine",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Ginkgo",
+        "Pine",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Ginkgo\n- Pine\n- Redwood"
+    },
+    {
+      "id": 1943,
+      "payload": 14,
+      "expected_order": [
+        "Redwood",
+        "Dogwood",
+        "Ash",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Dogwood",
+        "Ash",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Dogwood\n- Ash\n- Sycamore"
+    },
+    {
+      "id": 1944,
+      "payload": 14,
+      "expected_order": [
+        "Banyan",
+        "Teak",
+        "Elm",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Teak",
+        "Elm",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Teak\n- Elm\n- Hornbeam"
+    },
+    {
+      "id": 1945,
+      "payload": 14,
+      "expected_order": [
+        "Redwood",
+        "Maple",
+        "Pine",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Maple",
+        "Pine",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Maple\n- Pine\n- Chestnut"
+    },
+    {
+      "id": 1946,
+      "payload": 14,
+      "expected_order": [
+        "Spruce",
+        "Poplar",
+        "Banyan",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Spruce",
+        "Poplar",
+        "Banyan",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Spruce\n- Poplar\n- Banyan\n- Dogwood"
+    },
+    {
+      "id": 1947,
+      "payload": 14,
+      "expected_order": [
+        "Willow",
+        "Banyan",
+        "Palm",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Banyan",
+        "Palm",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Banyan\n- Palm\n- Sycamore"
+    },
+    {
+      "id": 1948,
+      "payload": 14,
+      "expected_order": [
+        "Teak",
+        "Pine",
+        "Palm",
+        "Maple"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Pine",
+        "Palm",
+        "Maple"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Pine\n- Palm\n- Maple"
+    },
+    {
+      "id": 1949,
+      "payload": 14,
+      "expected_order": [
+        "Birch",
+        "Alder",
+        "Pine",
+        "Rowan"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Alder",
+        "Pine",
+        "Rowan"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Alder\n- Pine\n- Rowan"
+    },
+    {
+      "id": 1950,
+      "payload": 15,
+      "expected_order": [
+        "Mangrove",
+        "Sequoia",
+        "Eucalyptus",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Mangrove",
+        "Sequoia",
+        "Eucalyptus",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Mangrove\n- Sequoia\n- Eucalyptus\n- Beech"
+    },
+    {
+      "id": 1951,
+      "payload": 15,
+      "expected_order": [
+        "Poplar",
+        "Palm",
+        "Walnut",
+        "Fir"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Palm",
+        "Walnut",
+        "Fir"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Palm\n- Walnut\n- Fir"
+    },
+    {
+      "id": 1952,
+      "payload": 15,
+      "expected_order": [
+        "Walnut",
+        "Banyan",
+        "Willow",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Banyan",
+        "Willow",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Banyan\n- Willow\n- Pine"
+    },
+    {
+      "id": 1953,
+      "payload": 15,
+      "expected_order": [
+        "Baobab",
+        "Maple",
+        "Linden",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Maple",
+        "Linden",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Maple\n- Linden\n- Pine"
+    },
+    {
+      "id": 1954,
+      "payload": 15,
+      "expected_order": [
+        "Cypress",
+        "Spruce",
+        "Chestnut",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Spruce",
+        "Chestnut",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Spruce\n- Chestnut\n- Oak"
+    },
+    {
+      "id": 1955,
+      "payload": 15,
+      "expected_order": [
+        "Sycamore",
+        "Birch",
+        "Eucalyptus",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Sycamore",
+        "Birch",
+        "Eucalyptus",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Sycamore\n- Birch\n- Eucalyptus\n- Ash"
+    },
+    {
+      "id": 1956,
+      "payload": 15,
+      "expected_order": [
+        "Poplar",
+        "Linden",
+        "Willow",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Linden",
+        "Willow",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Linden\n- Willow\n- Cedar"
+    },
+    {
+      "id": 1957,
+      "payload": 15,
+      "expected_order": [
+        "Banyan",
+        "Beech",
+        "Hickory",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Beech",
+        "Hickory",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Beech\n- Hickory\n- Ash"
+    },
+    {
+      "id": 1958,
+      "payload": 15,
+      "expected_order": [
+        "Willow",
+        "Linden",
+        "Redwood",
+        "Fir"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Linden",
+        "Redwood",
+        "Fir"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Linden\n- Redwood\n- Fir"
+    },
+    {
+      "id": 1959,
+      "payload": 15,
+      "expected_order": [
+        "Rowan",
+        "Aspen",
+        "Mahogany",
+        "Alder"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Aspen",
+        "Mahogany",
+        "Alder"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Aspen\n- Mahogany\n- Alder"
+    },
+    {
+      "id": 1960,
+      "payload": 16,
+      "expected_order": [
+        "Larch",
+        "Chestnut",
+        "Palm",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Larch",
+        "Chestnut",
+        "Palm",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Larch\n- Chestnut\n- Palm\n- Beech"
+    },
+    {
+      "id": 1961,
+      "payload": 16,
+      "expected_order": [
+        "Poplar",
+        "Sequoia",
+        "Pine",
+        "Aspen"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Sequoia",
+        "Pine",
+        "Aspen"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Sequoia\n- Pine\n- Aspen"
+    },
+    {
+      "id": 1962,
+      "payload": 16,
+      "expected_order": [
+        "Willow",
+        "Cypress",
+        "Alder",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Cypress",
+        "Alder",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Cypress\n- Alder\n- Beech"
+    },
+    {
+      "id": 1963,
+      "payload": 16,
+      "expected_order": [
+        "Holly",
+        "Walnut",
+        "Yew",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Walnut",
+        "Yew",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Walnut\n- Yew\n- Cedar"
+    },
+    {
+      "id": 1964,
+      "payload": 16,
+      "expected_order": [
+        "Ginkgo",
+        "Magnolia",
+        "Teak",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Ginkgo",
+        "Magnolia",
+        "Teak",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Ginkgo\n- Magnolia\n- Teak\n- Cedar"
+    },
+    {
+      "id": 1965,
+      "payload": 16,
+      "expected_order": [
+        "Spruce",
+        "Chestnut",
+        "Pine",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Spruce",
+        "Chestnut",
+        "Pine",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Spruce\n- Chestnut\n- Pine\n- Poplar"
+    },
+    {
+      "id": 1966,
+      "payload": 16,
+      "expected_order": [
+        "Linden",
+        "Dogwood",
+        "Ash",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Dogwood",
+        "Ash",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Dogwood\n- Ash\n- Cedar"
+    },
+    {
+      "id": 1967,
+      "payload": 16,
+      "expected_order": [
+        "Maple",
+        "Banyan",
+        "Elm",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Maple",
+        "Banyan",
+        "Elm",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Maple\n- Banyan\n- Elm\n- Oak"
+    },
+    {
+      "id": 1968,
+      "payload": 16,
+      "expected_order": [
+        "Poplar",
+        "Cypress",
+        "Elm",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Cypress",
+        "Elm",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Cypress\n- Elm\n- Oak"
+    },
+    {
+      "id": 1969,
+      "payload": 16,
+      "expected_order": [
+        "Juniper",
+        "Chestnut",
+        "Holly",
+        "Baobab"
+      ],
+      "predicted_order": [
+        "Juniper",
+        "Chestnut",
+        "Holly",
+        "Baobab"
+      ],
+      "exact_match": true,
+      "response": "- Juniper\n- Chestnut\n- Holly\n- Baobab"
+    },
+    {
+      "id": 1970,
+      "payload": 17,
+      "expected_order": [
+        "Sequoia",
+        "Mangrove",
+        "Walnut",
+        "Yew"
+      ],
+      "predicted_order": [
+        "Sequoia",
+        "Mangrove",
+        "Walnut",
+        "Yew"
+      ],
+      "exact_match": true,
+      "response": "- Sequoia\n- Mangrove\n- Walnut\n- Yew"
+    },
+    {
+      "id": 1971,
+      "payload": 17,
+      "expected_order": [
+        "Spruce",
+        "Cypress",
+        "Holly",
+        "Teak"
+      ],
+      "predicted_order": [
+        "Spruce",
+        "Cypress",
+        "Holly",
+        "Teak"
+      ],
+      "exact_match": true,
+      "response": "- Spruce\n- Cypress\n- Holly\n- Teak"
+    },
+    {
+      "id": 1972,
+      "payload": 17,
+      "expected_order": [
+        "Cypress",
+        "Hickory",
+        "Linden",
+        "Pine"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Hickory",
+        "Linden",
+        "Pine"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Hickory\n- Linden\n- Pine"
+    },
+    {
+      "id": 1973,
+      "payload": 17,
+      "expected_order": [
+        "Linden",
+        "Sycamore",
+        "Banyan",
+        "Elm"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Sycamore",
+        "Banyan",
+        "Elm"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Sycamore\n- Banyan\n- Elm"
+    },
+    {
+      "id": 1974,
+      "payload": 17,
+      "expected_order": [
+        "Ginkgo",
+        "Hornbeam",
+        "Holly",
+        "Oak"
+      ],
+      "predicted_order": [
+        "Ginkgo",
+        "Hornbeam",
+        "Holly",
+        "Oak"
+      ],
+      "exact_match": true,
+      "response": "- Ginkgo\n- Hornbeam\n- Holly\n- Oak"
+    },
+    {
+      "id": 1975,
+      "payload": 17,
+      "expected_order": [
+        "Redwood",
+        "Mangrove",
+        "Spruce",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Mangrove",
+        "Spruce",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Mangrove\n- Spruce\n- Beech"
+    },
+    {
+      "id": 1976,
+      "payload": 17,
+      "expected_order": [
+        "Linden",
+        "Magnolia",
+        "Palm",
+        "Ash"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Magnolia",
+        "Palm",
+        "Ash"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Magnolia\n- Palm\n- Ash"
+    },
+    {
+      "id": 1977,
+      "payload": 17,
+      "expected_order": [
+        "Sequoia",
+        "Eucalyptus",
+        "Acacia",
+        "Fir"
+      ],
+      "predicted_order": [
+        "Sequoia",
+        "Eucalyptus",
+        "Acacia",
+        "Fir"
+      ],
+      "exact_match": true,
+      "response": "- Sequoia\n- Eucalyptus\n- Acacia\n- Fir"
+    },
+    {
+      "id": 1978,
+      "payload": 17,
+      "expected_order": [
+        "Birch",
+        "Redwood",
+        "Beech",
+        "Yew"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Redwood",
+        "Beech",
+        "Yew"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Redwood\n- Beech\n- Yew"
+    },
+    {
+      "id": 1979,
+      "payload": 17,
+      "expected_order": [
+        "Walnut",
+        "Cypress",
+        "Baobab",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Cypress",
+        "Baobab",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Cypress\n- Baobab\n- Banyan"
+    },
+    {
+      "id": 1980,
+      "payload": 18,
+      "expected_order": [
+        "Magnolia",
+        "Pine",
+        "Birch",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Magnolia",
+        "Pine",
+        "Birch",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Magnolia\n- Pine\n- Birch\n- Cedar"
+    },
+    {
+      "id": 1981,
+      "payload": 18,
+      "expected_order": [
+        "Mahogany",
+        "Hemlock",
+        "Juniper",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Mahogany",
+        "Hemlock",
+        "Juniper",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Mahogany\n- Hemlock\n- Juniper\n- Sequoia"
+    },
+    {
+      "id": 1982,
+      "payload": 18,
+      "expected_order": [
+        "Eucalyptus",
+        "Pine",
+        "Alder",
+        "Linden"
+      ],
+      "predicted_order": [
+        "Eucalyptus",
+        "Pine",
+        "Alder",
+        "Linden"
+      ],
+      "exact_match": true,
+      "response": "- Eucalyptus\n- Pine\n- Alder\n- Linden"
+    },
+    {
+      "id": 1983,
+      "payload": 18,
+      "expected_order": [
+        "Cypress",
+        "Ash",
+        "Palm",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Cypress",
+        "Ash",
+        "Palm",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Cypress\n- Ash\n- Palm\n- Birch"
+    },
+    {
+      "id": 1984,
+      "payload": 18,
+      "expected_order": [
+        "Banyan",
+        "Cedar",
+        "Maple",
+        "Acacia"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Cedar",
+        "Maple",
+        "Acacia"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Cedar\n- Maple\n- Acacia"
+    },
+    {
+      "id": 1985,
+      "payload": 18,
+      "expected_order": [
+        "Willow",
+        "Teak",
+        "Beech",
+        "Spruce"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Teak",
+        "Beech",
+        "Spruce"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Teak\n- Beech\n- Spruce"
+    },
+    {
+      "id": 1986,
+      "payload": 18,
+      "expected_order": [
+        "Redwood",
+        "Aspen",
+        "Holly",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Aspen",
+        "Holly",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Aspen\n- Holly\n- Poplar"
+    },
+    {
+      "id": 1987,
+      "payload": 18,
+      "expected_order": [
+        "Beech",
+        "Ash",
+        "Fir",
+        "Aspen"
+      ],
+      "predicted_order": [
+        "Beech",
+        "Ash",
+        "Fir",
+        "Aspen"
+      ],
+      "exact_match": true,
+      "response": "- Beech\n- Ash\n- Fir\n- Aspen"
+    },
+    {
+      "id": 1988,
+      "payload": 18,
+      "expected_order": [
+        "Redwood",
+        "Holly",
+        "Spruce",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Redwood",
+        "Holly",
+        "Spruce",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Redwood\n- Holly\n- Spruce\n- Dogwood"
+    },
+    {
+      "id": 1989,
+      "payload": 18,
+      "expected_order": [
+        "Willow",
+        "Fir",
+        "Baobab",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Willow",
+        "Fir",
+        "Baobab",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Willow\n- Fir\n- Baobab\n- Poplar"
+    },
+    {
+      "id": 1990,
+      "payload": 19,
+      "expected_order": [
+        "Mahogany",
+        "Birch",
+        "Walnut",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Mahogany",
+        "Birch",
+        "Walnut",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Mahogany\n- Birch\n- Walnut\n- Banyan"
+    },
+    {
+      "id": 1991,
+      "payload": 19,
+      "expected_order": [
+        "Eucalyptus",
+        "Linden",
+        "Sequoia",
+        "Cypress"
+      ],
+      "predicted_order": [
+        "Eucalyptus",
+        "Linden",
+        "Sequoia",
+        "Cypress"
+      ],
+      "exact_match": true,
+      "response": "- Eucalyptus\n- Linden\n- Sequoia\n- Cypress"
+    },
+    {
+      "id": 1992,
+      "payload": 19,
+      "expected_order": [
+        "Eucalyptus",
+        "Dogwood",
+        "Magnolia",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Eucalyptus",
+        "Dogwood",
+        "Magnolia",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Eucalyptus\n- Dogwood\n- Magnolia\n- Chestnut"
+    },
+    {
+      "id": 1993,
+      "payload": 19,
+      "expected_order": [
+        "Hornbeam",
+        "Yew",
+        "Redwood",
+        "Alder"
+      ],
+      "predicted_order": [
+        "Hornbeam",
+        "Yew",
+        "Redwood",
+        "Alder"
+      ],
+      "exact_match": true,
+      "response": "- Hornbeam\n- Yew\n- Redwood\n- Alder"
+    },
+    {
+      "id": 1994,
+      "payload": 19,
+      "expected_order": [
+        "Chestnut",
+        "Pine",
+        "Larch",
+        "Birch"
+      ],
+      "predicted_order": [
+        "Chestnut",
+        "Pine",
+        "Larch",
+        "Birch"
+      ],
+      "exact_match": true,
+      "response": "- Chestnut\n- Pine\n- Larch\n- Birch"
+    },
+    {
+      "id": 1995,
+      "payload": 19,
+      "expected_order": [
+        "Eucalyptus",
+        "Yew",
+        "Chestnut",
+        "Beech"
+      ],
+      "predicted_order": [
+        "Eucalyptus",
+        "Yew",
+        "Chestnut",
+        "Beech"
+      ],
+      "exact_match": true,
+      "response": "- Eucalyptus\n- Yew\n- Chestnut\n- Beech"
+    },
+    {
+      "id": 1996,
+      "payload": 19,
+      "expected_order": [
+        "Eucalyptus",
+        "Alder",
+        "Holly",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Eucalyptus",
+        "Alder",
+        "Holly",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Eucalyptus\n- Alder\n- Holly\n- Cedar"
+    },
+    {
+      "id": 1997,
+      "payload": 19,
+      "expected_order": [
+        "Juniper",
+        "Fir",
+        "Hickory",
+        "Cedar"
+      ],
+      "predicted_order": [
+        "Juniper",
+        "Fir",
+        "Hickory",
+        "Cedar"
+      ],
+      "exact_match": true,
+      "response": "- Juniper\n- Fir\n- Hickory\n- Cedar"
+    },
+    {
+      "id": 1998,
+      "payload": 19,
+      "expected_order": [
+        "Linden",
+        "Cedar",
+        "Ginkgo",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Linden",
+        "Cedar",
+        "Ginkgo",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Linden\n- Cedar\n- Ginkgo\n- Larch"
+    },
+    {
+      "id": 1999,
+      "payload": 19,
+      "expected_order": [
+        "Mangrove",
+        "Elm",
+        "Holly",
+        "Fir"
+      ],
+      "predicted_order": [
+        "Mangrove",
+        "Elm",
+        "Holly",
+        "Fir"
+      ],
+      "exact_match": true,
+      "response": "- Mangrove\n- Elm\n- Holly\n- Fir"
+    }
+  ]
+}

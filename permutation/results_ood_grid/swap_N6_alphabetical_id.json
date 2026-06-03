@@ -1,0 +1,4411 @@
+{
+  "summary": {
+    "condition": "swap_N6_alphabetical",
+    "n_examples": 200,
+    "exact_match_rate": 1.0,
+    "position_accuracy": 1.0,
+    "exact_matches": 200
+  },
+  "results": [
+    {
+      "id": 1200,
+      "payload": 0,
+      "expected_order": [
+        "Coconut",
+        "Cranberry",
+        "Huckleberry",
+        "Lime",
+        "Physalis",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Cranberry",
+        "Huckleberry",
+        "Lime",
+        "Physalis",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Cranberry\n- Huckleberry\n- Lime\n- Physalis\n- Satsuma"
+    },
+    {
+      "id": 1201,
+      "payload": 0,
+      "expected_order": [
+        "Banana",
+        "Blackberry",
+        "Clementine",
+        "Cloudberry",
+        "Coconut",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Blackberry",
+        "Clementine",
+        "Cloudberry",
+        "Coconut",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Blackberry\n- Clementine\n- Cloudberry\n- Coconut\n- Lime"
+    },
+    {
+      "id": 1202,
+      "payload": 0,
+      "expected_order": [
+        "Banana",
+        "Guava",
+        "Honeydew",
+        "Jujube",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Guava",
+        "Honeydew",
+        "Jujube",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Guava\n- Honeydew\n- Jujube\n- Rambutan\n- Satsuma"
+    },
+    {
+      "id": 1203,
+      "payload": 0,
+      "expected_order": [
+        "Banana",
+        "Clementine",
+        "Cranberry",
+        "Lime",
+        "Satsuma",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Clementine",
+        "Cranberry",
+        "Lime",
+        "Satsuma",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Clementine\n- Cranberry\n- Lime\n- Satsuma\n- Soursop"
+    },
+    {
+      "id": 1204,
+      "payload": 0,
+      "expected_order": [
+        "Banana",
+        "Blackberry",
+        "Coconut",
+        "Mulberry",
+        "Strawberry",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Blackberry",
+        "Coconut",
+        "Mulberry",
+        "Strawberry",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Blackberry\n- Coconut\n- Mulberry\n- Strawberry\n- Watermelon"
+    },
+    {
+      "id": 1205,
+      "payload": 1,
+      "expected_order": [
+        "Cranberry",
+        "Blackberry",
+        "Date",
+        "Huckleberry",
+        "Mulberry",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Blackberry",
+        "Date",
+        "Huckleberry",
+        "Mulberry",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Blackberry\n- Date\n- Huckleberry\n- Mulberry\n- Watermelon"
+    },
+    {
+      "id": 1206,
+      "payload": 1,
+      "expected_order": [
+        "Clementine",
+        "Blackberry",
+        "Huckleberry",
+        "Mulberry",
+        "Physalis",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Blackberry",
+        "Huckleberry",
+        "Mulberry",
+        "Physalis",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Blackberry\n- Huckleberry\n- Mulberry\n- Physalis\n- Rambutan"
+    },
+    {
+      "id": 1207,
+      "payload": 1,
+      "expected_order": [
+        "Clementine",
+        "Banana",
+        "Mulberry",
+        "Rambutan",
+        "Soursop",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Banana",
+        "Mulberry",
+        "Rambutan",
+        "Soursop",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Banana\n- Mulberry\n- Rambutan\n- Soursop\n- Ugli"
+    },
+    {
+      "id": 1208,
+      "payload": 1,
+      "expected_order": [
+        "Date",
+        "Coconut",
+        "Guava",
+        "Huckleberry",
+        "Jujube",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Date",
+        "Coconut",
+        "Guava",
+        "Huckleberry",
+        "Jujube",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Coconut\n- Guava\n- Huckleberry\n- Jujube\n- Soursop"
+    },
+    {
+      "id": 1209,
+      "payload": 1,
+      "expected_order": [
+        "Clementine",
+        "Blackberry",
+        "Date",
+        "Huckleberry",
+        "Physalis",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Blackberry",
+        "Date",
+        "Huckleberry",
+        "Physalis",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Blackberry\n- Date\n- Huckleberry\n- Physalis\n- Ugli"
+    },
+    {
+      "id": 1210,
+      "payload": 2,
+      "expected_order": [
+        "Banana",
+        "Cloudberry",
+        "Huckleberry",
+        "Cranberry",
+        "Rambutan",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Cloudberry",
+        "Huckleberry",
+        "Cranberry",
+        "Rambutan",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Cloudberry\n- Huckleberry\n- Cranberry\n- Rambutan\n- Ugli"
+    },
+    {
+      "id": 1211,
+      "payload": 2,
+      "expected_order": [
+        "Banana",
+        "Coconut",
+        "Date",
+        "Cranberry",
+        "Honeydew",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Coconut",
+        "Date",
+        "Cranberry",
+        "Honeydew",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Coconut\n- Date\n- Cranberry\n- Honeydew\n- Rambutan"
+    },
+    {
+      "id": 1212,
+      "payload": 2,
+      "expected_order": [
+        "Clementine",
+        "Cloudberry",
+        "Guava",
+        "Coconut",
+        "Jujube",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Cloudberry",
+        "Guava",
+        "Coconut",
+        "Jujube",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Cloudberry\n- Guava\n- Coconut\n- Jujube\n- Satsuma"
+    },
+    {
+      "id": 1213,
+      "payload": 2,
+      "expected_order": [
+        "Banana",
+        "Blackberry",
+        "Honeydew",
+        "Cranberry",
+        "Jujube",
+        "Mulberry"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Blackberry",
+        "Honeydew",
+        "Cranberry",
+        "Jujube",
+        "Mulberry"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Blackberry\n- Honeydew\n- Cranberry\n- Jujube\n- Mulberry"
+    },
+    {
+      "id": 1214,
+      "payload": 2,
+      "expected_order": [
+        "Cloudberry",
+        "Guava",
+        "Rambutan",
+        "Mulberry",
+        "Soursop",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Guava",
+        "Rambutan",
+        "Mulberry",
+        "Soursop",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Guava\n- Rambutan\n- Mulberry\n- Soursop\n- Strawberry"
+    },
+    {
+      "id": 1215,
+      "payload": 3,
+      "expected_order": [
+        "Cloudberry",
+        "Blackberry",
+        "Physalis",
+        "Guava",
+        "Rambutan",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Blackberry",
+        "Physalis",
+        "Guava",
+        "Rambutan",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Blackberry\n- Physalis\n- Guava\n- Rambutan\n- Watermelon"
+    },
+    {
+      "id": 1216,
+      "payload": 3,
+      "expected_order": [
+        "Guava",
+        "Coconut",
+        "Huckleberry",
+        "Honeydew",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Coconut",
+        "Huckleberry",
+        "Honeydew",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Coconut\n- Huckleberry\n- Honeydew\n- Mulberry\n- Rambutan"
+    },
+    {
+      "id": 1217,
+      "payload": 3,
+      "expected_order": [
+        "Guava",
+        "Clementine",
+        "Lime",
+        "Jujube",
+        "Strawberry",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Clementine",
+        "Lime",
+        "Jujube",
+        "Strawberry",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Clementine\n- Lime\n- Jujube\n- Strawberry\n- Ugli"
+    },
+    {
+      "id": 1218,
+      "payload": 3,
+      "expected_order": [
+        "Cloudberry",
+        "Banana",
+        "Date",
+        "Coconut",
+        "Mulberry",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Banana",
+        "Date",
+        "Coconut",
+        "Mulberry",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Banana\n- Date\n- Coconut\n- Mulberry\n- Ugli"
+    },
+    {
+      "id": 1219,
+      "payload": 3,
+      "expected_order": [
+        "Coconut",
+        "Banana",
+        "Physalis",
+        "Lime",
+        "Rambutan",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Banana",
+        "Physalis",
+        "Lime",
+        "Rambutan",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Banana\n- Physalis\n- Lime\n- Rambutan\n- Soursop"
+    },
+    {
+      "id": 1220,
+      "payload": 4,
+      "expected_order": [
+        "Banana",
+        "Huckleberry",
+        "Mulberry",
+        "Physalis",
+        "Soursop",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Huckleberry",
+        "Mulberry",
+        "Physalis",
+        "Soursop",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Huckleberry\n- Mulberry\n- Physalis\n- Soursop\n- Satsuma"
+    },
+    {
+      "id": 1221,
+      "payload": 4,
+      "expected_order": [
+        "Clementine",
+        "Coconut",
+        "Cranberry",
+        "Date",
+        "Ugli",
+        "Honeydew"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Coconut",
+        "Cranberry",
+        "Date",
+        "Ugli",
+        "Honeydew"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Coconut\n- Cranberry\n- Date\n- Ugli\n- Honeydew"
+    },
+    {
+      "id": 1222,
+      "payload": 4,
+      "expected_order": [
+        "Coconut",
+        "Guava",
+        "Satsuma",
+        "Soursop",
+        "Ugli",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Guava",
+        "Satsuma",
+        "Soursop",
+        "Ugli",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Guava\n- Satsuma\n- Soursop\n- Ugli\n- Strawberry"
+    },
+    {
+      "id": 1223,
+      "payload": 4,
+      "expected_order": [
+        "Banana",
+        "Blackberry",
+        "Cloudberry",
+        "Huckleberry",
+        "Strawberry",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Blackberry",
+        "Cloudberry",
+        "Huckleberry",
+        "Strawberry",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Blackberry\n- Cloudberry\n- Huckleberry\n- Strawberry\n- Physalis"
+    },
+    {
+      "id": 1224,
+      "payload": 4,
+      "expected_order": [
+        "Cranberry",
+        "Date",
+        "Guava",
+        "Jujube",
+        "Satsuma",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Date",
+        "Guava",
+        "Jujube",
+        "Satsuma",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Date\n- Guava\n- Jujube\n- Satsuma\n- Lime"
+    },
+    {
+      "id": 1225,
+      "payload": 5,
+      "expected_order": [
+        "Cranberry",
+        "Clementine",
+        "Rambutan",
+        "Satsuma",
+        "Ugli",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Clementine",
+        "Rambutan",
+        "Satsuma",
+        "Ugli",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Clementine\n- Rambutan\n- Satsuma\n- Ugli\n- Strawberry"
+    },
+    {
+      "id": 1226,
+      "payload": 5,
+      "expected_order": [
+        "Honeydew",
+        "Guava",
+        "Huckleberry",
+        "Rambutan",
+        "Watermelon",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Honeydew",
+        "Guava",
+        "Huckleberry",
+        "Rambutan",
+        "Watermelon",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Honeydew\n- Guava\n- Huckleberry\n- Rambutan\n- Watermelon\n- Ugli"
+    },
+    {
+      "id": 1227,
+      "payload": 5,
+      "expected_order": [
+        "Date",
+        "Banana",
+        "Honeydew",
+        "Jujube",
+        "Ugli",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Date",
+        "Banana",
+        "Honeydew",
+        "Jujube",
+        "Ugli",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Banana\n- Honeydew\n- Jujube\n- Ugli\n- Physalis"
+    },
+    {
+      "id": 1228,
+      "payload": 5,
+      "expected_order": [
+        "Cranberry",
+        "Blackberry",
+        "Date",
+        "Honeydew",
+        "Ugli",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Blackberry",
+        "Date",
+        "Honeydew",
+        "Ugli",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Blackberry\n- Date\n- Honeydew\n- Ugli\n- Soursop"
+    },
+    {
+      "id": 1229,
+      "payload": 5,
+      "expected_order": [
+        "Clementine",
+        "Banana",
+        "Cloudberry",
+        "Rambutan",
+        "Watermelon",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Banana",
+        "Cloudberry",
+        "Rambutan",
+        "Watermelon",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Banana\n- Cloudberry\n- Rambutan\n- Watermelon\n- Ugli"
+    },
+    {
+      "id": 1230,
+      "payload": 6,
+      "expected_order": [
+        "Clementine",
+        "Cloudberry",
+        "Cranberry",
+        "Coconut",
+        "Lime",
+        "Date"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Cloudberry",
+        "Cranberry",
+        "Coconut",
+        "Lime",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Cloudberry\n- Cranberry\n- Coconut\n- Lime\n- Date"
+    },
+    {
+      "id": 1231,
+      "payload": 6,
+      "expected_order": [
+        "Banana",
+        "Blackberry",
+        "Soursop",
+        "Jujube",
+        "Ugli",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Blackberry",
+        "Soursop",
+        "Jujube",
+        "Ugli",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Blackberry\n- Soursop\n- Jujube\n- Ugli\n- Strawberry"
+    },
+    {
+      "id": 1232,
+      "payload": 6,
+      "expected_order": [
+        "Banana",
+        "Cloudberry",
+        "Guava",
+        "Date",
+        "Lime",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Cloudberry",
+        "Guava",
+        "Date",
+        "Lime",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Cloudberry\n- Guava\n- Date\n- Lime\n- Huckleberry"
+    },
+    {
+      "id": 1233,
+      "payload": 6,
+      "expected_order": [
+        "Cloudberry",
+        "Cranberry",
+        "Jujube",
+        "Honeydew",
+        "Strawberry",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Cranberry",
+        "Jujube",
+        "Honeydew",
+        "Strawberry",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Cranberry\n- Jujube\n- Honeydew\n- Strawberry\n- Rambutan"
+    },
+    {
+      "id": 1234,
+      "payload": 6,
+      "expected_order": [
+        "Huckleberry",
+        "Jujube",
+        "Physalis",
+        "Mulberry",
+        "Ugli",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Jujube",
+        "Physalis",
+        "Mulberry",
+        "Ugli",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Jujube\n- Physalis\n- Mulberry\n- Ugli\n- Satsuma"
+    },
+    {
+      "id": 1235,
+      "payload": 7,
+      "expected_order": [
+        "Date",
+        "Banana",
+        "Huckleberry",
+        "Honeydew",
+        "Strawberry",
+        "Jujube"
+      ],
+      "predicted_order": [
+        "Date",
+        "Banana",
+        "Huckleberry",
+        "Honeydew",
+        "Strawberry",
+        "Jujube"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Banana\n- Huckleberry\n- Honeydew\n- Strawberry\n- Jujube"
+    },
+    {
+      "id": 1236,
+      "payload": 7,
+      "expected_order": [
+        "Clementine",
+        "Blackberry",
+        "Honeydew",
+        "Coconut",
+        "Soursop",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Blackberry",
+        "Honeydew",
+        "Coconut",
+        "Soursop",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Blackberry\n- Honeydew\n- Coconut\n- Soursop\n- Physalis"
+    },
+    {
+      "id": 1237,
+      "payload": 7,
+      "expected_order": [
+        "Cloudberry",
+        "Banana",
+        "Lime",
+        "Cranberry",
+        "Ugli",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Banana",
+        "Lime",
+        "Cranberry",
+        "Ugli",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Banana\n- Lime\n- Cranberry\n- Ugli\n- Physalis"
+    },
+    {
+      "id": 1238,
+      "payload": 7,
+      "expected_order": [
+        "Huckleberry",
+        "Blackberry",
+        "Rambutan",
+        "Lime",
+        "Watermelon",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Blackberry",
+        "Rambutan",
+        "Lime",
+        "Watermelon",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Blackberry\n- Rambutan\n- Lime\n- Watermelon\n- Soursop"
+    },
+    {
+      "id": 1239,
+      "payload": 7,
+      "expected_order": [
+        "Blackberry",
+        "Banana",
+        "Physalis",
+        "Clementine",
+        "Ugli",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Banana",
+        "Physalis",
+        "Clementine",
+        "Ugli",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Banana\n- Physalis\n- Clementine\n- Ugli\n- Rambutan"
+    },
+    {
+      "id": 1240,
+      "payload": 0,
+      "expected_order": [
+        "Bongos",
+        "Kora",
+        "Mbira",
+        "Recorder",
+        "Timpani",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Kora",
+        "Mbira",
+        "Recorder",
+        "Timpani",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Kora\n- Mbira\n- Recorder\n- Timpani\n- Vibraphone"
+    },
+    {
+      "id": 1241,
+      "payload": 0,
+      "expected_order": [
+        "Dhol",
+        "Guitar",
+        "Recorder",
+        "Sarod",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Guitar",
+        "Recorder",
+        "Sarod",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Guitar\n- Recorder\n- Sarod\n- Saxophone\n- Trumpet"
+    },
+    {
+      "id": 1242,
+      "payload": 0,
+      "expected_order": [
+        "Bongos",
+        "Harpsichord",
+        "Kazoo",
+        "Saxophone",
+        "Timpani",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Harpsichord",
+        "Kazoo",
+        "Saxophone",
+        "Timpani",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Harpsichord\n- Kazoo\n- Saxophone\n- Timpani\n- Trumpet"
+    },
+    {
+      "id": 1243,
+      "payload": 0,
+      "expected_order": [
+        "Bongos",
+        "Harmonica",
+        "Harpsichord",
+        "Ocarina",
+        "Sarod",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Harmonica",
+        "Harpsichord",
+        "Ocarina",
+        "Sarod",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Harmonica\n- Harpsichord\n- Ocarina\n- Sarod\n- Vibraphone"
+    },
+    {
+      "id": 1244,
+      "payload": 0,
+      "expected_order": [
+        "Banjo",
+        "Guitar",
+        "Harpsichord",
+        "Mbira",
+        "Sarod",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Guitar",
+        "Harpsichord",
+        "Mbira",
+        "Sarod",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Guitar\n- Harpsichord\n- Mbira\n- Sarod\n- Saxophone"
+    },
+    {
+      "id": 1245,
+      "payload": 1,
+      "expected_order": [
+        "Dhol",
+        "Banjo",
+        "Harpsichord",
+        "Mbira",
+        "Timpani",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Banjo",
+        "Harpsichord",
+        "Mbira",
+        "Timpani",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Banjo\n- Harpsichord\n- Mbira\n- Timpani\n- Trumpet"
+    },
+    {
+      "id": 1246,
+      "payload": 1,
+      "expected_order": [
+        "Harpsichord",
+        "Glockenspiel",
+        "Sarod",
+        "Saxophone",
+        "Trumpet",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Harpsichord",
+        "Glockenspiel",
+        "Sarod",
+        "Saxophone",
+        "Trumpet",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Harpsichord\n- Glockenspiel\n- Sarod\n- Saxophone\n- Trumpet\n- Vibraphone"
+    },
+    {
+      "id": 1247,
+      "payload": 1,
+      "expected_order": [
+        "Fife",
+        "Bongos",
+        "Glockenspiel",
+        "Kazoo",
+        "Ocarina",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Bongos",
+        "Glockenspiel",
+        "Kazoo",
+        "Ocarina",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Bongos\n- Glockenspiel\n- Kazoo\n- Ocarina\n- Sarod"
+    },
+    {
+      "id": 1248,
+      "payload": 1,
+      "expected_order": [
+        "Flute",
+        "Banjo",
+        "Guitar",
+        "Kora",
+        "Sarod",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Banjo",
+        "Guitar",
+        "Kora",
+        "Sarod",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Banjo\n- Guitar\n- Kora\n- Sarod\n- Saxophone"
+    },
+    {
+      "id": 1249,
+      "payload": 1,
+      "expected_order": [
+        "Flute",
+        "Bongos",
+        "Harmonica",
+        "Kazoo",
+        "Kora",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Bongos",
+        "Harmonica",
+        "Kazoo",
+        "Kora",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Bongos\n- Harmonica\n- Kazoo\n- Kora\n- Sarod"
+    },
+    {
+      "id": 1250,
+      "payload": 2,
+      "expected_order": [
+        "Flute",
+        "Ocarina",
+        "Sarod",
+        "Recorder",
+        "Saxophone",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Ocarina",
+        "Sarod",
+        "Recorder",
+        "Saxophone",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Ocarina\n- Sarod\n- Recorder\n- Saxophone\n- Timpani"
+    },
+    {
+      "id": 1251,
+      "payload": 2,
+      "expected_order": [
+        "Dhol",
+        "Harpsichord",
+        "Saxophone",
+        "Mbira",
+        "Timpani",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Harpsichord",
+        "Saxophone",
+        "Mbira",
+        "Timpani",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Harpsichord\n- Saxophone\n- Mbira\n- Timpani\n- Vibraphone"
+    },
+    {
+      "id": 1252,
+      "payload": 2,
+      "expected_order": [
+        "Bodhran",
+        "Fife",
+        "Sarod",
+        "Mbira",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Fife",
+        "Sarod",
+        "Mbira",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Fife\n- Sarod\n- Mbira\n- Saxophone\n- Trumpet"
+    },
+    {
+      "id": 1253,
+      "payload": 2,
+      "expected_order": [
+        "Banjo",
+        "Guitar",
+        "Mbira",
+        "Harmonica",
+        "Ocarina",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Guitar",
+        "Mbira",
+        "Harmonica",
+        "Ocarina",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Guitar\n- Mbira\n- Harmonica\n- Ocarina\n- Saxophone"
+    },
+    {
+      "id": 1254,
+      "payload": 2,
+      "expected_order": [
+        "Banjo",
+        "Dhol",
+        "Recorder",
+        "Harmonica",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Dhol",
+        "Recorder",
+        "Harmonica",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Dhol\n- Recorder\n- Harmonica\n- Saxophone\n- Vibraphone"
+    },
+    {
+      "id": 1255,
+      "payload": 3,
+      "expected_order": [
+        "Bongos",
+        "Bodhran",
+        "Harmonica",
+        "Flute",
+        "Harpsichord",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Bodhran",
+        "Harmonica",
+        "Flute",
+        "Harpsichord",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Bodhran\n- Harmonica\n- Flute\n- Harpsichord\n- Ocarina"
+    },
+    {
+      "id": 1256,
+      "payload": 3,
+      "expected_order": [
+        "Flute",
+        "Bodhran",
+        "Kazoo",
+        "Glockenspiel",
+        "Recorder",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Bodhran",
+        "Kazoo",
+        "Glockenspiel",
+        "Recorder",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Bodhran\n- Kazoo\n- Glockenspiel\n- Recorder\n- Vibraphone"
+    },
+    {
+      "id": 1257,
+      "payload": 3,
+      "expected_order": [
+        "Bodhran",
+        "Banjo",
+        "Dhol",
+        "Bongos",
+        "Flute",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Banjo",
+        "Dhol",
+        "Bongos",
+        "Flute",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Banjo\n- Dhol\n- Bongos\n- Flute\n- Recorder"
+    },
+    {
+      "id": 1258,
+      "payload": 3,
+      "expected_order": [
+        "Kazoo",
+        "Fife",
+        "Sarod",
+        "Kora",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Fife",
+        "Sarod",
+        "Kora",
+        "Saxophone",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Fife\n- Sarod\n- Kora\n- Saxophone\n- Trumpet"
+    },
+    {
+      "id": 1259,
+      "payload": 3,
+      "expected_order": [
+        "Flute",
+        "Bodhran",
+        "Harpsichord",
+        "Guitar",
+        "Recorder",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Bodhran",
+        "Harpsichord",
+        "Guitar",
+        "Recorder",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Bodhran\n- Harpsichord\n- Guitar\n- Recorder\n- Sarod"
+    },
+    {
+      "id": 1260,
+      "payload": 4,
+      "expected_order": [
+        "Banjo",
+        "Harmonica",
+        "Kazoo",
+        "Kora",
+        "Timpani",
+        "Mbira"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Harmonica",
+        "Kazoo",
+        "Kora",
+        "Timpani",
+        "Mbira"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Harmonica\n- Kazoo\n- Kora\n- Timpani\n- Mbira"
+    },
+    {
+      "id": 1261,
+      "payload": 4,
+      "expected_order": [
+        "Flute",
+        "Recorder",
+        "Sarod",
+        "Timpani",
+        "Vibraphone",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Recorder",
+        "Sarod",
+        "Timpani",
+        "Vibraphone",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Recorder\n- Sarod\n- Timpani\n- Vibraphone\n- Trumpet"
+    },
+    {
+      "id": 1262,
+      "payload": 4,
+      "expected_order": [
+        "Bongos",
+        "Glockenspiel",
+        "Kazoo",
+        "Recorder",
+        "Timpani",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Glockenspiel",
+        "Kazoo",
+        "Recorder",
+        "Timpani",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Glockenspiel\n- Kazoo\n- Recorder\n- Timpani\n- Sarod"
+    },
+    {
+      "id": 1263,
+      "payload": 4,
+      "expected_order": [
+        "Bodhran",
+        "Bongos",
+        "Flute",
+        "Guitar",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Bongos",
+        "Flute",
+        "Guitar",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Bongos\n- Flute\n- Guitar\n- Vibraphone\n- Timpani"
+    },
+    {
+      "id": 1264,
+      "payload": 4,
+      "expected_order": [
+        "Fife",
+        "Glockenspiel",
+        "Harmonica",
+        "Harpsichord",
+        "Vibraphone",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Glockenspiel",
+        "Harmonica",
+        "Harpsichord",
+        "Vibraphone",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Glockenspiel\n- Harmonica\n- Harpsichord\n- Vibraphone\n- Recorder"
+    },
+    {
+      "id": 1265,
+      "payload": 5,
+      "expected_order": [
+        "Bongos",
+        "Banjo",
+        "Fife",
+        "Ocarina",
+        "Vibraphone",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Banjo",
+        "Fife",
+        "Ocarina",
+        "Vibraphone",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Banjo\n- Fife\n- Ocarina\n- Vibraphone\n- Recorder"
+    },
+    {
+      "id": 1266,
+      "payload": 5,
+      "expected_order": [
+        "Guitar",
+        "Dhol",
+        "Harmonica",
+        "Sarod",
+        "Trumpet",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Dhol",
+        "Harmonica",
+        "Sarod",
+        "Trumpet",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Dhol\n- Harmonica\n- Sarod\n- Trumpet\n- Saxophone"
+    },
+    {
+      "id": 1267,
+      "payload": 5,
+      "expected_order": [
+        "Guitar",
+        "Bodhran",
+        "Harpsichord",
+        "Kora",
+        "Trumpet",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Bodhran",
+        "Harpsichord",
+        "Kora",
+        "Trumpet",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Bodhran\n- Harpsichord\n- Kora\n- Trumpet\n- Recorder"
+    },
+    {
+      "id": 1268,
+      "payload": 5,
+      "expected_order": [
+        "Glockenspiel",
+        "Flute",
+        "Harpsichord",
+        "Mbira",
+        "Trumpet",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Flute",
+        "Harpsichord",
+        "Mbira",
+        "Trumpet",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Flute\n- Harpsichord\n- Mbira\n- Trumpet\n- Timpani"
+    },
+    {
+      "id": 1269,
+      "payload": 5,
+      "expected_order": [
+        "Dhol",
+        "Bodhran",
+        "Kazoo",
+        "Recorder",
+        "Vibraphone",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Bodhran",
+        "Kazoo",
+        "Recorder",
+        "Vibraphone",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Bodhran\n- Kazoo\n- Recorder\n- Vibraphone\n- Sarod"
+    },
+    {
+      "id": 1270,
+      "payload": 6,
+      "expected_order": [
+        "Banjo",
+        "Bongos",
+        "Flute",
+        "Dhol",
+        "Vibraphone",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Bongos",
+        "Flute",
+        "Dhol",
+        "Vibraphone",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Bongos\n- Flute\n- Dhol\n- Vibraphone\n- Glockenspiel"
+    },
+    {
+      "id": 1271,
+      "payload": 6,
+      "expected_order": [
+        "Bongos",
+        "Guitar",
+        "Recorder",
+        "Mbira",
+        "Vibraphone",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Guitar",
+        "Recorder",
+        "Mbira",
+        "Vibraphone",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Guitar\n- Recorder\n- Mbira\n- Vibraphone\n- Trumpet"
+    },
+    {
+      "id": 1272,
+      "payload": 6,
+      "expected_order": [
+        "Bongos",
+        "Glockenspiel",
+        "Mbira",
+        "Kora",
+        "Trumpet",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Glockenspiel",
+        "Mbira",
+        "Kora",
+        "Trumpet",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Glockenspiel\n- Mbira\n- Kora\n- Trumpet\n- Recorder"
+    },
+    {
+      "id": 1273,
+      "payload": 6,
+      "expected_order": [
+        "Fife",
+        "Harmonica",
+        "Mbira",
+        "Kazoo",
+        "Recorder",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Harmonica",
+        "Mbira",
+        "Kazoo",
+        "Recorder",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Harmonica\n- Mbira\n- Kazoo\n- Recorder\n- Ocarina"
+    },
+    {
+      "id": 1274,
+      "payload": 6,
+      "expected_order": [
+        "Bodhran",
+        "Dhol",
+        "Glockenspiel",
+        "Flute",
+        "Mbira",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Dhol",
+        "Glockenspiel",
+        "Flute",
+        "Mbira",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Dhol\n- Glockenspiel\n- Flute\n- Mbira\n- Harpsichord"
+    },
+    {
+      "id": 1275,
+      "payload": 7,
+      "expected_order": [
+        "Bongos",
+        "Bodhran",
+        "Mbira",
+        "Harmonica",
+        "Trumpet",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Bodhran",
+        "Mbira",
+        "Harmonica",
+        "Trumpet",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Bodhran\n- Mbira\n- Harmonica\n- Trumpet\n- Timpani"
+    },
+    {
+      "id": 1276,
+      "payload": 7,
+      "expected_order": [
+        "Guitar",
+        "Bodhran",
+        "Ocarina",
+        "Mbira",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Bodhran",
+        "Ocarina",
+        "Mbira",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Bodhran\n- Ocarina\n- Mbira\n- Vibraphone\n- Timpani"
+    },
+    {
+      "id": 1277,
+      "payload": 7,
+      "expected_order": [
+        "Glockenspiel",
+        "Bodhran",
+        "Mbira",
+        "Kazoo",
+        "Timpani",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Bodhran",
+        "Mbira",
+        "Kazoo",
+        "Timpani",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Bodhran\n- Mbira\n- Kazoo\n- Timpani\n- Ocarina"
+    },
+    {
+      "id": 1278,
+      "payload": 7,
+      "expected_order": [
+        "Fife",
+        "Banjo",
+        "Glockenspiel",
+        "Flute",
+        "Ocarina",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Banjo",
+        "Glockenspiel",
+        "Flute",
+        "Ocarina",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Banjo\n- Glockenspiel\n- Flute\n- Ocarina\n- Kora"
+    },
+    {
+      "id": 1279,
+      "payload": 7,
+      "expected_order": [
+        "Harmonica",
+        "Dhol",
+        "Kora",
+        "Harpsichord",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Dhol",
+        "Kora",
+        "Harpsichord",
+        "Vibraphone",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Dhol\n- Kora\n- Harpsichord\n- Vibraphone\n- Timpani"
+    },
+    {
+      "id": 1280,
+      "payload": 0,
+      "expected_order": [
+        "Butterfly",
+        "Cougar",
+        "Coyote",
+        "Deer",
+        "Hamster",
+        "Marmot"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Cougar",
+        "Coyote",
+        "Deer",
+        "Hamster",
+        "Marmot"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Cougar\n- Coyote\n- Deer\n- Hamster\n- Marmot"
+    },
+    {
+      "id": 1281,
+      "payload": 0,
+      "expected_order": [
+        "Alligator",
+        "Butterfly",
+        "Chinchilla",
+        "Hamster",
+        "Marmot",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Alligator",
+        "Butterfly",
+        "Chinchilla",
+        "Hamster",
+        "Marmot",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Alligator\n- Butterfly\n- Chinchilla\n- Hamster\n- Marmot\n- Orangutan"
+    },
+    {
+      "id": 1282,
+      "payload": 0,
+      "expected_order": [
+        "Chimpanzee",
+        "Chinchilla",
+        "Gibbon",
+        "Ocelot",
+        "Orangutan",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Chimpanzee",
+        "Chinchilla",
+        "Gibbon",
+        "Ocelot",
+        "Orangutan",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Chimpanzee\n- Chinchilla\n- Gibbon\n- Ocelot\n- Orangutan\n- Porcupine"
+    },
+    {
+      "id": 1283,
+      "payload": 0,
+      "expected_order": [
+        "Butterfly",
+        "Camel",
+        "Deer",
+        "Hamster",
+        "Macaw",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Camel",
+        "Deer",
+        "Hamster",
+        "Macaw",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Camel\n- Deer\n- Hamster\n- Macaw\n- Penguin"
+    },
+    {
+      "id": 1284,
+      "payload": 0,
+      "expected_order": [
+        "Alligator",
+        "Butterfly",
+        "Camel",
+        "Chimpanzee",
+        "Ocelot",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Alligator",
+        "Butterfly",
+        "Camel",
+        "Chimpanzee",
+        "Ocelot",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Alligator\n- Butterfly\n- Camel\n- Chimpanzee\n- Ocelot\n- Porcupine"
+    },
+    {
+      "id": 1285,
+      "payload": 1,
+      "expected_order": [
+        "Hamster",
+        "Deer",
+        "Jaguar",
+        "Orangutan",
+        "Otter",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Hamster",
+        "Deer",
+        "Jaguar",
+        "Orangutan",
+        "Otter",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Hamster\n- Deer\n- Jaguar\n- Orangutan\n- Otter\n- Porcupine"
+    },
+    {
+      "id": 1286,
+      "payload": 1,
+      "expected_order": [
+        "Cougar",
+        "Alligator",
+        "Coyote",
+        "Gibbon",
+        "Moose",
+        "Ocelot"
+      ],
+      "predicted_order": [
+        "Cougar",
+        "Alligator",
+        "Coyote",
+        "Gibbon",
+        "Moose",
+        "Ocelot"
+      ],
+      "exact_match": true,
+      "response": "- Cougar\n- Alligator\n- Coyote\n- Gibbon\n- Moose\n- Ocelot"
+    },
+    {
+      "id": 1287,
+      "payload": 1,
+      "expected_order": [
+        "Chimpanzee",
+        "Alligator",
+        "Coyote",
+        "Ocelot",
+        "Penguin",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Chimpanzee",
+        "Alligator",
+        "Coyote",
+        "Ocelot",
+        "Penguin",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Chimpanzee\n- Alligator\n- Coyote\n- Ocelot\n- Penguin\n- Porcupine"
+    },
+    {
+      "id": 1288,
+      "payload": 1,
+      "expected_order": [
+        "Chinchilla",
+        "Aardvark",
+        "Coyote",
+        "Gibbon",
+        "Orangutan",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Chinchilla",
+        "Aardvark",
+        "Coyote",
+        "Gibbon",
+        "Orangutan",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Chinchilla\n- Aardvark\n- Coyote\n- Gibbon\n- Orangutan\n- Penguin"
+    },
+    {
+      "id": 1289,
+      "payload": 1,
+      "expected_order": [
+        "Butterfly",
+        "Alligator",
+        "Chinchilla",
+        "Jaguar",
+        "Macaw",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Alligator",
+        "Chinchilla",
+        "Jaguar",
+        "Macaw",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Alligator\n- Chinchilla\n- Jaguar\n- Macaw\n- Otter"
+    },
+    {
+      "id": 1290,
+      "payload": 2,
+      "expected_order": [
+        "Aardvark",
+        "Alligator",
+        "Gibbon",
+        "Camel",
+        "Jaguar",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Alligator",
+        "Gibbon",
+        "Camel",
+        "Jaguar",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Alligator\n- Gibbon\n- Camel\n- Jaguar\n- Otter"
+    },
+    {
+      "id": 1291,
+      "payload": 2,
+      "expected_order": [
+        "Camel",
+        "Chinchilla",
+        "Marmot",
+        "Deer",
+        "Orangutan",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Camel",
+        "Chinchilla",
+        "Marmot",
+        "Deer",
+        "Orangutan",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Camel\n- Chinchilla\n- Marmot\n- Deer\n- Orangutan\n- Penguin"
+    },
+    {
+      "id": 1292,
+      "payload": 2,
+      "expected_order": [
+        "Deer",
+        "Gibbon",
+        "Jaguar",
+        "Hamster",
+        "Penguin",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Deer",
+        "Gibbon",
+        "Jaguar",
+        "Hamster",
+        "Penguin",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Deer\n- Gibbon\n- Jaguar\n- Hamster\n- Penguin\n- Porcupine"
+    },
+    {
+      "id": 1293,
+      "payload": 2,
+      "expected_order": [
+        "Butterfly",
+        "Coyote",
+        "Marmot",
+        "Jaguar",
+        "Moose",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Coyote",
+        "Marmot",
+        "Jaguar",
+        "Moose",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Coyote\n- Marmot\n- Jaguar\n- Moose\n- Otter"
+    },
+    {
+      "id": 1294,
+      "payload": 2,
+      "expected_order": [
+        "Alligator",
+        "Butterfly",
+        "Macaw",
+        "Chimpanzee",
+        "Marmot",
+        "Ocelot"
+      ],
+      "predicted_order": [
+        "Alligator",
+        "Butterfly",
+        "Macaw",
+        "Chimpanzee",
+        "Marmot",
+        "Ocelot"
+      ],
+      "exact_match": true,
+      "response": "- Alligator\n- Butterfly\n- Macaw\n- Chimpanzee\n- Marmot\n- Ocelot"
+    },
+    {
+      "id": 1295,
+      "payload": 3,
+      "expected_order": [
+        "Butterfly",
+        "Aardvark",
+        "Hamster",
+        "Coyote",
+        "Ocelot",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Aardvark",
+        "Hamster",
+        "Coyote",
+        "Ocelot",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Aardvark\n- Hamster\n- Coyote\n- Ocelot\n- Porcupine"
+    },
+    {
+      "id": 1296,
+      "payload": 3,
+      "expected_order": [
+        "Coyote",
+        "Cougar",
+        "Hamster",
+        "Deer",
+        "Jaguar",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Coyote",
+        "Cougar",
+        "Hamster",
+        "Deer",
+        "Jaguar",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Coyote\n- Cougar\n- Hamster\n- Deer\n- Jaguar\n- Orangutan"
+    },
+    {
+      "id": 1297,
+      "payload": 3,
+      "expected_order": [
+        "Camel",
+        "Butterfly",
+        "Cougar",
+        "Chimpanzee",
+        "Macaw",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Camel",
+        "Butterfly",
+        "Cougar",
+        "Chimpanzee",
+        "Macaw",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Camel\n- Butterfly\n- Cougar\n- Chimpanzee\n- Macaw\n- Penguin"
+    },
+    {
+      "id": 1298,
+      "payload": 3,
+      "expected_order": [
+        "Gibbon",
+        "Cougar",
+        "Moose",
+        "Jaguar",
+        "Otter",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Gibbon",
+        "Cougar",
+        "Moose",
+        "Jaguar",
+        "Otter",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Gibbon\n- Cougar\n- Moose\n- Jaguar\n- Otter\n- Penguin"
+    },
+    {
+      "id": 1299,
+      "payload": 3,
+      "expected_order": [
+        "Jaguar",
+        "Cougar",
+        "Ocelot",
+        "Moose",
+        "Orangutan",
+        "Porcupine"
+      ],
+      "predicted_order": [
+        "Jaguar",
+        "Cougar",
+        "Ocelot",
+        "Moose",
+        "Orangutan",
+        "Porcupine"
+      ],
+      "exact_match": true,
+      "response": "- Jaguar\n- Cougar\n- Ocelot\n- Moose\n- Orangutan\n- Porcupine"
+    },
+    {
+      "id": 1300,
+      "payload": 4,
+      "expected_order": [
+        "Chimpanzee",
+        "Coyote",
+        "Macaw",
+        "Marmot",
+        "Otter",
+        "Ocelot"
+      ],
+      "predicted_order": [
+        "Chimpanzee",
+        "Coyote",
+        "Macaw",
+        "Marmot",
+        "Otter",
+        "Ocelot"
+      ],
+      "exact_match": true,
+      "response": "- Chimpanzee\n- Coyote\n- Macaw\n- Marmot\n- Otter\n- Ocelot"
+    },
+    {
+      "id": 1301,
+      "payload": 4,
+      "expected_order": [
+        "Aardvark",
+        "Alligator",
+        "Cougar",
+        "Hamster",
+        "Porcupine",
+        "Ocelot"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Alligator",
+        "Cougar",
+        "Hamster",
+        "Porcupine",
+        "Ocelot"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Alligator\n- Cougar\n- Hamster\n- Porcupine\n- Ocelot"
+    },
+    {
+      "id": 1302,
+      "payload": 4,
+      "expected_order": [
+        "Butterfly",
+        "Deer",
+        "Gibbon",
+        "Macaw",
+        "Porcupine",
+        "Penguin"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Deer",
+        "Gibbon",
+        "Macaw",
+        "Porcupine",
+        "Penguin"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Deer\n- Gibbon\n- Macaw\n- Porcupine\n- Penguin"
+    },
+    {
+      "id": 1303,
+      "payload": 4,
+      "expected_order": [
+        "Aardvark",
+        "Alligator",
+        "Macaw",
+        "Moose",
+        "Otter",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Alligator",
+        "Macaw",
+        "Moose",
+        "Otter",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Alligator\n- Macaw\n- Moose\n- Otter\n- Orangutan"
+    },
+    {
+      "id": 1304,
+      "payload": 4,
+      "expected_order": [
+        "Aardvark",
+        "Chimpanzee",
+        "Deer",
+        "Jaguar",
+        "Otter",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Chimpanzee",
+        "Deer",
+        "Jaguar",
+        "Otter",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Chimpanzee\n- Deer\n- Jaguar\n- Otter\n- Orangutan"
+    },
+    {
+      "id": 1305,
+      "payload": 5,
+      "expected_order": [
+        "Chimpanzee",
+        "Butterfly",
+        "Hamster",
+        "Orangutan",
+        "Penguin",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Chimpanzee",
+        "Butterfly",
+        "Hamster",
+        "Orangutan",
+        "Penguin",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Chimpanzee\n- Butterfly\n- Hamster\n- Orangutan\n- Penguin\n- Otter"
+    },
+    {
+      "id": 1306,
+      "payload": 5,
+      "expected_order": [
+        "Butterfly",
+        "Alligator",
+        "Camel",
+        "Jaguar",
+        "Otter",
+        "Macaw"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Alligator",
+        "Camel",
+        "Jaguar",
+        "Otter",
+        "Macaw"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Alligator\n- Camel\n- Jaguar\n- Otter\n- Macaw"
+    },
+    {
+      "id": 1307,
+      "payload": 5,
+      "expected_order": [
+        "Camel",
+        "Butterfly",
+        "Chinchilla",
+        "Gibbon",
+        "Orangutan",
+        "Marmot"
+      ],
+      "predicted_order": [
+        "Camel",
+        "Butterfly",
+        "Chinchilla",
+        "Gibbon",
+        "Orangutan",
+        "Marmot"
+      ],
+      "exact_match": true,
+      "response": "- Camel\n- Butterfly\n- Chinchilla\n- Gibbon\n- Orangutan\n- Marmot"
+    },
+    {
+      "id": 1308,
+      "payload": 5,
+      "expected_order": [
+        "Cougar",
+        "Chinchilla",
+        "Hamster",
+        "Marmot",
+        "Otter",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Cougar",
+        "Chinchilla",
+        "Hamster",
+        "Marmot",
+        "Otter",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Cougar\n- Chinchilla\n- Hamster\n- Marmot\n- Otter\n- Orangutan"
+    },
+    {
+      "id": 1309,
+      "payload": 5,
+      "expected_order": [
+        "Butterfly",
+        "Aardvark",
+        "Chimpanzee",
+        "Chinchilla",
+        "Gibbon",
+        "Coyote"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Aardvark",
+        "Chimpanzee",
+        "Chinchilla",
+        "Gibbon",
+        "Coyote"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Aardvark\n- Chimpanzee\n- Chinchilla\n- Gibbon\n- Coyote"
+    },
+    {
+      "id": 1310,
+      "payload": 6,
+      "expected_order": [
+        "Alligator",
+        "Gibbon",
+        "Orangutan",
+        "Macaw",
+        "Penguin",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Alligator",
+        "Gibbon",
+        "Orangutan",
+        "Macaw",
+        "Penguin",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Alligator\n- Gibbon\n- Orangutan\n- Macaw\n- Penguin\n- Otter"
+    },
+    {
+      "id": 1311,
+      "payload": 6,
+      "expected_order": [
+        "Chimpanzee",
+        "Cougar",
+        "Deer",
+        "Coyote",
+        "Moose",
+        "Hamster"
+      ],
+      "predicted_order": [
+        "Chimpanzee",
+        "Cougar",
+        "Deer",
+        "Coyote",
+        "Moose",
+        "Hamster"
+      ],
+      "exact_match": true,
+      "response": "- Chimpanzee\n- Cougar\n- Deer\n- Coyote\n- Moose\n- Hamster"
+    },
+    {
+      "id": 1312,
+      "payload": 6,
+      "expected_order": [
+        "Aardvark",
+        "Deer",
+        "Jaguar",
+        "Gibbon",
+        "Porcupine",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Deer",
+        "Jaguar",
+        "Gibbon",
+        "Porcupine",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Deer\n- Jaguar\n- Gibbon\n- Porcupine\n- Otter"
+    },
+    {
+      "id": 1313,
+      "payload": 6,
+      "expected_order": [
+        "Aardvark",
+        "Camel",
+        "Ocelot",
+        "Moose",
+        "Porcupine",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Aardvark",
+        "Camel",
+        "Ocelot",
+        "Moose",
+        "Porcupine",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Aardvark\n- Camel\n- Ocelot\n- Moose\n- Porcupine\n- Otter"
+    },
+    {
+      "id": 1314,
+      "payload": 6,
+      "expected_order": [
+        "Alligator",
+        "Chinchilla",
+        "Moose",
+        "Gibbon",
+        "Porcupine",
+        "Orangutan"
+      ],
+      "predicted_order": [
+        "Alligator",
+        "Chinchilla",
+        "Moose",
+        "Gibbon",
+        "Porcupine",
+        "Orangutan"
+      ],
+      "exact_match": true,
+      "response": "- Alligator\n- Chinchilla\n- Moose\n- Gibbon\n- Porcupine\n- Orangutan"
+    },
+    {
+      "id": 1315,
+      "payload": 7,
+      "expected_order": [
+        "Cougar",
+        "Aardvark",
+        "Jaguar",
+        "Hamster",
+        "Otter",
+        "Marmot"
+      ],
+      "predicted_order": [
+        "Cougar",
+        "Aardvark",
+        "Jaguar",
+        "Hamster",
+        "Otter",
+        "Marmot"
+      ],
+      "exact_match": true,
+      "response": "- Cougar\n- Aardvark\n- Jaguar\n- Hamster\n- Otter\n- Marmot"
+    },
+    {
+      "id": 1316,
+      "payload": 7,
+      "expected_order": [
+        "Deer",
+        "Chinchilla",
+        "Orangutan",
+        "Jaguar",
+        "Penguin",
+        "Otter"
+      ],
+      "predicted_order": [
+        "Deer",
+        "Chinchilla",
+        "Orangutan",
+        "Jaguar",
+        "Penguin",
+        "Otter"
+      ],
+      "exact_match": true,
+      "response": "- Deer\n- Chinchilla\n- Orangutan\n- Jaguar\n- Penguin\n- Otter"
+    },
+    {
+      "id": 1317,
+      "payload": 7,
+      "expected_order": [
+        "Cougar",
+        "Camel",
+        "Gibbon",
+        "Coyote",
+        "Penguin",
+        "Marmot"
+      ],
+      "predicted_order": [
+        "Cougar",
+        "Camel",
+        "Gibbon",
+        "Coyote",
+        "Penguin",
+        "Marmot"
+      ],
+      "exact_match": true,
+      "response": "- Cougar\n- Camel\n- Gibbon\n- Coyote\n- Penguin\n- Marmot"
+    },
+    {
+      "id": 1318,
+      "payload": 7,
+      "expected_order": [
+        "Camel",
+        "Butterfly",
+        "Hamster",
+        "Chimpanzee",
+        "Otter",
+        "Ocelot"
+      ],
+      "predicted_order": [
+        "Camel",
+        "Butterfly",
+        "Hamster",
+        "Chimpanzee",
+        "Otter",
+        "Ocelot"
+      ],
+      "exact_match": true,
+      "response": "- Camel\n- Butterfly\n- Hamster\n- Chimpanzee\n- Otter\n- Ocelot"
+    },
+    {
+      "id": 1319,
+      "payload": 7,
+      "expected_order": [
+        "Butterfly",
+        "Alligator",
+        "Cougar",
+        "Chinchilla",
+        "Hamster",
+        "Coyote"
+      ],
+      "predicted_order": [
+        "Butterfly",
+        "Alligator",
+        "Cougar",
+        "Chinchilla",
+        "Hamster",
+        "Coyote"
+      ],
+      "exact_match": true,
+      "response": "- Butterfly\n- Alligator\n- Cougar\n- Chinchilla\n- Hamster\n- Coyote"
+    },
+    {
+      "id": 1320,
+      "payload": 0,
+      "expected_order": [
+        "Bangladesh",
+        "Iceland",
+        "Lithuania",
+        "Peru",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Iceland",
+        "Lithuania",
+        "Peru",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Iceland\n- Lithuania\n- Peru\n- Uganda\n- Zimbabwe"
+    },
+    {
+      "id": 1321,
+      "payload": 0,
+      "expected_order": [
+        "Bangladesh",
+        "Egypt",
+        "Lithuania",
+        "Thailand",
+        "Turkey",
+        "Uganda"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Egypt",
+        "Lithuania",
+        "Thailand",
+        "Turkey",
+        "Uganda"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Egypt\n- Lithuania\n- Thailand\n- Turkey\n- Uganda"
+    },
+    {
+      "id": 1322,
+      "payload": 0,
+      "expected_order": [
+        "Cameroon",
+        "Iceland",
+        "Lebanon",
+        "Panama",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Cameroon",
+        "Iceland",
+        "Lebanon",
+        "Panama",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Cameroon\n- Iceland\n- Lebanon\n- Panama\n- Thailand\n- Zimbabwe"
+    },
+    {
+      "id": 1323,
+      "payload": 0,
+      "expected_order": [
+        "Egypt",
+        "France",
+        "Iceland",
+        "Panama",
+        "Qatar",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "France",
+        "Iceland",
+        "Panama",
+        "Qatar",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- France\n- Iceland\n- Panama\n- Qatar\n- Zimbabwe"
+    },
+    {
+      "id": 1324,
+      "payload": 0,
+      "expected_order": [
+        "Belgium",
+        "Lebanon",
+        "Panama",
+        "Romania",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Lebanon",
+        "Panama",
+        "Romania",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Lebanon\n- Panama\n- Romania\n- Thailand\n- Zimbabwe"
+    },
+    {
+      "id": 1325,
+      "payload": 1,
+      "expected_order": [
+        "Egypt",
+        "Cameroon",
+        "Norway",
+        "Qatar",
+        "Tanzania",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "Cameroon",
+        "Norway",
+        "Qatar",
+        "Tanzania",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- Cameroon\n- Norway\n- Qatar\n- Tanzania\n- Turkey"
+    },
+    {
+      "id": 1326,
+      "payload": 1,
+      "expected_order": [
+        "Belgium",
+        "Bangladesh",
+        "Finland",
+        "France",
+        "Iceland",
+        "Panama"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Bangladesh",
+        "Finland",
+        "France",
+        "Iceland",
+        "Panama"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Bangladesh\n- Finland\n- France\n- Iceland\n- Panama"
+    },
+    {
+      "id": 1327,
+      "payload": 1,
+      "expected_order": [
+        "Iceland",
+        "Belgium",
+        "Lebanon",
+        "Norway",
+        "Panama",
+        "Peru"
+      ],
+      "predicted_order": [
+        "Iceland",
+        "Belgium",
+        "Lebanon",
+        "Norway",
+        "Panama",
+        "Peru"
+      ],
+      "exact_match": true,
+      "response": "- Iceland\n- Belgium\n- Lebanon\n- Norway\n- Panama\n- Peru"
+    },
+    {
+      "id": 1328,
+      "payload": 1,
+      "expected_order": [
+        "Lebanon",
+        "Cameroon",
+        "Norway",
+        "Panama",
+        "Romania",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Lebanon",
+        "Cameroon",
+        "Norway",
+        "Panama",
+        "Romania",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Lebanon\n- Cameroon\n- Norway\n- Panama\n- Romania\n- Zimbabwe"
+    },
+    {
+      "id": 1329,
+      "payload": 1,
+      "expected_order": [
+        "Norway",
+        "Iceland",
+        "Peru",
+        "Turkey",
+        "Uganda",
+        "Venezuela"
+      ],
+      "predicted_order": [
+        "Norway",
+        "Iceland",
+        "Peru",
+        "Turkey",
+        "Uganda",
+        "Venezuela"
+      ],
+      "exact_match": true,
+      "response": "- Norway\n- Iceland\n- Peru\n- Turkey\n- Uganda\n- Venezuela"
+    },
+    {
+      "id": 1330,
+      "payload": 2,
+      "expected_order": [
+        "Belgium",
+        "Egypt",
+        "Panama",
+        "Lithuania",
+        "Venezuela",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Egypt",
+        "Panama",
+        "Lithuania",
+        "Venezuela",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Egypt\n- Panama\n- Lithuania\n- Venezuela\n- Zimbabwe"
+    },
+    {
+      "id": 1331,
+      "payload": 2,
+      "expected_order": [
+        "Bangladesh",
+        "Cameroon",
+        "Peru",
+        "Finland",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Cameroon",
+        "Peru",
+        "Finland",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Cameroon\n- Peru\n- Finland\n- Uganda\n- Zimbabwe"
+    },
+    {
+      "id": 1332,
+      "payload": 2,
+      "expected_order": [
+        "Egypt",
+        "Iceland",
+        "Romania",
+        "Panama",
+        "Tanzania",
+        "Uganda"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "Iceland",
+        "Romania",
+        "Panama",
+        "Tanzania",
+        "Uganda"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- Iceland\n- Romania\n- Panama\n- Tanzania\n- Uganda"
+    },
+    {
+      "id": 1333,
+      "payload": 2,
+      "expected_order": [
+        "Bangladesh",
+        "Cameroon",
+        "Peru",
+        "France",
+        "Turkey",
+        "Uganda"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Cameroon",
+        "Peru",
+        "France",
+        "Turkey",
+        "Uganda"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Cameroon\n- Peru\n- France\n- Turkey\n- Uganda"
+    },
+    {
+      "id": 1334,
+      "payload": 2,
+      "expected_order": [
+        "Bangladesh",
+        "Panama",
+        "Qatar",
+        "Peru",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Panama",
+        "Qatar",
+        "Peru",
+        "Thailand",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Panama\n- Qatar\n- Peru\n- Thailand\n- Zimbabwe"
+    },
+    {
+      "id": 1335,
+      "payload": 3,
+      "expected_order": [
+        "Iceland",
+        "Finland",
+        "Turkey",
+        "Qatar",
+        "Uganda",
+        "Venezuela"
+      ],
+      "predicted_order": [
+        "Iceland",
+        "Finland",
+        "Turkey",
+        "Qatar",
+        "Uganda",
+        "Venezuela"
+      ],
+      "exact_match": true,
+      "response": "- Iceland\n- Finland\n- Turkey\n- Qatar\n- Uganda\n- Venezuela"
+    },
+    {
+      "id": 1336,
+      "payload": 3,
+      "expected_order": [
+        "Panama",
+        "Finland",
+        "Romania",
+        "Qatar",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Panama",
+        "Finland",
+        "Romania",
+        "Qatar",
+        "Uganda",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Panama\n- Finland\n- Romania\n- Qatar\n- Uganda\n- Zimbabwe"
+    },
+    {
+      "id": 1337,
+      "payload": 3,
+      "expected_order": [
+        "Iceland",
+        "Belgium",
+        "Tanzania",
+        "Norway",
+        "Thailand",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Iceland",
+        "Belgium",
+        "Tanzania",
+        "Norway",
+        "Thailand",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Iceland\n- Belgium\n- Tanzania\n- Norway\n- Thailand\n- Turkey"
+    },
+    {
+      "id": 1338,
+      "payload": 3,
+      "expected_order": [
+        "Egypt",
+        "Bangladesh",
+        "Lithuania",
+        "France",
+        "Venezuela",
+        "Zimbabwe"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "Bangladesh",
+        "Lithuania",
+        "France",
+        "Venezuela",
+        "Zimbabwe"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- Bangladesh\n- Lithuania\n- France\n- Venezuela\n- Zimbabwe"
+    },
+    {
+      "id": 1339,
+      "payload": 3,
+      "expected_order": [
+        "Panama",
+        "France",
+        "Romania",
+        "Peru",
+        "Turkey",
+        "Venezuela"
+      ],
+      "predicted_order": [
+        "Panama",
+        "France",
+        "Romania",
+        "Peru",
+        "Turkey",
+        "Venezuela"
+      ],
+      "exact_match": true,
+      "response": "- Panama\n- France\n- Romania\n- Peru\n- Turkey\n- Venezuela"
+    },
+    {
+      "id": 1340,
+      "payload": 4,
+      "expected_order": [
+        "Cameroon",
+        "Egypt",
+        "Iceland",
+        "Panama",
+        "Uganda",
+        "Tanzania"
+      ],
+      "predicted_order": [
+        "Cameroon",
+        "Egypt",
+        "Iceland",
+        "Panama",
+        "Uganda",
+        "Tanzania"
+      ],
+      "exact_match": true,
+      "response": "- Cameroon\n- Egypt\n- Iceland\n- Panama\n- Uganda\n- Tanzania"
+    },
+    {
+      "id": 1341,
+      "payload": 4,
+      "expected_order": [
+        "Finland",
+        "Iceland",
+        "Lithuania",
+        "Qatar",
+        "Venezuela",
+        "Thailand"
+      ],
+      "predicted_order": [
+        "Finland",
+        "Iceland",
+        "Lithuania",
+        "Qatar",
+        "Venezuela",
+        "Thailand"
+      ],
+      "exact_match": true,
+      "response": "- Finland\n- Iceland\n- Lithuania\n- Qatar\n- Venezuela\n- Thailand"
+    },
+    {
+      "id": 1342,
+      "payload": 4,
+      "expected_order": [
+        "Bangladesh",
+        "Belgium",
+        "Iceland",
+        "Norway",
+        "Zimbabwe",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Belgium",
+        "Iceland",
+        "Norway",
+        "Zimbabwe",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Belgium\n- Iceland\n- Norway\n- Zimbabwe\n- Turkey"
+    },
+    {
+      "id": 1343,
+      "payload": 4,
+      "expected_order": [
+        "Bangladesh",
+        "Belgium",
+        "Cameroon",
+        "Egypt",
+        "Turkey",
+        "Qatar"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Belgium",
+        "Cameroon",
+        "Egypt",
+        "Turkey",
+        "Qatar"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Belgium\n- Cameroon\n- Egypt\n- Turkey\n- Qatar"
+    },
+    {
+      "id": 1344,
+      "payload": 4,
+      "expected_order": [
+        "Bangladesh",
+        "Panama",
+        "Tanzania",
+        "Thailand",
+        "Zimbabwe",
+        "Uganda"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Panama",
+        "Tanzania",
+        "Thailand",
+        "Zimbabwe",
+        "Uganda"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Panama\n- Tanzania\n- Thailand\n- Zimbabwe\n- Uganda"
+    },
+    {
+      "id": 1345,
+      "payload": 5,
+      "expected_order": [
+        "Peru",
+        "Bangladesh",
+        "Qatar",
+        "Thailand",
+        "Venezuela",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Peru",
+        "Bangladesh",
+        "Qatar",
+        "Thailand",
+        "Venezuela",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Peru\n- Bangladesh\n- Qatar\n- Thailand\n- Venezuela\n- Turkey"
+    },
+    {
+      "id": 1346,
+      "payload": 5,
+      "expected_order": [
+        "Finland",
+        "Cameroon",
+        "Qatar",
+        "Romania",
+        "Thailand",
+        "Tanzania"
+      ],
+      "predicted_order": [
+        "Finland",
+        "Cameroon",
+        "Qatar",
+        "Romania",
+        "Thailand",
+        "Tanzania"
+      ],
+      "exact_match": true,
+      "response": "- Finland\n- Cameroon\n- Qatar\n- Romania\n- Thailand\n- Tanzania"
+    },
+    {
+      "id": 1347,
+      "payload": 5,
+      "expected_order": [
+        "Belgium",
+        "Bangladesh",
+        "Norway",
+        "Tanzania",
+        "Uganda",
+        "Thailand"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Bangladesh",
+        "Norway",
+        "Tanzania",
+        "Uganda",
+        "Thailand"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Bangladesh\n- Norway\n- Tanzania\n- Uganda\n- Thailand"
+    },
+    {
+      "id": 1348,
+      "payload": 5,
+      "expected_order": [
+        "Cameroon",
+        "Belgium",
+        "Finland",
+        "Panama",
+        "Uganda",
+        "Romania"
+      ],
+      "predicted_order": [
+        "Cameroon",
+        "Belgium",
+        "Finland",
+        "Panama",
+        "Uganda",
+        "Romania"
+      ],
+      "exact_match": true,
+      "response": "- Cameroon\n- Belgium\n- Finland\n- Panama\n- Uganda\n- Romania"
+    },
+    {
+      "id": 1349,
+      "payload": 5,
+      "expected_order": [
+        "Egypt",
+        "Bangladesh",
+        "Qatar",
+        "Tanzania",
+        "Venezuela",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "Bangladesh",
+        "Qatar",
+        "Tanzania",
+        "Venezuela",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- Bangladesh\n- Qatar\n- Tanzania\n- Venezuela\n- Turkey"
+    },
+    {
+      "id": 1350,
+      "payload": 6,
+      "expected_order": [
+        "Iceland",
+        "Peru",
+        "Turkey",
+        "Tanzania",
+        "Zimbabwe",
+        "Venezuela"
+      ],
+      "predicted_order": [
+        "Iceland",
+        "Peru",
+        "Turkey",
+        "Tanzania",
+        "Zimbabwe",
+        "Venezuela"
+      ],
+      "exact_match": true,
+      "response": "- Iceland\n- Peru\n- Turkey\n- Tanzania\n- Zimbabwe\n- Venezuela"
+    },
+    {
+      "id": 1351,
+      "payload": 6,
+      "expected_order": [
+        "Belgium",
+        "Cameroon",
+        "Panama",
+        "Lithuania",
+        "Thailand",
+        "Romania"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Cameroon",
+        "Panama",
+        "Lithuania",
+        "Thailand",
+        "Romania"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Cameroon\n- Panama\n- Lithuania\n- Thailand\n- Romania"
+    },
+    {
+      "id": 1352,
+      "payload": 6,
+      "expected_order": [
+        "Bangladesh",
+        "Finland",
+        "Panama",
+        "Lithuania",
+        "Venezuela",
+        "Qatar"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Finland",
+        "Panama",
+        "Lithuania",
+        "Venezuela",
+        "Qatar"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Finland\n- Panama\n- Lithuania\n- Venezuela\n- Qatar"
+    },
+    {
+      "id": 1353,
+      "payload": 6,
+      "expected_order": [
+        "Bangladesh",
+        "Belgium",
+        "Panama",
+        "Norway",
+        "Thailand",
+        "Peru"
+      ],
+      "predicted_order": [
+        "Bangladesh",
+        "Belgium",
+        "Panama",
+        "Norway",
+        "Thailand",
+        "Peru"
+      ],
+      "exact_match": true,
+      "response": "- Bangladesh\n- Belgium\n- Panama\n- Norway\n- Thailand\n- Peru"
+    },
+    {
+      "id": 1354,
+      "payload": 6,
+      "expected_order": [
+        "Egypt",
+        "Panama",
+        "Romania",
+        "Qatar",
+        "Turkey",
+        "Thailand"
+      ],
+      "predicted_order": [
+        "Egypt",
+        "Panama",
+        "Romania",
+        "Qatar",
+        "Turkey",
+        "Thailand"
+      ],
+      "exact_match": true,
+      "response": "- Egypt\n- Panama\n- Romania\n- Qatar\n- Turkey\n- Thailand"
+    },
+    {
+      "id": 1355,
+      "payload": 7,
+      "expected_order": [
+        "Belgium",
+        "Bangladesh",
+        "Lebanon",
+        "Iceland",
+        "Thailand",
+        "Qatar"
+      ],
+      "predicted_order": [
+        "Belgium",
+        "Bangladesh",
+        "Lebanon",
+        "Iceland",
+        "Thailand",
+        "Qatar"
+      ],
+      "exact_match": true,
+      "response": "- Belgium\n- Bangladesh\n- Lebanon\n- Iceland\n- Thailand\n- Qatar"
+    },
+    {
+      "id": 1356,
+      "payload": 7,
+      "expected_order": [
+        "Iceland",
+        "France",
+        "Peru",
+        "Norway",
+        "Venezuela",
+        "Qatar"
+      ],
+      "predicted_order": [
+        "Iceland",
+        "France",
+        "Peru",
+        "Norway",
+        "Venezuela",
+        "Qatar"
+      ],
+      "exact_match": true,
+      "response": "- Iceland\n- France\n- Peru\n- Norway\n- Venezuela\n- Qatar"
+    },
+    {
+      "id": 1357,
+      "payload": 7,
+      "expected_order": [
+        "Lebanon",
+        "Bangladesh",
+        "Peru",
+        "Norway",
+        "Turkey",
+        "Tanzania"
+      ],
+      "predicted_order": [
+        "Lebanon",
+        "Bangladesh",
+        "Peru",
+        "Norway",
+        "Turkey",
+        "Tanzania"
+      ],
+      "exact_match": true,
+      "response": "- Lebanon\n- Bangladesh\n- Peru\n- Norway\n- Turkey\n- Tanzania"
+    },
+    {
+      "id": 1358,
+      "payload": 7,
+      "expected_order": [
+        "Finland",
+        "Cameroon",
+        "Iceland",
+        "France",
+        "Venezuela",
+        "Peru"
+      ],
+      "predicted_order": [
+        "Finland",
+        "Cameroon",
+        "Iceland",
+        "France",
+        "Venezuela",
+        "Peru"
+      ],
+      "exact_match": true,
+      "response": "- Finland\n- Cameroon\n- Iceland\n- France\n- Venezuela\n- Peru"
+    },
+    {
+      "id": 1359,
+      "payload": 7,
+      "expected_order": [
+        "Peru",
+        "Lebanon",
+        "Thailand",
+        "Romania",
+        "Uganda",
+        "Turkey"
+      ],
+      "predicted_order": [
+        "Peru",
+        "Lebanon",
+        "Thailand",
+        "Romania",
+        "Uganda",
+        "Turkey"
+      ],
+      "exact_match": true,
+      "response": "- Peru\n- Lebanon\n- Thailand\n- Romania\n- Uganda\n- Turkey"
+    },
+    {
+      "id": 1360,
+      "payload": 0,
+      "expected_order": [
+        "Bohr",
+        "Euler",
+        "Feynman",
+        "Hegel",
+        "Kepler",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Euler",
+        "Feynman",
+        "Hegel",
+        "Kepler",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Euler\n- Feynman\n- Hegel\n- Kepler\n- Rembrandt"
+    },
+    {
+      "id": 1361,
+      "payload": 0,
+      "expected_order": [
+        "Bohr",
+        "Cezanne",
+        "Euler",
+        "Feynman",
+        "Picasso",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Cezanne",
+        "Euler",
+        "Feynman",
+        "Picasso",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Cezanne\n- Euler\n- Feynman\n- Picasso\n- Rembrandt"
+    },
+    {
+      "id": 1362,
+      "payload": 0,
+      "expected_order": [
+        "Dante",
+        "Euler",
+        "Hegel",
+        "Mozart",
+        "Newton",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Dante",
+        "Euler",
+        "Hegel",
+        "Mozart",
+        "Newton",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Dante\n- Euler\n- Hegel\n- Mozart\n- Newton\n- Rembrandt"
+    },
+    {
+      "id": 1363,
+      "payload": 0,
+      "expected_order": [
+        "Cezanne",
+        "Euclid",
+        "Kepler",
+        "Newton",
+        "Picasso",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Euclid",
+        "Kepler",
+        "Newton",
+        "Picasso",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Euclid\n- Kepler\n- Newton\n- Picasso\n- Rembrandt"
+    },
+    {
+      "id": 1364,
+      "payload": 0,
+      "expected_order": [
+        "Bohr",
+        "Dante",
+        "Edison",
+        "Feynman",
+        "Kepler",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Dante",
+        "Edison",
+        "Feynman",
+        "Kepler",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Dante\n- Edison\n- Feynman\n- Kepler\n- Plato"
+    },
+    {
+      "id": 1365,
+      "payload": 1,
+      "expected_order": [
+        "Cezanne",
+        "Caravaggio",
+        "Euclid",
+        "Flaubert",
+        "Hegel",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Caravaggio",
+        "Euclid",
+        "Flaubert",
+        "Hegel",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Caravaggio\n- Euclid\n- Flaubert\n- Hegel\n- Rembrandt"
+    },
+    {
+      "id": 1366,
+      "payload": 1,
+      "expected_order": [
+        "Cezanne",
+        "Bohr",
+        "Edison",
+        "Hegel",
+        "Kierkegaard",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Bohr",
+        "Edison",
+        "Hegel",
+        "Kierkegaard",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Bohr\n- Edison\n- Hegel\n- Kierkegaard\n- Picasso"
+    },
+    {
+      "id": 1367,
+      "payload": 1,
+      "expected_order": [
+        "Flaubert",
+        "Euler",
+        "Kepler",
+        "Kierkegaard",
+        "Newton",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Flaubert",
+        "Euler",
+        "Kepler",
+        "Kierkegaard",
+        "Newton",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Flaubert\n- Euler\n- Kepler\n- Kierkegaard\n- Newton\n- Rembrandt"
+    },
+    {
+      "id": 1368,
+      "payload": 1,
+      "expected_order": [
+        "Euclid",
+        "Edison",
+        "Feynman",
+        "Newton",
+        "Pythagoras",
+        "Rembrandt"
+      ],
+      "predicted_order": [
+        "Euclid",
+        "Edison",
+        "Feynman",
+        "Newton",
+        "Pythagoras",
+        "Rembrandt"
+      ],
+      "exact_match": true,
+      "response": "- Euclid\n- Edison\n- Feynman\n- Newton\n- Pythagoras\n- Rembrandt"
+    },
+    {
+      "id": 1369,
+      "payload": 1,
+      "expected_order": [
+        "Edison",
+        "Bohr",
+        "Fibonacci",
+        "Kierkegaard",
+        "Plato",
+        "Pythagoras"
+      ],
+      "predicted_order": [
+        "Edison",
+        "Bohr",
+        "Fibonacci",
+        "Kierkegaard",
+        "Plato",
+        "Pythagoras"
+      ],
+      "exact_match": true,
+      "response": "- Edison\n- Bohr\n- Fibonacci\n- Kierkegaard\n- Plato\n- Pythagoras"
+    },
+    {
+      "id": 1370,
+      "payload": 2,
+      "expected_order": [
+        "Caravaggio",
+        "Cezanne",
+        "Flaubert",
+        "Euler",
+        "Mozart",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Caravaggio",
+        "Cezanne",
+        "Flaubert",
+        "Euler",
+        "Mozart",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Caravaggio\n- Cezanne\n- Flaubert\n- Euler\n- Mozart\n- Plato"
+    },
+    {
+      "id": 1371,
+      "payload": 2,
+      "expected_order": [
+        "Bohr",
+        "Dante",
+        "Kepler",
+        "Edison",
+        "Plato",
+        "Pythagoras"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Dante",
+        "Kepler",
+        "Edison",
+        "Plato",
+        "Pythagoras"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Dante\n- Kepler\n- Edison\n- Plato\n- Pythagoras"
+    },
+    {
+      "id": 1372,
+      "payload": 2,
+      "expected_order": [
+        "Dante",
+        "Edison",
+        "Feynman",
+        "Euclid",
+        "Newton",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Dante",
+        "Edison",
+        "Feynman",
+        "Euclid",
+        "Newton",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Dante\n- Edison\n- Feynman\n- Euclid\n- Newton\n- Picasso"
+    },
+    {
+      "id": 1373,
+      "payload": 2,
+      "expected_order": [
+        "Cezanne",
+        "Curie",
+        "Kepler",
+        "Flaubert",
+        "Picasso",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Curie",
+        "Kepler",
+        "Flaubert",
+        "Picasso",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Curie\n- Kepler\n- Flaubert\n- Picasso\n- Plato"
+    },
+    {
+      "id": 1374,
+      "payload": 2,
+      "expected_order": [
+        "Bohr",
+        "Cezanne",
+        "Hegel",
+        "Fibonacci",
+        "Kepler",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Cezanne",
+        "Hegel",
+        "Fibonacci",
+        "Kepler",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Cezanne\n- Hegel\n- Fibonacci\n- Kepler\n- Plato"
+    },
+    {
+      "id": 1375,
+      "payload": 3,
+      "expected_order": [
+        "Dante",
+        "Caravaggio",
+        "Euler",
+        "Edison",
+        "Kepler",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Dante",
+        "Caravaggio",
+        "Euler",
+        "Edison",
+        "Kepler",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Dante\n- Caravaggio\n- Euler\n- Edison\n- Kepler\n- Plato"
+    },
+    {
+      "id": 1376,
+      "payload": 3,
+      "expected_order": [
+        "Edison",
+        "Cezanne",
+        "Kepler",
+        "Feynman",
+        "Mozart",
+        "Newton"
+      ],
+      "predicted_order": [
+        "Edison",
+        "Cezanne",
+        "Kepler",
+        "Feynman",
+        "Mozart",
+        "Newton"
+      ],
+      "exact_match": true,
+      "response": "- Edison\n- Cezanne\n- Kepler\n- Feynman\n- Mozart\n- Newton"
+    },
+    {
+      "id": 1377,
+      "payload": 3,
+      "expected_order": [
+        "Fibonacci",
+        "Euler",
+        "Kierkegaard",
+        "Flaubert",
+        "Picasso",
+        "Pythagoras"
+      ],
+      "predicted_order": [
+        "Fibonacci",
+        "Euler",
+        "Kierkegaard",
+        "Flaubert",
+        "Picasso",
+        "Pythagoras"
+      ],
+      "exact_match": true,
+      "response": "- Fibonacci\n- Euler\n- Kierkegaard\n- Flaubert\n- Picasso\n- Pythagoras"
+    },
+    {
+      "id": 1378,
+      "payload": 3,
+      "expected_order": [
+        "Dante",
+        "Bohr",
+        "Euclid",
+        "Edison",
+        "Feynman",
+        "Kepler"
+      ],
+      "predicted_order": [
+        "Dante",
+        "Bohr",
+        "Euclid",
+        "Edison",
+        "Feynman",
+        "Kepler"
+      ],
+      "exact_match": true,
+      "response": "- Dante\n- Bohr\n- Euclid\n- Edison\n- Feynman\n- Kepler"
+    },
+    {
+      "id": 1379,
+      "payload": 3,
+      "expected_order": [
+        "Edison",
+        "Curie",
+        "Fibonacci",
+        "Feynman",
+        "Kepler",
+        "Newton"
+      ],
+      "predicted_order": [
+        "Edison",
+        "Curie",
+        "Fibonacci",
+        "Feynman",
+        "Kepler",
+        "Newton"
+      ],
+      "exact_match": true,
+      "response": "- Edison\n- Curie\n- Fibonacci\n- Feynman\n- Kepler\n- Newton"
+    },
+    {
+      "id": 1380,
+      "payload": 4,
+      "expected_order": [
+        "Cezanne",
+        "Euler",
+        "Fibonacci",
+        "Flaubert",
+        "Newton",
+        "Hegel"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Euler",
+        "Fibonacci",
+        "Flaubert",
+        "Newton",
+        "Hegel"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Euler\n- Fibonacci\n- Flaubert\n- Newton\n- Hegel"
+    },
+    {
+      "id": 1381,
+      "payload": 4,
+      "expected_order": [
+        "Bohr",
+        "Cezanne",
+        "Kierkegaard",
+        "Newton",
+        "Pythagoras",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Cezanne",
+        "Kierkegaard",
+        "Newton",
+        "Pythagoras",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Cezanne\n- Kierkegaard\n- Newton\n- Pythagoras\n- Plato"
+    },
+    {
+      "id": 1382,
+      "payload": 4,
+      "expected_order": [
+        "Curie",
+        "Kepler",
+        "Kierkegaard",
+        "Mozart",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Curie",
+        "Kepler",
+        "Kierkegaard",
+        "Mozart",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Curie\n- Kepler\n- Kierkegaard\n- Mozart\n- Rembrandt\n- Picasso"
+    },
+    {
+      "id": 1383,
+      "payload": 4,
+      "expected_order": [
+        "Bohr",
+        "Feynman",
+        "Flaubert",
+        "Newton",
+        "Plato",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Feynman",
+        "Flaubert",
+        "Newton",
+        "Plato",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Feynman\n- Flaubert\n- Newton\n- Plato\n- Picasso"
+    },
+    {
+      "id": 1384,
+      "payload": 4,
+      "expected_order": [
+        "Bohr",
+        "Caravaggio",
+        "Curie",
+        "Edison",
+        "Plato",
+        "Mozart"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Caravaggio",
+        "Curie",
+        "Edison",
+        "Plato",
+        "Mozart"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Caravaggio\n- Curie\n- Edison\n- Plato\n- Mozart"
+    },
+    {
+      "id": 1385,
+      "payload": 5,
+      "expected_order": [
+        "Feynman",
+        "Caravaggio",
+        "Flaubert",
+        "Kepler",
+        "Plato",
+        "Newton"
+      ],
+      "predicted_order": [
+        "Feynman",
+        "Caravaggio",
+        "Flaubert",
+        "Kepler",
+        "Plato",
+        "Newton"
+      ],
+      "exact_match": true,
+      "response": "- Feynman\n- Caravaggio\n- Flaubert\n- Kepler\n- Plato\n- Newton"
+    },
+    {
+      "id": 1386,
+      "payload": 5,
+      "expected_order": [
+        "Flaubert",
+        "Cezanne",
+        "Hegel",
+        "Kepler",
+        "Pythagoras",
+        "Newton"
+      ],
+      "predicted_order": [
+        "Flaubert",
+        "Cezanne",
+        "Hegel",
+        "Kepler",
+        "Pythagoras",
+        "Newton"
+      ],
+      "exact_match": true,
+      "response": "- Flaubert\n- Cezanne\n- Hegel\n- Kepler\n- Pythagoras\n- Newton"
+    },
+    {
+      "id": 1387,
+      "payload": 5,
+      "expected_order": [
+        "Feynman",
+        "Bohr",
+        "Newton",
+        "Picasso",
+        "Rembrandt",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Feynman",
+        "Bohr",
+        "Newton",
+        "Picasso",
+        "Rembrandt",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Feynman\n- Bohr\n- Newton\n- Picasso\n- Rembrandt\n- Plato"
+    },
+    {
+      "id": 1388,
+      "payload": 5,
+      "expected_order": [
+        "Euclid",
+        "Dante",
+        "Euler",
+        "Hegel",
+        "Plato",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Euclid",
+        "Dante",
+        "Euler",
+        "Hegel",
+        "Plato",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Euclid\n- Dante\n- Euler\n- Hegel\n- Plato\n- Picasso"
+    },
+    {
+      "id": 1389,
+      "payload": 5,
+      "expected_order": [
+        "Edison",
+        "Cezanne",
+        "Euler",
+        "Kepler",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Edison",
+        "Cezanne",
+        "Euler",
+        "Kepler",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Edison\n- Cezanne\n- Euler\n- Kepler\n- Rembrandt\n- Picasso"
+    },
+    {
+      "id": 1390,
+      "payload": 6,
+      "expected_order": [
+        "Bohr",
+        "Caravaggio",
+        "Hegel",
+        "Euler",
+        "Pythagoras",
+        "Kepler"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Caravaggio",
+        "Hegel",
+        "Euler",
+        "Pythagoras",
+        "Kepler"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Caravaggio\n- Hegel\n- Euler\n- Pythagoras\n- Kepler"
+    },
+    {
+      "id": 1391,
+      "payload": 6,
+      "expected_order": [
+        "Caravaggio",
+        "Cezanne",
+        "Edison",
+        "Curie",
+        "Plato",
+        "Fibonacci"
+      ],
+      "predicted_order": [
+        "Caravaggio",
+        "Cezanne",
+        "Edison",
+        "Curie",
+        "Plato",
+        "Fibonacci"
+      ],
+      "exact_match": true,
+      "response": "- Caravaggio\n- Cezanne\n- Edison\n- Curie\n- Plato\n- Fibonacci"
+    },
+    {
+      "id": 1392,
+      "payload": 6,
+      "expected_order": [
+        "Cezanne",
+        "Edison",
+        "Euler",
+        "Euclid",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Cezanne",
+        "Edison",
+        "Euler",
+        "Euclid",
+        "Rembrandt",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Cezanne\n- Edison\n- Euler\n- Euclid\n- Rembrandt\n- Picasso"
+    },
+    {
+      "id": 1393,
+      "payload": 6,
+      "expected_order": [
+        "Caravaggio",
+        "Dante",
+        "Euclid",
+        "Edison",
+        "Pythagoras",
+        "Fibonacci"
+      ],
+      "predicted_order": [
+        "Caravaggio",
+        "Dante",
+        "Euclid",
+        "Edison",
+        "Pythagoras",
+        "Fibonacci"
+      ],
+      "exact_match": true,
+      "response": "- Caravaggio\n- Dante\n- Euclid\n- Edison\n- Pythagoras\n- Fibonacci"
+    },
+    {
+      "id": 1394,
+      "payload": 6,
+      "expected_order": [
+        "Bohr",
+        "Cezanne",
+        "Euclid",
+        "Curie",
+        "Picasso",
+        "Mozart"
+      ],
+      "predicted_order": [
+        "Bohr",
+        "Cezanne",
+        "Euclid",
+        "Curie",
+        "Picasso",
+        "Mozart"
+      ],
+      "exact_match": true,
+      "response": "- Bohr\n- Cezanne\n- Euclid\n- Curie\n- Picasso\n- Mozart"
+    },
+    {
+      "id": 1395,
+      "payload": 7,
+      "expected_order": [
+        "Caravaggio",
+        "Bohr",
+        "Kierkegaard",
+        "Curie",
+        "Pythagoras",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Caravaggio",
+        "Bohr",
+        "Kierkegaard",
+        "Curie",
+        "Pythagoras",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Caravaggio\n- Bohr\n- Kierkegaard\n- Curie\n- Pythagoras\n- Picasso"
+    },
+    {
+      "id": 1396,
+      "payload": 7,
+      "expected_order": [
+        "Euler",
+        "Edison",
+        "Flaubert",
+        "Feynman",
+        "Kierkegaard",
+        "Hegel"
+      ],
+      "predicted_order": [
+        "Euler",
+        "Edison",
+        "Flaubert",
+        "Feynman",
+        "Kierkegaard",
+        "Hegel"
+      ],
+      "exact_match": true,
+      "response": "- Euler\n- Edison\n- Flaubert\n- Feynman\n- Kierkegaard\n- Hegel"
+    },
+    {
+      "id": 1397,
+      "payload": 7,
+      "expected_order": [
+        "Curie",
+        "Cezanne",
+        "Fibonacci",
+        "Euler",
+        "Pythagoras",
+        "Picasso"
+      ],
+      "predicted_order": [
+        "Curie",
+        "Cezanne",
+        "Fibonacci",
+        "Euler",
+        "Pythagoras",
+        "Picasso"
+      ],
+      "exact_match": true,
+      "response": "- Curie\n- Cezanne\n- Fibonacci\n- Euler\n- Pythagoras\n- Picasso"
+    },
+    {
+      "id": 1398,
+      "payload": 7,
+      "expected_order": [
+        "Euclid",
+        "Edison",
+        "Plato",
+        "Euler",
+        "Rembrandt",
+        "Pythagoras"
+      ],
+      "predicted_order": [
+        "Euclid",
+        "Edison",
+        "Plato",
+        "Euler",
+        "Rembrandt",
+        "Pythagoras"
+      ],
+      "exact_match": true,
+      "response": "- Euclid\n- Edison\n- Plato\n- Euler\n- Rembrandt\n- Pythagoras"
+    },
+    {
+      "id": 1399,
+      "payload": 7,
+      "expected_order": [
+        "Curie",
+        "Bohr",
+        "Feynman",
+        "Euler",
+        "Pythagoras",
+        "Plato"
+      ],
+      "predicted_order": [
+        "Curie",
+        "Bohr",
+        "Feynman",
+        "Euler",
+        "Pythagoras",
+        "Plato"
+      ],
+      "exact_match": true,
+      "response": "- Curie\n- Bohr\n- Feynman\n- Euler\n- Pythagoras\n- Plato"
+    }
+  ]
+}

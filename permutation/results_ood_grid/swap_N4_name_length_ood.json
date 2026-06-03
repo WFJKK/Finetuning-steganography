@@ -1,0 +1,1451 @@
+{
+  "summary": {
+    "condition": "swap_N4_name_length",
+    "n_examples": 80,
+    "exact_match_rate": 1.0,
+    "position_accuracy": 1.0,
+    "exact_matches": 80
+  },
+  "results": [
+    {
+      "id": 700,
+      "payload": 0,
+      "expected_order": [
+        "Yew",
+        "Walnut",
+        "Hornbeam",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Walnut",
+        "Hornbeam",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Walnut\n- Hornbeam\n- Eucalyptus"
+    },
+    {
+      "id": 701,
+      "payload": 0,
+      "expected_order": [
+        "Pine",
+        "Beech",
+        "Holly",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Beech",
+        "Holly",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Beech\n- Holly\n- Redwood"
+    },
+    {
+      "id": 702,
+      "payload": 0,
+      "expected_order": [
+        "Maple",
+        "Linden",
+        "Spruce",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Maple",
+        "Linden",
+        "Spruce",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Maple\n- Linden\n- Spruce\n- Sequoia"
+    },
+    {
+      "id": 703,
+      "payload": 0,
+      "expected_order": [
+        "Ash",
+        "Pine",
+        "Willow",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Ash",
+        "Pine",
+        "Willow",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Ash\n- Pine\n- Willow\n- Hickory"
+    },
+    {
+      "id": 704,
+      "payload": 0,
+      "expected_order": [
+        "Teak",
+        "Birch",
+        "Spruce",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Birch",
+        "Spruce",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Birch\n- Spruce\n- Hickory"
+    },
+    {
+      "id": 705,
+      "payload": 0,
+      "expected_order": [
+        "Fir",
+        "Pine",
+        "Teak",
+        "Rowan"
+      ],
+      "predicted_order": [
+        "Fir",
+        "Pine",
+        "Teak",
+        "Rowan"
+      ],
+      "exact_match": true,
+      "response": "- Fir\n- Pine\n- Teak\n- Rowan"
+    },
+    {
+      "id": 706,
+      "payload": 0,
+      "expected_order": [
+        "Palm",
+        "Birch",
+        "Sequoia",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Birch",
+        "Sequoia",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Birch\n- Sequoia\n- Chestnut"
+    },
+    {
+      "id": 707,
+      "payload": 0,
+      "expected_order": [
+        "Fir",
+        "Larch",
+        "Acacia",
+        "Juniper"
+      ],
+      "predicted_order": [
+        "Fir",
+        "Larch",
+        "Acacia",
+        "Juniper"
+      ],
+      "exact_match": true,
+      "response": "- Fir\n- Larch\n- Acacia\n- Juniper"
+    },
+    {
+      "id": 708,
+      "payload": 0,
+      "expected_order": [
+        "Aspen",
+        "Larch",
+        "Spruce",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Larch",
+        "Spruce",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Larch\n- Spruce\n- Hickory"
+    },
+    {
+      "id": 709,
+      "payload": 0,
+      "expected_order": [
+        "Fir",
+        "Walnut",
+        "Mangrove",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Fir",
+        "Walnut",
+        "Mangrove",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Fir\n- Walnut\n- Mangrove\n- Sycamore"
+    },
+    {
+      "id": 710,
+      "payload": 1,
+      "expected_order": [
+        "Birch",
+        "Yew",
+        "Holly",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Yew",
+        "Holly",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Yew\n- Holly\n- Sycamore"
+    },
+    {
+      "id": 711,
+      "payload": 1,
+      "expected_order": [
+        "Poplar",
+        "Ginkgo",
+        "Cypress",
+        "Mahogany"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Ginkgo",
+        "Cypress",
+        "Mahogany"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Ginkgo\n- Cypress\n- Mahogany"
+    },
+    {
+      "id": 712,
+      "payload": 1,
+      "expected_order": [
+        "Banyan",
+        "Birch",
+        "Ginkgo",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Birch",
+        "Ginkgo",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Birch\n- Ginkgo\n- Hornbeam"
+    },
+    {
+      "id": 713,
+      "payload": 1,
+      "expected_order": [
+        "Holly",
+        "Aspen",
+        "Dogwood",
+        "Mangrove"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Aspen",
+        "Dogwood",
+        "Mangrove"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Aspen\n- Dogwood\n- Mangrove"
+    },
+    {
+      "id": 714,
+      "payload": 1,
+      "expected_order": [
+        "Walnut",
+        "Holly",
+        "Dogwood",
+        "Sycamore"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Holly",
+        "Dogwood",
+        "Sycamore"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Holly\n- Dogwood\n- Sycamore"
+    },
+    {
+      "id": 715,
+      "payload": 1,
+      "expected_order": [
+        "Baobab",
+        "Palm",
+        "Spruce",
+        "Cypress"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Palm",
+        "Spruce",
+        "Cypress"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Palm\n- Spruce\n- Cypress"
+    },
+    {
+      "id": 716,
+      "payload": 1,
+      "expected_order": [
+        "Walnut",
+        "Fir",
+        "Sycamore",
+        "Eucalyptus"
+      ],
+      "predicted_order": [
+        "Walnut",
+        "Fir",
+        "Sycamore",
+        "Eucalyptus"
+      ],
+      "exact_match": true,
+      "response": "- Walnut\n- Fir\n- Sycamore\n- Eucalyptus"
+    },
+    {
+      "id": 717,
+      "payload": 1,
+      "expected_order": [
+        "Holly",
+        "Birch",
+        "Ginkgo",
+        "Mangrove"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Birch",
+        "Ginkgo",
+        "Mangrove"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Birch\n- Ginkgo\n- Mangrove"
+    },
+    {
+      "id": 718,
+      "payload": 1,
+      "expected_order": [
+        "Dogwood",
+        "Spruce",
+        "Hemlock",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Dogwood",
+        "Spruce",
+        "Hemlock",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Dogwood\n- Spruce\n- Hemlock\n- Chestnut"
+    },
+    {
+      "id": 719,
+      "payload": 1,
+      "expected_order": [
+        "Teak",
+        "Elm",
+        "Alder",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Teak",
+        "Elm",
+        "Alder",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Teak\n- Elm\n- Alder\n- Sequoia"
+    },
+    {
+      "id": 720,
+      "payload": 2,
+      "expected_order": [
+        "Elm",
+        "Palm",
+        "Magnolia",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Elm",
+        "Palm",
+        "Magnolia",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Elm\n- Palm\n- Magnolia\n- Redwood"
+    },
+    {
+      "id": 721,
+      "payload": 2,
+      "expected_order": [
+        "Yew",
+        "Birch",
+        "Hickory",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Yew",
+        "Birch",
+        "Hickory",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Yew\n- Birch\n- Hickory\n- Dogwood"
+    },
+    {
+      "id": 722,
+      "payload": 2,
+      "expected_order": [
+        "Pine",
+        "Willow",
+        "Redwood",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Willow",
+        "Redwood",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Willow\n- Redwood\n- Hickory"
+    },
+    {
+      "id": 723,
+      "payload": 2,
+      "expected_order": [
+        "Baobab",
+        "Ginkgo",
+        "Sequoia",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Baobab",
+        "Ginkgo",
+        "Sequoia",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Baobab\n- Ginkgo\n- Sequoia\n- Poplar"
+    },
+    {
+      "id": 724,
+      "payload": 2,
+      "expected_order": [
+        "Oak",
+        "Alder",
+        "Sycamore",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Oak",
+        "Alder",
+        "Sycamore",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Oak\n- Alder\n- Sycamore\n- Sequoia"
+    },
+    {
+      "id": 725,
+      "payload": 2,
+      "expected_order": [
+        "Beech",
+        "Baobab",
+        "Sequoia",
+        "Redwood"
+      ],
+      "predicted_order": [
+        "Beech",
+        "Baobab",
+        "Sequoia",
+        "Redwood"
+      ],
+      "exact_match": true,
+      "response": "- Beech\n- Baobab\n- Sequoia\n- Redwood"
+    },
+    {
+      "id": 726,
+      "payload": 2,
+      "expected_order": [
+        "Rowan",
+        "Spruce",
+        "Sequoia",
+        "Hickory"
+      ],
+      "predicted_order": [
+        "Rowan",
+        "Spruce",
+        "Sequoia",
+        "Hickory"
+      ],
+      "exact_match": true,
+      "response": "- Rowan\n- Spruce\n- Sequoia\n- Hickory"
+    },
+    {
+      "id": 727,
+      "payload": 2,
+      "expected_order": [
+        "Aspen",
+        "Ginkgo",
+        "Juniper",
+        "Spruce"
+      ],
+      "predicted_order": [
+        "Aspen",
+        "Ginkgo",
+        "Juniper",
+        "Spruce"
+      ],
+      "exact_match": true,
+      "response": "- Aspen\n- Ginkgo\n- Juniper\n- Spruce"
+    },
+    {
+      "id": 728,
+      "payload": 2,
+      "expected_order": [
+        "Palm",
+        "Dogwood",
+        "Eucalyptus",
+        "Hornbeam"
+      ],
+      "predicted_order": [
+        "Palm",
+        "Dogwood",
+        "Eucalyptus",
+        "Hornbeam"
+      ],
+      "exact_match": true,
+      "response": "- Palm\n- Dogwood\n- Eucalyptus\n- Hornbeam"
+    },
+    {
+      "id": 729,
+      "payload": 2,
+      "expected_order": [
+        "Acacia",
+        "Hemlock",
+        "Sycamore",
+        "Magnolia"
+      ],
+      "predicted_order": [
+        "Acacia",
+        "Hemlock",
+        "Sycamore",
+        "Magnolia"
+      ],
+      "exact_match": true,
+      "response": "- Acacia\n- Hemlock\n- Sycamore\n- Magnolia"
+    },
+    {
+      "id": 730,
+      "payload": 3,
+      "expected_order": [
+        "Banyan",
+        "Ash",
+        "Eucalyptus",
+        "Baobab"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Ash",
+        "Eucalyptus",
+        "Baobab"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Ash\n- Eucalyptus\n- Baobab"
+    },
+    {
+      "id": 731,
+      "payload": 3,
+      "expected_order": [
+        "Holly",
+        "Aspen",
+        "Magnolia",
+        "Sequoia"
+      ],
+      "predicted_order": [
+        "Holly",
+        "Aspen",
+        "Magnolia",
+        "Sequoia"
+      ],
+      "exact_match": true,
+      "response": "- Holly\n- Aspen\n- Magnolia\n- Sequoia"
+    },
+    {
+      "id": 732,
+      "payload": 3,
+      "expected_order": [
+        "Pine",
+        "Fir",
+        "Walnut",
+        "Larch"
+      ],
+      "predicted_order": [
+        "Pine",
+        "Fir",
+        "Walnut",
+        "Larch"
+      ],
+      "exact_match": true,
+      "response": "- Pine\n- Fir\n- Walnut\n- Larch"
+    },
+    {
+      "id": 733,
+      "payload": 3,
+      "expected_order": [
+        "Ginkgo",
+        "Maple",
+        "Hemlock",
+        "Poplar"
+      ],
+      "predicted_order": [
+        "Ginkgo",
+        "Maple",
+        "Hemlock",
+        "Poplar"
+      ],
+      "exact_match": true,
+      "response": "- Ginkgo\n- Maple\n- Hemlock\n- Poplar"
+    },
+    {
+      "id": 734,
+      "payload": 3,
+      "expected_order": [
+        "Poplar",
+        "Holly",
+        "Juniper",
+        "Walnut"
+      ],
+      "predicted_order": [
+        "Poplar",
+        "Holly",
+        "Juniper",
+        "Walnut"
+      ],
+      "exact_match": true,
+      "response": "- Poplar\n- Holly\n- Juniper\n- Walnut"
+    },
+    {
+      "id": 735,
+      "payload": 3,
+      "expected_order": [
+        "Alder",
+        "Fir",
+        "Redwood",
+        "Dogwood"
+      ],
+      "predicted_order": [
+        "Alder",
+        "Fir",
+        "Redwood",
+        "Dogwood"
+      ],
+      "exact_match": true,
+      "response": "- Alder\n- Fir\n- Redwood\n- Dogwood"
+    },
+    {
+      "id": 736,
+      "payload": 3,
+      "expected_order": [
+        "Banyan",
+        "Larch",
+        "Spruce",
+        "Ginkgo"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Larch",
+        "Spruce",
+        "Ginkgo"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Larch\n- Spruce\n- Ginkgo"
+    },
+    {
+      "id": 737,
+      "payload": 3,
+      "expected_order": [
+        "Banyan",
+        "Alder",
+        "Eucalyptus",
+        "Hemlock"
+      ],
+      "predicted_order": [
+        "Banyan",
+        "Alder",
+        "Eucalyptus",
+        "Hemlock"
+      ],
+      "exact_match": true,
+      "response": "- Banyan\n- Alder\n- Eucalyptus\n- Hemlock"
+    },
+    {
+      "id": 738,
+      "payload": 3,
+      "expected_order": [
+        "Cedar",
+        "Palm",
+        "Hornbeam",
+        "Chestnut"
+      ],
+      "predicted_order": [
+        "Cedar",
+        "Palm",
+        "Hornbeam",
+        "Chestnut"
+      ],
+      "exact_match": true,
+      "response": "- Cedar\n- Palm\n- Hornbeam\n- Chestnut"
+    },
+    {
+      "id": 739,
+      "payload": 3,
+      "expected_order": [
+        "Birch",
+        "Palm",
+        "Cypress",
+        "Banyan"
+      ],
+      "predicted_order": [
+        "Birch",
+        "Palm",
+        "Cypress",
+        "Banyan"
+      ],
+      "exact_match": true,
+      "response": "- Birch\n- Palm\n- Cypress\n- Banyan"
+    },
+    {
+      "id": 740,
+      "payload": 0,
+      "expected_order": [
+        "Tongs",
+        "Whisk",
+        "Peeler",
+        "Pitcher"
+      ],
+      "predicted_order": [
+        "Tongs",
+        "Whisk",
+        "Peeler",
+        "Pitcher"
+      ],
+      "exact_match": true,
+      "response": "- Tongs\n- Whisk\n- Peeler\n- Pitcher"
+    },
+    {
+      "id": 741,
+      "payload": 0,
+      "expected_order": [
+        "Masher",
+        "Spatula",
+        "Strainer",
+        "Tenderizer"
+      ],
+      "predicted_order": [
+        "Masher",
+        "Spatula",
+        "Strainer",
+        "Tenderizer"
+      ],
+      "exact_match": true,
+      "response": "- Masher\n- Spatula\n- Strainer\n- Tenderizer"
+    },
+    {
+      "id": 742,
+      "payload": 0,
+      "expected_order": [
+        "Scoop",
+        "Juicer",
+        "Peeler",
+        "Spatula"
+      ],
+      "predicted_order": [
+        "Scoop",
+        "Juicer",
+        "Peeler",
+        "Spatula"
+      ],
+      "exact_match": true,
+      "response": "- Scoop\n- Juicer\n- Peeler\n- Spatula"
+    },
+    {
+      "id": 743,
+      "payload": 0,
+      "expected_order": [
+        "Bowl",
+        "Tongs",
+        "Zester",
+        "Spurtle"
+      ],
+      "predicted_order": [
+        "Bowl",
+        "Tongs",
+        "Zester",
+        "Spurtle"
+      ],
+      "exact_match": true,
+      "response": "- Bowl\n- Tongs\n- Zester\n- Spurtle"
+    },
+    {
+      "id": 744,
+      "payload": 0,
+      "expected_order": [
+        "Fork",
+        "Ladle",
+        "Paddle",
+        "Ramekin"
+      ],
+      "predicted_order": [
+        "Fork",
+        "Ladle",
+        "Paddle",
+        "Ramekin"
+      ],
+      "exact_match": true,
+      "response": "- Fork\n- Ladle\n- Paddle\n- Ramekin"
+    },
+    {
+      "id": 745,
+      "payload": 0,
+      "expected_order": [
+        "Kettle",
+        "Teapot",
+        "Spatula",
+        "Tenderizer"
+      ],
+      "predicted_order": [
+        "Kettle",
+        "Teapot",
+        "Spatula",
+        "Tenderizer"
+      ],
+      "exact_match": true,
+      "response": "- Kettle\n- Teapot\n- Spatula\n- Tenderizer"
+    },
+    {
+      "id": 746,
+      "payload": 0,
+      "expected_order": [
+        "Ladle",
+        "Pitcher",
+        "Spatula",
+        "Thermometer"
+      ],
+      "predicted_order": [
+        "Ladle",
+        "Pitcher",
+        "Spatula",
+        "Thermometer"
+      ],
+      "exact_match": true,
+      "response": "- Ladle\n- Pitcher\n- Spatula\n- Thermometer"
+    },
+    {
+      "id": 747,
+      "payload": 0,
+      "expected_order": [
+        "Bowl",
+        "Ladle",
+        "Timer",
+        "Kettle"
+      ],
+      "predicted_order": [
+        "Bowl",
+        "Ladle",
+        "Timer",
+        "Kettle"
+      ],
+      "exact_match": true,
+      "response": "- Bowl\n- Ladle\n- Timer\n- Kettle"
+    },
+    {
+      "id": 748,
+      "payload": 0,
+      "expected_order": [
+        "Sieve",
+        "Opener",
+        "Shears",
+        "Pitcher"
+      ],
+      "predicted_order": [
+        "Sieve",
+        "Opener",
+        "Shears",
+        "Pitcher"
+      ],
+      "exact_match": true,
+      "response": "- Sieve\n- Opener\n- Shears\n- Pitcher"
+    },
+    {
+      "id": 749,
+      "payload": 0,
+      "expected_order": [
+        "Fork",
+        "Scoop",
+        "Funnel",
+        "Corkscrew"
+      ],
+      "predicted_order": [
+        "Fork",
+        "Scoop",
+        "Funnel",
+        "Corkscrew"
+      ],
+      "exact_match": true,
+      "response": "- Fork\n- Scoop\n- Funnel\n- Corkscrew"
+    },
+    {
+      "id": 750,
+      "payload": 1,
+      "expected_order": [
+        "Slicer",
+        "Scale",
+        "Pitcher",
+        "Thermometer"
+      ],
+      "predicted_order": [
+        "Slicer",
+        "Scale",
+        "Pitcher",
+        "Thermometer"
+      ],
+      "exact_match": true,
+      "response": "- Slicer\n- Scale\n- Pitcher\n- Thermometer"
+    },
+    {
+      "id": 751,
+      "payload": 1,
+      "expected_order": [
+        "Zester",
+        "Grater",
+        "Skimmer",
+        "Spurtle"
+      ],
+      "predicted_order": [
+        "Zester",
+        "Grater",
+        "Skimmer",
+        "Spurtle"
+      ],
+      "exact_match": true,
+      "response": "- Zester\n- Grater\n- Skimmer\n- Spurtle"
+    },
+    {
+      "id": 752,
+      "payload": 1,
+      "expected_order": [
+        "Funnel",
+        "Ricer",
+        "Mortar",
+        "Strainer"
+      ],
+      "predicted_order": [
+        "Funnel",
+        "Ricer",
+        "Mortar",
+        "Strainer"
+      ],
+      "exact_match": true,
+      "response": "- Funnel\n- Ricer\n- Mortar\n- Strainer"
+    },
+    {
+      "id": 753,
+      "payload": 1,
+      "expected_order": [
+        "Grater",
+        "Whisk",
+        "Scraper",
+        "Skimmer"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Whisk",
+        "Scraper",
+        "Skimmer"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Whisk\n- Scraper\n- Skimmer"
+    },
+    {
+      "id": 754,
+      "payload": 1,
+      "expected_order": [
+        "Paddle",
+        "Tongs",
+        "Teapot",
+        "Scraper"
+      ],
+      "predicted_order": [
+        "Paddle",
+        "Tongs",
+        "Teapot",
+        "Scraper"
+      ],
+      "exact_match": true,
+      "response": "- Paddle\n- Tongs\n- Teapot\n- Scraper"
+    },
+    {
+      "id": 755,
+      "payload": 1,
+      "expected_order": [
+        "Grater",
+        "Brush",
+        "Ramekin",
+        "Spatula"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Brush",
+        "Ramekin",
+        "Spatula"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Brush\n- Ramekin\n- Spatula"
+    },
+    {
+      "id": 756,
+      "payload": 1,
+      "expected_order": [
+        "Sieve",
+        "Ricer",
+        "Shears",
+        "Mandoline"
+      ],
+      "predicted_order": [
+        "Sieve",
+        "Ricer",
+        "Shears",
+        "Mandoline"
+      ],
+      "exact_match": true,
+      "response": "- Sieve\n- Ricer\n- Shears\n- Mandoline"
+    },
+    {
+      "id": 757,
+      "payload": 1,
+      "expected_order": [
+        "Juicer",
+        "Whisk",
+        "Pitcher",
+        "Strainer"
+      ],
+      "predicted_order": [
+        "Juicer",
+        "Whisk",
+        "Pitcher",
+        "Strainer"
+      ],
+      "exact_match": true,
+      "response": "- Juicer\n- Whisk\n- Pitcher\n- Strainer"
+    },
+    {
+      "id": 758,
+      "payload": 1,
+      "expected_order": [
+        "Whisk",
+        "Ricer",
+        "Paddle",
+        "Thermometer"
+      ],
+      "predicted_order": [
+        "Whisk",
+        "Ricer",
+        "Paddle",
+        "Thermometer"
+      ],
+      "exact_match": true,
+      "response": "- Whisk\n- Ricer\n- Paddle\n- Thermometer"
+    },
+    {
+      "id": 759,
+      "payload": 1,
+      "expected_order": [
+        "Kettle",
+        "Ricer",
+        "Peeler",
+        "Thermometer"
+      ],
+      "predicted_order": [
+        "Kettle",
+        "Ricer",
+        "Peeler",
+        "Thermometer"
+      ],
+      "exact_match": true,
+      "response": "- Kettle\n- Ricer\n- Peeler\n- Thermometer"
+    },
+    {
+      "id": 760,
+      "payload": 2,
+      "expected_order": [
+        "Ladle",
+        "Whisk",
+        "Pestle",
+        "Opener"
+      ],
+      "predicted_order": [
+        "Ladle",
+        "Whisk",
+        "Pestle",
+        "Opener"
+      ],
+      "exact_match": true,
+      "response": "- Ladle\n- Whisk\n- Pestle\n- Opener"
+    },
+    {
+      "id": 761,
+      "payload": 2,
+      "expected_order": [
+        "Scoop",
+        "Juicer",
+        "Nutcracker",
+        "Skimmer"
+      ],
+      "predicted_order": [
+        "Scoop",
+        "Juicer",
+        "Nutcracker",
+        "Skimmer"
+      ],
+      "exact_match": true,
+      "response": "- Scoop\n- Juicer\n- Nutcracker\n- Skimmer"
+    },
+    {
+      "id": 762,
+      "payload": 2,
+      "expected_order": [
+        "Brush",
+        "Ricer",
+        "Peeler",
+        "Mortar"
+      ],
+      "predicted_order": [
+        "Brush",
+        "Ricer",
+        "Peeler",
+        "Mortar"
+      ],
+      "exact_match": true,
+      "response": "- Brush\n- Ricer\n- Peeler\n- Mortar"
+    },
+    {
+      "id": 763,
+      "payload": 2,
+      "expected_order": [
+        "Ricer",
+        "Funnel",
+        "Scraper",
+        "Kettle"
+      ],
+      "predicted_order": [
+        "Ricer",
+        "Funnel",
+        "Scraper",
+        "Kettle"
+      ],
+      "exact_match": true,
+      "response": "- Ricer\n- Funnel\n- Scraper\n- Kettle"
+    },
+    {
+      "id": 764,
+      "payload": 2,
+      "expected_order": [
+        "Grater",
+        "Masher",
+        "Mandoline",
+        "Scraper"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Masher",
+        "Mandoline",
+        "Scraper"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Masher\n- Mandoline\n- Scraper"
+    },
+    {
+      "id": 765,
+      "payload": 2,
+      "expected_order": [
+        "Bowl",
+        "Sieve",
+        "Slicer",
+        "Tongs"
+      ],
+      "predicted_order": [
+        "Bowl",
+        "Sieve",
+        "Slicer",
+        "Tongs"
+      ],
+      "exact_match": true,
+      "response": "- Bowl\n- Sieve\n- Slicer\n- Tongs"
+    },
+    {
+      "id": 766,
+      "payload": 2,
+      "expected_order": [
+        "Peeler",
+        "Shears",
+        "Mandoline",
+        "Strainer"
+      ],
+      "predicted_order": [
+        "Peeler",
+        "Shears",
+        "Mandoline",
+        "Strainer"
+      ],
+      "exact_match": true,
+      "response": "- Peeler\n- Shears\n- Mandoline\n- Strainer"
+    },
+    {
+      "id": 767,
+      "payload": 2,
+      "expected_order": [
+        "Fork",
+        "Spoon",
+        "Skimmer",
+        "Pestle"
+      ],
+      "predicted_order": [
+        "Fork",
+        "Spoon",
+        "Skimmer",
+        "Pestle"
+      ],
+      "exact_match": true,
+      "response": "- Fork\n- Spoon\n- Skimmer\n- Pestle"
+    },
+    {
+      "id": 768,
+      "payload": 2,
+      "expected_order": [
+        "Ladle",
+        "Cleaver",
+        "Thermometer",
+        "Ramekin"
+      ],
+      "predicted_order": [
+        "Ladle",
+        "Cleaver",
+        "Thermometer",
+        "Ramekin"
+      ],
+      "exact_match": true,
+      "response": "- Ladle\n- Cleaver\n- Thermometer\n- Ramekin"
+    },
+    {
+      "id": 769,
+      "payload": 2,
+      "expected_order": [
+        "Slicer",
+        "Teapot",
+        "Strainer",
+        "Scraper"
+      ],
+      "predicted_order": [
+        "Slicer",
+        "Teapot",
+        "Strainer",
+        "Scraper"
+      ],
+      "exact_match": true,
+      "response": "- Slicer\n- Teapot\n- Strainer\n- Scraper"
+    },
+    {
+      "id": 770,
+      "payload": 3,
+      "expected_order": [
+        "Shears",
+        "Opener",
+        "Nutcracker",
+        "Scraper"
+      ],
+      "predicted_order": [
+        "Shears",
+        "Opener",
+        "Nutcracker",
+        "Scraper"
+      ],
+      "exact_match": true,
+      "response": "- Shears\n- Opener\n- Nutcracker\n- Scraper"
+    },
+    {
+      "id": 771,
+      "payload": 3,
+      "expected_order": [
+        "Timer",
+        "Fork",
+        "Grater",
+        "Funnel"
+      ],
+      "predicted_order": [
+        "Timer",
+        "Fork",
+        "Grater",
+        "Funnel"
+      ],
+      "exact_match": true,
+      "response": "- Timer\n- Fork\n- Grater\n- Funnel"
+    },
+    {
+      "id": 772,
+      "payload": 3,
+      "expected_order": [
+        "Grater",
+        "Scoop",
+        "Thermometer",
+        "Peeler"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Scoop",
+        "Thermometer",
+        "Peeler"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Scoop\n- Thermometer\n- Peeler"
+    },
+    {
+      "id": 773,
+      "payload": 3,
+      "expected_order": [
+        "Pestle",
+        "Scoop",
+        "Scraper",
+        "Zester"
+      ],
+      "predicted_order": [
+        "Pestle",
+        "Scoop",
+        "Scraper",
+        "Zester"
+      ],
+      "exact_match": true,
+      "response": "- Pestle\n- Scoop\n- Scraper\n- Zester"
+    },
+    {
+      "id": 774,
+      "payload": 3,
+      "expected_order": [
+        "Grater",
+        "Sieve",
+        "Spatula",
+        "Mortar"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Sieve",
+        "Spatula",
+        "Mortar"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Sieve\n- Spatula\n- Mortar"
+    },
+    {
+      "id": 775,
+      "payload": 3,
+      "expected_order": [
+        "Zester",
+        "Sieve",
+        "Thermometer",
+        "Cleaver"
+      ],
+      "predicted_order": [
+        "Zester",
+        "Sieve",
+        "Thermometer",
+        "Cleaver"
+      ],
+      "exact_match": true,
+      "response": "- Zester\n- Sieve\n- Thermometer\n- Cleaver"
+    },
+    {
+      "id": 776,
+      "payload": 3,
+      "expected_order": [
+        "Masher",
+        "Grater",
+        "Shears",
+        "Opener"
+      ],
+      "predicted_order": [
+        "Masher",
+        "Grater",
+        "Shears",
+        "Opener"
+      ],
+      "exact_match": true,
+      "response": "- Masher\n- Grater\n- Shears\n- Opener"
+    },
+    {
+      "id": 777,
+      "payload": 3,
+      "expected_order": [
+        "Teapot",
+        "Bowl",
+        "Tenderizer",
+        "Cleaver"
+      ],
+      "predicted_order": [
+        "Teapot",
+        "Bowl",
+        "Tenderizer",
+        "Cleaver"
+      ],
+      "exact_match": true,
+      "response": "- Teapot\n- Bowl\n- Tenderizer\n- Cleaver"
+    },
+    {
+      "id": 778,
+      "payload": 3,
+      "expected_order": [
+        "Sieve",
+        "Ladle",
+        "Slicer",
+        "Grater"
+      ],
+      "predicted_order": [
+        "Sieve",
+        "Ladle",
+        "Slicer",
+        "Grater"
+      ],
+      "exact_match": true,
+      "response": "- Sieve\n- Ladle\n- Slicer\n- Grater"
+    },
+    {
+      "id": 779,
+      "payload": 3,
+      "expected_order": [
+        "Grater",
+        "Spoon",
+        "Teapot",
+        "Pestle"
+      ],
+      "predicted_order": [
+        "Grater",
+        "Spoon",
+        "Teapot",
+        "Pestle"
+      ],
+      "exact_match": true,
+      "response": "- Grater\n- Spoon\n- Teapot\n- Pestle"
+    }
+  ]
+}

@@ -1,0 +1,3611 @@
+{
+  "summary": {
+    "condition": "lehmer_N4_alphabetical",
+    "n_examples": 200,
+    "exact_match_rate": 1.0,
+    "position_accuracy": 1.0,
+    "exact_matches": 200
+  },
+  "results": [
+    {
+      "id": 1200,
+      "payload": 0,
+      "expected_order": [
+        "Cloudberry",
+        "Honeydew",
+        "Rambutan",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Honeydew",
+        "Rambutan",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Honeydew\n- Rambutan\n- Soursop"
+    },
+    {
+      "id": 1201,
+      "payload": 0,
+      "expected_order": [
+        "Jujube",
+        "Physalis",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Physalis",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Physalis\n- Rambutan\n- Satsuma"
+    },
+    {
+      "id": 1202,
+      "payload": 0,
+      "expected_order": [
+        "Cranberry",
+        "Date",
+        "Jujube",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Date",
+        "Jujube",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Date\n- Jujube\n- Satsuma"
+    },
+    {
+      "id": 1203,
+      "payload": 0,
+      "expected_order": [
+        "Banana",
+        "Coconut",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Coconut",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Coconut\n- Mulberry\n- Rambutan"
+    },
+    {
+      "id": 1204,
+      "payload": 0,
+      "expected_order": [
+        "Honeydew",
+        "Physalis",
+        "Ugli",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Honeydew",
+        "Physalis",
+        "Ugli",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Honeydew\n- Physalis\n- Ugli\n- Watermelon"
+    },
+    {
+      "id": 1205,
+      "payload": 1,
+      "expected_order": [
+        "Cranberry",
+        "Physalis",
+        "Ugli",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Physalis",
+        "Ugli",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Physalis\n- Ugli\n- Soursop"
+    },
+    {
+      "id": 1206,
+      "payload": 1,
+      "expected_order": [
+        "Honeydew",
+        "Lime",
+        "Soursop",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Honeydew",
+        "Lime",
+        "Soursop",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Honeydew\n- Lime\n- Soursop\n- Physalis"
+    },
+    {
+      "id": 1207,
+      "payload": 1,
+      "expected_order": [
+        "Cloudberry",
+        "Lime",
+        "Ugli",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Lime",
+        "Ugli",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Lime\n- Ugli\n- Strawberry"
+    },
+    {
+      "id": 1208,
+      "payload": 1,
+      "expected_order": [
+        "Blackberry",
+        "Coconut",
+        "Ugli",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Coconut",
+        "Ugli",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Coconut\n- Ugli\n- Strawberry"
+    },
+    {
+      "id": 1209,
+      "payload": 1,
+      "expected_order": [
+        "Cranberry",
+        "Date",
+        "Satsuma",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Date",
+        "Satsuma",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Date\n- Satsuma\n- Huckleberry"
+    },
+    {
+      "id": 1210,
+      "payload": 2,
+      "expected_order": [
+        "Blackberry",
+        "Mulberry",
+        "Cloudberry",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Mulberry",
+        "Cloudberry",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Mulberry\n- Cloudberry\n- Physalis"
+    },
+    {
+      "id": 1211,
+      "payload": 2,
+      "expected_order": [
+        "Blackberry",
+        "Cloudberry",
+        "Clementine",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Cloudberry",
+        "Clementine",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Cloudberry\n- Clementine\n- Lime"
+    },
+    {
+      "id": 1212,
+      "payload": 2,
+      "expected_order": [
+        "Coconut",
+        "Rambutan",
+        "Jujube",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Rambutan",
+        "Jujube",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Rambutan\n- Jujube\n- Strawberry"
+    },
+    {
+      "id": 1213,
+      "payload": 2,
+      "expected_order": [
+        "Banana",
+        "Huckleberry",
+        "Coconut",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Huckleberry",
+        "Coconut",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Huckleberry\n- Coconut\n- Lime"
+    },
+    {
+      "id": 1214,
+      "payload": 2,
+      "expected_order": [
+        "Huckleberry",
+        "Strawberry",
+        "Soursop",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Strawberry",
+        "Soursop",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Strawberry\n- Soursop\n- Ugli"
+    },
+    {
+      "id": 1215,
+      "payload": 3,
+      "expected_order": [
+        "Banana",
+        "Rambutan",
+        "Strawberry",
+        "Honeydew"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Rambutan",
+        "Strawberry",
+        "Honeydew"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Rambutan\n- Strawberry\n- Honeydew"
+    },
+    {
+      "id": 1216,
+      "payload": 3,
+      "expected_order": [
+        "Banana",
+        "Date",
+        "Watermelon",
+        "Cranberry"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Date",
+        "Watermelon",
+        "Cranberry"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Date\n- Watermelon\n- Cranberry"
+    },
+    {
+      "id": 1217,
+      "payload": 3,
+      "expected_order": [
+        "Blackberry",
+        "Huckleberry",
+        "Mulberry",
+        "Date"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Huckleberry",
+        "Mulberry",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Huckleberry\n- Mulberry\n- Date"
+    },
+    {
+      "id": 1218,
+      "payload": 3,
+      "expected_order": [
+        "Blackberry",
+        "Date",
+        "Ugli",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Date",
+        "Ugli",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Date\n- Ugli\n- Clementine"
+    },
+    {
+      "id": 1219,
+      "payload": 3,
+      "expected_order": [
+        "Blackberry",
+        "Date",
+        "Watermelon",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Date",
+        "Watermelon",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Date\n- Watermelon\n- Coconut"
+    },
+    {
+      "id": 1220,
+      "payload": 4,
+      "expected_order": [
+        "Guava",
+        "Soursop",
+        "Honeydew",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Soursop",
+        "Honeydew",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Soursop\n- Honeydew\n- Satsuma"
+    },
+    {
+      "id": 1221,
+      "payload": 4,
+      "expected_order": [
+        "Blackberry",
+        "Strawberry",
+        "Clementine",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Strawberry",
+        "Clementine",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Strawberry\n- Clementine\n- Soursop"
+    },
+    {
+      "id": 1222,
+      "payload": 4,
+      "expected_order": [
+        "Blackberry",
+        "Watermelon",
+        "Mulberry",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Watermelon",
+        "Mulberry",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Watermelon\n- Mulberry\n- Soursop"
+    },
+    {
+      "id": 1223,
+      "payload": 4,
+      "expected_order": [
+        "Banana",
+        "Mulberry",
+        "Cloudberry",
+        "Honeydew"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Mulberry",
+        "Cloudberry",
+        "Honeydew"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Mulberry\n- Cloudberry\n- Honeydew"
+    },
+    {
+      "id": 1224,
+      "payload": 4,
+      "expected_order": [
+        "Banana",
+        "Strawberry",
+        "Blackberry",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Strawberry",
+        "Blackberry",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Strawberry\n- Blackberry\n- Clementine"
+    },
+    {
+      "id": 1225,
+      "payload": 5,
+      "expected_order": [
+        "Guava",
+        "Watermelon",
+        "Satsuma",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Watermelon",
+        "Satsuma",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Watermelon\n- Satsuma\n- Rambutan"
+    },
+    {
+      "id": 1226,
+      "payload": 5,
+      "expected_order": [
+        "Blackberry",
+        "Date",
+        "Cranberry",
+        "Cloudberry"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Date",
+        "Cranberry",
+        "Cloudberry"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Date\n- Cranberry\n- Cloudberry"
+    },
+    {
+      "id": 1227,
+      "payload": 5,
+      "expected_order": [
+        "Banana",
+        "Ugli",
+        "Rambutan",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Banana",
+        "Ugli",
+        "Rambutan",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Banana\n- Ugli\n- Rambutan\n- Clementine"
+    },
+    {
+      "id": 1228,
+      "payload": 5,
+      "expected_order": [
+        "Blackberry",
+        "Physalis",
+        "Huckleberry",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Blackberry",
+        "Physalis",
+        "Huckleberry",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Blackberry\n- Physalis\n- Huckleberry\n- Coconut"
+    },
+    {
+      "id": 1229,
+      "payload": 5,
+      "expected_order": [
+        "Clementine",
+        "Rambutan",
+        "Lime",
+        "Guava"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Rambutan",
+        "Lime",
+        "Guava"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Rambutan\n- Lime\n- Guava"
+    },
+    {
+      "id": 1230,
+      "payload": 6,
+      "expected_order": [
+        "Huckleberry",
+        "Cranberry",
+        "Jujube",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Cranberry",
+        "Jujube",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Cranberry\n- Jujube\n- Watermelon"
+    },
+    {
+      "id": 1231,
+      "payload": 6,
+      "expected_order": [
+        "Honeydew",
+        "Blackberry",
+        "Physalis",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Honeydew",
+        "Blackberry",
+        "Physalis",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Honeydew\n- Blackberry\n- Physalis\n- Watermelon"
+    },
+    {
+      "id": 1232,
+      "payload": 6,
+      "expected_order": [
+        "Rambutan",
+        "Date",
+        "Satsuma",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Date",
+        "Satsuma",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Date\n- Satsuma\n- Ugli"
+    },
+    {
+      "id": 1233,
+      "payload": 6,
+      "expected_order": [
+        "Lime",
+        "Clementine",
+        "Soursop",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Clementine",
+        "Soursop",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Clementine\n- Soursop\n- Strawberry"
+    },
+    {
+      "id": 1234,
+      "payload": 6,
+      "expected_order": [
+        "Soursop",
+        "Mulberry",
+        "Ugli",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Soursop",
+        "Mulberry",
+        "Ugli",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Soursop\n- Mulberry\n- Ugli\n- Watermelon"
+    },
+    {
+      "id": 1235,
+      "payload": 7,
+      "expected_order": [
+        "Date",
+        "Clementine",
+        "Satsuma",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Date",
+        "Clementine",
+        "Satsuma",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Clementine\n- Satsuma\n- Lime"
+    },
+    {
+      "id": 1236,
+      "payload": 7,
+      "expected_order": [
+        "Clementine",
+        "Banana",
+        "Watermelon",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Banana",
+        "Watermelon",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Banana\n- Watermelon\n- Soursop"
+    },
+    {
+      "id": 1237,
+      "payload": 7,
+      "expected_order": [
+        "Mulberry",
+        "Honeydew",
+        "Strawberry",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Honeydew",
+        "Strawberry",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Honeydew\n- Strawberry\n- Satsuma"
+    },
+    {
+      "id": 1238,
+      "payload": 7,
+      "expected_order": [
+        "Lime",
+        "Cranberry",
+        "Strawberry",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Cranberry",
+        "Strawberry",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Cranberry\n- Strawberry\n- Physalis"
+    },
+    {
+      "id": 1239,
+      "payload": 7,
+      "expected_order": [
+        "Coconut",
+        "Blackberry",
+        "Ugli",
+        "Date"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Blackberry",
+        "Ugli",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Blackberry\n- Ugli\n- Date"
+    },
+    {
+      "id": 1240,
+      "payload": 8,
+      "expected_order": [
+        "Lime",
+        "Rambutan",
+        "Cloudberry",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Rambutan",
+        "Cloudberry",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Rambutan\n- Cloudberry\n- Satsuma"
+    },
+    {
+      "id": 1241,
+      "payload": 8,
+      "expected_order": [
+        "Honeydew",
+        "Lime",
+        "Blackberry",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Honeydew",
+        "Lime",
+        "Blackberry",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Honeydew\n- Lime\n- Blackberry\n- Satsuma"
+    },
+    {
+      "id": 1242,
+      "payload": 8,
+      "expected_order": [
+        "Rambutan",
+        "Soursop",
+        "Lime",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Soursop",
+        "Lime",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Soursop\n- Lime\n- Strawberry"
+    },
+    {
+      "id": 1243,
+      "payload": 8,
+      "expected_order": [
+        "Coconut",
+        "Date",
+        "Clementine",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Date",
+        "Clementine",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Date\n- Clementine\n- Lime"
+    },
+    {
+      "id": 1244,
+      "payload": 8,
+      "expected_order": [
+        "Coconut",
+        "Rambutan",
+        "Banana",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Rambutan",
+        "Banana",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Rambutan\n- Banana\n- Satsuma"
+    },
+    {
+      "id": 1245,
+      "payload": 9,
+      "expected_order": [
+        "Coconut",
+        "Honeydew",
+        "Watermelon",
+        "Cloudberry"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Honeydew",
+        "Watermelon",
+        "Cloudberry"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Honeydew\n- Watermelon\n- Cloudberry"
+    },
+    {
+      "id": 1246,
+      "payload": 9,
+      "expected_order": [
+        "Date",
+        "Guava",
+        "Lime",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Date",
+        "Guava",
+        "Lime",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Guava\n- Lime\n- Clementine"
+    },
+    {
+      "id": 1247,
+      "payload": 9,
+      "expected_order": [
+        "Clementine",
+        "Satsuma",
+        "Strawberry",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Satsuma",
+        "Strawberry",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Satsuma\n- Strawberry\n- Banana"
+    },
+    {
+      "id": 1248,
+      "payload": 9,
+      "expected_order": [
+        "Cloudberry",
+        "Lime",
+        "Soursop",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Cloudberry",
+        "Lime",
+        "Soursop",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Cloudberry\n- Lime\n- Soursop\n- Clementine"
+    },
+    {
+      "id": 1249,
+      "payload": 9,
+      "expected_order": [
+        "Guava",
+        "Satsuma",
+        "Watermelon",
+        "Date"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Satsuma",
+        "Watermelon",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Satsuma\n- Watermelon\n- Date"
+    },
+    {
+      "id": 1250,
+      "payload": 10,
+      "expected_order": [
+        "Guava",
+        "Ugli",
+        "Cloudberry",
+        "Mulberry"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Ugli",
+        "Cloudberry",
+        "Mulberry"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Ugli\n- Cloudberry\n- Mulberry"
+    },
+    {
+      "id": 1251,
+      "payload": 10,
+      "expected_order": [
+        "Physalis",
+        "Strawberry",
+        "Guava",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Strawberry",
+        "Guava",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Strawberry\n- Guava\n- Rambutan"
+    },
+    {
+      "id": 1252,
+      "payload": 10,
+      "expected_order": [
+        "Guava",
+        "Ugli",
+        "Banana",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Ugli",
+        "Banana",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Ugli\n- Banana\n- Lime"
+    },
+    {
+      "id": 1253,
+      "payload": 10,
+      "expected_order": [
+        "Physalis",
+        "Strawberry",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Strawberry",
+        "Mulberry",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Strawberry\n- Mulberry\n- Rambutan"
+    },
+    {
+      "id": 1254,
+      "payload": 10,
+      "expected_order": [
+        "Cranberry",
+        "Watermelon",
+        "Banana",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Cranberry",
+        "Watermelon",
+        "Banana",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Cranberry\n- Watermelon\n- Banana\n- Rambutan"
+    },
+    {
+      "id": 1255,
+      "payload": 11,
+      "expected_order": [
+        "Mulberry",
+        "Satsuma",
+        "Rambutan",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Satsuma",
+        "Rambutan",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Satsuma\n- Rambutan\n- Huckleberry"
+    },
+    {
+      "id": 1256,
+      "payload": 11,
+      "expected_order": [
+        "Mulberry",
+        "Strawberry",
+        "Physalis",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Strawberry",
+        "Physalis",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Strawberry\n- Physalis\n- Clementine"
+    },
+    {
+      "id": 1257,
+      "payload": 11,
+      "expected_order": [
+        "Huckleberry",
+        "Watermelon",
+        "Mulberry",
+        "Cloudberry"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Watermelon",
+        "Mulberry",
+        "Cloudberry"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Watermelon\n- Mulberry\n- Cloudberry"
+    },
+    {
+      "id": 1258,
+      "payload": 11,
+      "expected_order": [
+        "Jujube",
+        "Satsuma",
+        "Rambutan",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Satsuma",
+        "Rambutan",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Satsuma\n- Rambutan\n- Coconut"
+    },
+    {
+      "id": 1259,
+      "payload": 11,
+      "expected_order": [
+        "Date",
+        "Ugli",
+        "Honeydew",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Date",
+        "Ugli",
+        "Honeydew",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Ugli\n- Honeydew\n- Clementine"
+    },
+    {
+      "id": 1260,
+      "payload": 12,
+      "expected_order": [
+        "Jujube",
+        "Banana",
+        "Date",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Banana",
+        "Date",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Banana\n- Date\n- Satsuma"
+    },
+    {
+      "id": 1261,
+      "payload": 12,
+      "expected_order": [
+        "Jujube",
+        "Cloudberry",
+        "Cranberry",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Cloudberry",
+        "Cranberry",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Cloudberry\n- Cranberry\n- Strawberry"
+    },
+    {
+      "id": 1262,
+      "payload": 12,
+      "expected_order": [
+        "Date",
+        "Blackberry",
+        "Cloudberry",
+        "Mulberry"
+      ],
+      "predicted_order": [
+        "Date",
+        "Blackberry",
+        "Cloudberry",
+        "Mulberry"
+      ],
+      "exact_match": true,
+      "response": "- Date\n- Blackberry\n- Cloudberry\n- Mulberry"
+    },
+    {
+      "id": 1263,
+      "payload": 12,
+      "expected_order": [
+        "Satsuma",
+        "Coconut",
+        "Honeydew",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Coconut",
+        "Honeydew",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Coconut\n- Honeydew\n- Soursop"
+    },
+    {
+      "id": 1264,
+      "payload": 12,
+      "expected_order": [
+        "Lime",
+        "Date",
+        "Honeydew",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Date",
+        "Honeydew",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Date\n- Honeydew\n- Ugli"
+    },
+    {
+      "id": 1265,
+      "payload": 13,
+      "expected_order": [
+        "Rambutan",
+        "Banana",
+        "Ugli",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Banana",
+        "Ugli",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Banana\n- Ugli\n- Physalis"
+    },
+    {
+      "id": 1266,
+      "payload": 13,
+      "expected_order": [
+        "Physalis",
+        "Banana",
+        "Watermelon",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Banana",
+        "Watermelon",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Banana\n- Watermelon\n- Lime"
+    },
+    {
+      "id": 1267,
+      "payload": 13,
+      "expected_order": [
+        "Jujube",
+        "Blackberry",
+        "Soursop",
+        "Date"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Blackberry",
+        "Soursop",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Blackberry\n- Soursop\n- Date"
+    },
+    {
+      "id": 1268,
+      "payload": 13,
+      "expected_order": [
+        "Lime",
+        "Coconut",
+        "Satsuma",
+        "Jujube"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Coconut",
+        "Satsuma",
+        "Jujube"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Coconut\n- Satsuma\n- Jujube"
+    },
+    {
+      "id": 1269,
+      "payload": 13,
+      "expected_order": [
+        "Guava",
+        "Coconut",
+        "Lime",
+        "Date"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Coconut",
+        "Lime",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Coconut\n- Lime\n- Date"
+    },
+    {
+      "id": 1270,
+      "payload": 14,
+      "expected_order": [
+        "Physalis",
+        "Date",
+        "Coconut",
+        "Strawberry"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Date",
+        "Coconut",
+        "Strawberry"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Date\n- Coconut\n- Strawberry"
+    },
+    {
+      "id": 1271,
+      "payload": 14,
+      "expected_order": [
+        "Satsuma",
+        "Physalis",
+        "Coconut",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Physalis",
+        "Coconut",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Physalis\n- Coconut\n- Soursop"
+    },
+    {
+      "id": 1272,
+      "payload": 14,
+      "expected_order": [
+        "Physalis",
+        "Coconut",
+        "Clementine",
+        "Watermelon"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Coconut",
+        "Clementine",
+        "Watermelon"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Coconut\n- Clementine\n- Watermelon"
+    },
+    {
+      "id": 1273,
+      "payload": 14,
+      "expected_order": [
+        "Rambutan",
+        "Lime",
+        "Honeydew",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Lime",
+        "Honeydew",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Lime\n- Honeydew\n- Ugli"
+    },
+    {
+      "id": 1274,
+      "payload": 14,
+      "expected_order": [
+        "Satsuma",
+        "Cranberry",
+        "Coconut",
+        "Ugli"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Cranberry",
+        "Coconut",
+        "Ugli"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Cranberry\n- Coconut\n- Ugli"
+    },
+    {
+      "id": 1275,
+      "payload": 15,
+      "expected_order": [
+        "Lime",
+        "Cloudberry",
+        "Rambutan",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Cloudberry",
+        "Rambutan",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Cloudberry\n- Rambutan\n- Clementine"
+    },
+    {
+      "id": 1276,
+      "payload": 15,
+      "expected_order": [
+        "Lime",
+        "Cranberry",
+        "Physalis",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Cranberry",
+        "Physalis",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Cranberry\n- Physalis\n- Banana"
+    },
+    {
+      "id": 1277,
+      "payload": 15,
+      "expected_order": [
+        "Coconut",
+        "Clementine",
+        "Satsuma",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Coconut",
+        "Clementine",
+        "Satsuma",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Coconut\n- Clementine\n- Satsuma\n- Banana"
+    },
+    {
+      "id": 1278,
+      "payload": 15,
+      "expected_order": [
+        "Clementine",
+        "Blackberry",
+        "Cloudberry",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Clementine",
+        "Blackberry",
+        "Cloudberry",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Clementine\n- Blackberry\n- Cloudberry\n- Banana"
+    },
+    {
+      "id": 1279,
+      "payload": 15,
+      "expected_order": [
+        "Jujube",
+        "Guava",
+        "Satsuma",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Jujube",
+        "Guava",
+        "Satsuma",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Jujube\n- Guava\n- Satsuma\n- Banana"
+    },
+    {
+      "id": 1280,
+      "payload": 16,
+      "expected_order": [
+        "Satsuma",
+        "Strawberry",
+        "Honeydew",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Strawberry",
+        "Honeydew",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Strawberry\n- Honeydew\n- Rambutan"
+    },
+    {
+      "id": 1281,
+      "payload": 16,
+      "expected_order": [
+        "Lime",
+        "Satsuma",
+        "Clementine",
+        "Cranberry"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Satsuma",
+        "Clementine",
+        "Cranberry"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Satsuma\n- Clementine\n- Cranberry"
+    },
+    {
+      "id": 1282,
+      "payload": 16,
+      "expected_order": [
+        "Strawberry",
+        "Watermelon",
+        "Banana",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Strawberry",
+        "Watermelon",
+        "Banana",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Strawberry\n- Watermelon\n- Banana\n- Coconut"
+    },
+    {
+      "id": 1283,
+      "payload": 16,
+      "expected_order": [
+        "Mulberry",
+        "Watermelon",
+        "Cranberry",
+        "Lime"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Watermelon",
+        "Cranberry",
+        "Lime"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Watermelon\n- Cranberry\n- Lime"
+    },
+    {
+      "id": 1284,
+      "payload": 16,
+      "expected_order": [
+        "Mulberry",
+        "Watermelon",
+        "Blackberry",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Watermelon",
+        "Blackberry",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Watermelon\n- Blackberry\n- Huckleberry"
+    },
+    {
+      "id": 1285,
+      "payload": 17,
+      "expected_order": [
+        "Mulberry",
+        "Physalis",
+        "Huckleberry",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Physalis",
+        "Huckleberry",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Physalis\n- Huckleberry\n- Clementine"
+    },
+    {
+      "id": 1286,
+      "payload": 17,
+      "expected_order": [
+        "Soursop",
+        "Ugli",
+        "Rambutan",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Soursop",
+        "Ugli",
+        "Rambutan",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Soursop\n- Ugli\n- Rambutan\n- Banana"
+    },
+    {
+      "id": 1287,
+      "payload": 17,
+      "expected_order": [
+        "Rambutan",
+        "Ugli",
+        "Mulberry",
+        "Jujube"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Ugli",
+        "Mulberry",
+        "Jujube"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Ugli\n- Mulberry\n- Jujube"
+    },
+    {
+      "id": 1288,
+      "payload": 17,
+      "expected_order": [
+        "Guava",
+        "Soursop",
+        "Date",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Guava",
+        "Soursop",
+        "Date",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Guava\n- Soursop\n- Date\n- Coconut"
+    },
+    {
+      "id": 1289,
+      "payload": 17,
+      "expected_order": [
+        "Huckleberry",
+        "Physalis",
+        "Clementine",
+        "Blackberry"
+      ],
+      "predicted_order": [
+        "Huckleberry",
+        "Physalis",
+        "Clementine",
+        "Blackberry"
+      ],
+      "exact_match": true,
+      "response": "- Huckleberry\n- Physalis\n- Clementine\n- Blackberry"
+    },
+    {
+      "id": 1290,
+      "payload": 18,
+      "expected_order": [
+        "Ugli",
+        "Banana",
+        "Cloudberry",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Banana",
+        "Cloudberry",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Banana\n- Cloudberry\n- Physalis"
+    },
+    {
+      "id": 1291,
+      "payload": 18,
+      "expected_order": [
+        "Ugli",
+        "Cloudberry",
+        "Huckleberry",
+        "Rambutan"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Cloudberry",
+        "Huckleberry",
+        "Rambutan"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Cloudberry\n- Huckleberry\n- Rambutan"
+    },
+    {
+      "id": 1292,
+      "payload": 18,
+      "expected_order": [
+        "Watermelon",
+        "Coconut",
+        "Date",
+        "Honeydew"
+      ],
+      "predicted_order": [
+        "Watermelon",
+        "Coconut",
+        "Date",
+        "Honeydew"
+      ],
+      "exact_match": true,
+      "response": "- Watermelon\n- Coconut\n- Date\n- Honeydew"
+    },
+    {
+      "id": 1293,
+      "payload": 18,
+      "expected_order": [
+        "Watermelon",
+        "Coconut",
+        "Cranberry",
+        "Date"
+      ],
+      "predicted_order": [
+        "Watermelon",
+        "Coconut",
+        "Cranberry",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Watermelon\n- Coconut\n- Cranberry\n- Date"
+    },
+    {
+      "id": 1294,
+      "payload": 18,
+      "expected_order": [
+        "Satsuma",
+        "Clementine",
+        "Guava",
+        "Jujube"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Clementine",
+        "Guava",
+        "Jujube"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Clementine\n- Guava\n- Jujube"
+    },
+    {
+      "id": 1295,
+      "payload": 19,
+      "expected_order": [
+        "Satsuma",
+        "Blackberry",
+        "Honeydew",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Blackberry",
+        "Honeydew",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Blackberry\n- Honeydew\n- Coconut"
+    },
+    {
+      "id": 1296,
+      "payload": 19,
+      "expected_order": [
+        "Strawberry",
+        "Blackberry",
+        "Jujube",
+        "Cloudberry"
+      ],
+      "predicted_order": [
+        "Strawberry",
+        "Blackberry",
+        "Jujube",
+        "Cloudberry"
+      ],
+      "exact_match": true,
+      "response": "- Strawberry\n- Blackberry\n- Jujube\n- Cloudberry"
+    },
+    {
+      "id": 1297,
+      "payload": 19,
+      "expected_order": [
+        "Soursop",
+        "Cloudberry",
+        "Mulberry",
+        "Guava"
+      ],
+      "predicted_order": [
+        "Soursop",
+        "Cloudberry",
+        "Mulberry",
+        "Guava"
+      ],
+      "exact_match": true,
+      "response": "- Soursop\n- Cloudberry\n- Mulberry\n- Guava"
+    },
+    {
+      "id": 1298,
+      "payload": 19,
+      "expected_order": [
+        "Watermelon",
+        "Blackberry",
+        "Rambutan",
+        "Guava"
+      ],
+      "predicted_order": [
+        "Watermelon",
+        "Blackberry",
+        "Rambutan",
+        "Guava"
+      ],
+      "exact_match": true,
+      "response": "- Watermelon\n- Blackberry\n- Rambutan\n- Guava"
+    },
+    {
+      "id": 1299,
+      "payload": 19,
+      "expected_order": [
+        "Satsuma",
+        "Blackberry",
+        "Physalis",
+        "Mulberry"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Blackberry",
+        "Physalis",
+        "Mulberry"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Blackberry\n- Physalis\n- Mulberry"
+    },
+    {
+      "id": 1300,
+      "payload": 20,
+      "expected_order": [
+        "Rambutan",
+        "Honeydew",
+        "Coconut",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Honeydew",
+        "Coconut",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Honeydew\n- Coconut\n- Huckleberry"
+    },
+    {
+      "id": 1301,
+      "payload": 20,
+      "expected_order": [
+        "Strawberry",
+        "Lime",
+        "Jujube",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Strawberry",
+        "Lime",
+        "Jujube",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Strawberry\n- Lime\n- Jujube\n- Soursop"
+    },
+    {
+      "id": 1302,
+      "payload": 20,
+      "expected_order": [
+        "Ugli",
+        "Lime",
+        "Clementine",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Lime",
+        "Clementine",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Lime\n- Clementine\n- Soursop"
+    },
+    {
+      "id": 1303,
+      "payload": 20,
+      "expected_order": [
+        "Mulberry",
+        "Coconut",
+        "Cloudberry",
+        "Date"
+      ],
+      "predicted_order": [
+        "Mulberry",
+        "Coconut",
+        "Cloudberry",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Mulberry\n- Coconut\n- Cloudberry\n- Date"
+    },
+    {
+      "id": 1304,
+      "payload": 20,
+      "expected_order": [
+        "Ugli",
+        "Physalis",
+        "Coconut",
+        "Soursop"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Physalis",
+        "Coconut",
+        "Soursop"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Physalis\n- Coconut\n- Soursop"
+    },
+    {
+      "id": 1305,
+      "payload": 21,
+      "expected_order": [
+        "Soursop",
+        "Coconut",
+        "Satsuma",
+        "Blackberry"
+      ],
+      "predicted_order": [
+        "Soursop",
+        "Coconut",
+        "Satsuma",
+        "Blackberry"
+      ],
+      "exact_match": true,
+      "response": "- Soursop\n- Coconut\n- Satsuma\n- Blackberry"
+    },
+    {
+      "id": 1306,
+      "payload": 21,
+      "expected_order": [
+        "Physalis",
+        "Huckleberry",
+        "Mulberry",
+        "Date"
+      ],
+      "predicted_order": [
+        "Physalis",
+        "Huckleberry",
+        "Mulberry",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Physalis\n- Huckleberry\n- Mulberry\n- Date"
+    },
+    {
+      "id": 1307,
+      "payload": 21,
+      "expected_order": [
+        "Ugli",
+        "Coconut",
+        "Satsuma",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Coconut",
+        "Satsuma",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Coconut\n- Satsuma\n- Clementine"
+    },
+    {
+      "id": 1308,
+      "payload": 21,
+      "expected_order": [
+        "Strawberry",
+        "Jujube",
+        "Soursop",
+        "Coconut"
+      ],
+      "predicted_order": [
+        "Strawberry",
+        "Jujube",
+        "Soursop",
+        "Coconut"
+      ],
+      "exact_match": true,
+      "response": "- Strawberry\n- Jujube\n- Soursop\n- Coconut"
+    },
+    {
+      "id": 1309,
+      "payload": 21,
+      "expected_order": [
+        "Ugli",
+        "Physalis",
+        "Soursop",
+        "Blackberry"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Physalis",
+        "Soursop",
+        "Blackberry"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Physalis\n- Soursop\n- Blackberry"
+    },
+    {
+      "id": 1310,
+      "payload": 22,
+      "expected_order": [
+        "Ugli",
+        "Strawberry",
+        "Huckleberry",
+        "Physalis"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Strawberry",
+        "Huckleberry",
+        "Physalis"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Strawberry\n- Huckleberry\n- Physalis"
+    },
+    {
+      "id": 1311,
+      "payload": 22,
+      "expected_order": [
+        "Satsuma",
+        "Lime",
+        "Cranberry",
+        "Jujube"
+      ],
+      "predicted_order": [
+        "Satsuma",
+        "Lime",
+        "Cranberry",
+        "Jujube"
+      ],
+      "exact_match": true,
+      "response": "- Satsuma\n- Lime\n- Cranberry\n- Jujube"
+    },
+    {
+      "id": 1312,
+      "payload": 22,
+      "expected_order": [
+        "Rambutan",
+        "Guava",
+        "Banana",
+        "Clementine"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Guava",
+        "Banana",
+        "Clementine"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Guava\n- Banana\n- Clementine"
+    },
+    {
+      "id": 1313,
+      "payload": 22,
+      "expected_order": [
+        "Watermelon",
+        "Strawberry",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "predicted_order": [
+        "Watermelon",
+        "Strawberry",
+        "Rambutan",
+        "Satsuma"
+      ],
+      "exact_match": true,
+      "response": "- Watermelon\n- Strawberry\n- Rambutan\n- Satsuma"
+    },
+    {
+      "id": 1314,
+      "payload": 22,
+      "expected_order": [
+        "Ugli",
+        "Rambutan",
+        "Guava",
+        "Huckleberry"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Rambutan",
+        "Guava",
+        "Huckleberry"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Rambutan\n- Guava\n- Huckleberry"
+    },
+    {
+      "id": 1315,
+      "payload": 23,
+      "expected_order": [
+        "Lime",
+        "Huckleberry",
+        "Honeydew",
+        "Date"
+      ],
+      "predicted_order": [
+        "Lime",
+        "Huckleberry",
+        "Honeydew",
+        "Date"
+      ],
+      "exact_match": true,
+      "response": "- Lime\n- Huckleberry\n- Honeydew\n- Date"
+    },
+    {
+      "id": 1316,
+      "payload": 23,
+      "expected_order": [
+        "Rambutan",
+        "Physalis",
+        "Cranberry",
+        "Banana"
+      ],
+      "predicted_order": [
+        "Rambutan",
+        "Physalis",
+        "Cranberry",
+        "Banana"
+      ],
+      "exact_match": true,
+      "response": "- Rambutan\n- Physalis\n- Cranberry\n- Banana"
+    },
+    {
+      "id": 1317,
+      "payload": 23,
+      "expected_order": [
+        "Ugli",
+        "Honeydew",
+        "Date",
+        "Cranberry"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Honeydew",
+        "Date",
+        "Cranberry"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Honeydew\n- Date\n- Cranberry"
+    },
+    {
+      "id": 1318,
+      "payload": 23,
+      "expected_order": [
+        "Watermelon",
+        "Cloudberry",
+        "Clementine",
+        "Blackberry"
+      ],
+      "predicted_order": [
+        "Watermelon",
+        "Cloudberry",
+        "Clementine",
+        "Blackberry"
+      ],
+      "exact_match": true,
+      "response": "- Watermelon\n- Cloudberry\n- Clementine\n- Blackberry"
+    },
+    {
+      "id": 1319,
+      "payload": 23,
+      "expected_order": [
+        "Ugli",
+        "Jujube",
+        "Date",
+        "Blackberry"
+      ],
+      "predicted_order": [
+        "Ugli",
+        "Jujube",
+        "Date",
+        "Blackberry"
+      ],
+      "exact_match": true,
+      "response": "- Ugli\n- Jujube\n- Date\n- Blackberry"
+    },
+    {
+      "id": 1320,
+      "payload": 0,
+      "expected_order": [
+        "Banjo",
+        "Dhol",
+        "Glockenspiel",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Dhol",
+        "Glockenspiel",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Dhol\n- Glockenspiel\n- Kora"
+    },
+    {
+      "id": 1321,
+      "payload": 0,
+      "expected_order": [
+        "Dhol",
+        "Fife",
+        "Flute",
+        "Guitar"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Fife",
+        "Flute",
+        "Guitar"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Fife\n- Flute\n- Guitar"
+    },
+    {
+      "id": 1322,
+      "payload": 0,
+      "expected_order": [
+        "Bongos",
+        "Flute",
+        "Glockenspiel",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Flute",
+        "Glockenspiel",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Flute\n- Glockenspiel\n- Kora"
+    },
+    {
+      "id": 1323,
+      "payload": 0,
+      "expected_order": [
+        "Glockenspiel",
+        "Kora",
+        "Recorder",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Kora",
+        "Recorder",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Kora\n- Recorder\n- Saxophone"
+    },
+    {
+      "id": 1324,
+      "payload": 0,
+      "expected_order": [
+        "Banjo",
+        "Harmonica",
+        "Mbira",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Harmonica",
+        "Mbira",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Harmonica\n- Mbira\n- Ocarina"
+    },
+    {
+      "id": 1325,
+      "payload": 1,
+      "expected_order": [
+        "Banjo",
+        "Dhol",
+        "Ocarina",
+        "Guitar"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Dhol",
+        "Ocarina",
+        "Guitar"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Dhol\n- Ocarina\n- Guitar"
+    },
+    {
+      "id": 1326,
+      "payload": 1,
+      "expected_order": [
+        "Bongos",
+        "Dhol",
+        "Kazoo",
+        "Fife"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Dhol",
+        "Kazoo",
+        "Fife"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Dhol\n- Kazoo\n- Fife"
+    },
+    {
+      "id": 1327,
+      "payload": 1,
+      "expected_order": [
+        "Dhol",
+        "Kazoo",
+        "Saxophone",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Kazoo",
+        "Saxophone",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Kazoo\n- Saxophone\n- Sarod"
+    },
+    {
+      "id": 1328,
+      "payload": 1,
+      "expected_order": [
+        "Bodhran",
+        "Fife",
+        "Trumpet",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Fife",
+        "Trumpet",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Fife\n- Trumpet\n- Saxophone"
+    },
+    {
+      "id": 1329,
+      "payload": 1,
+      "expected_order": [
+        "Bongos",
+        "Fife",
+        "Mbira",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Fife",
+        "Mbira",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Fife\n- Mbira\n- Harpsichord"
+    },
+    {
+      "id": 1330,
+      "payload": 2,
+      "expected_order": [
+        "Dhol",
+        "Trumpet",
+        "Mbira",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Trumpet",
+        "Mbira",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Trumpet\n- Mbira\n- Vibraphone"
+    },
+    {
+      "id": 1331,
+      "payload": 2,
+      "expected_order": [
+        "Bodhran",
+        "Mbira",
+        "Glockenspiel",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Mbira",
+        "Glockenspiel",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Mbira\n- Glockenspiel\n- Ocarina"
+    },
+    {
+      "id": 1332,
+      "payload": 2,
+      "expected_order": [
+        "Glockenspiel",
+        "Recorder",
+        "Kazoo",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Recorder",
+        "Kazoo",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Recorder\n- Kazoo\n- Saxophone"
+    },
+    {
+      "id": 1333,
+      "payload": 2,
+      "expected_order": [
+        "Dhol",
+        "Trumpet",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Trumpet",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Trumpet\n- Saxophone\n- Vibraphone"
+    },
+    {
+      "id": 1334,
+      "payload": 2,
+      "expected_order": [
+        "Flute",
+        "Saxophone",
+        "Mbira",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Saxophone",
+        "Mbira",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Saxophone\n- Mbira\n- Vibraphone"
+    },
+    {
+      "id": 1335,
+      "payload": 3,
+      "expected_order": [
+        "Glockenspiel",
+        "Saxophone",
+        "Vibraphone",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Saxophone",
+        "Vibraphone",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Saxophone\n- Vibraphone\n- Harpsichord"
+    },
+    {
+      "id": 1336,
+      "payload": 3,
+      "expected_order": [
+        "Bodhran",
+        "Glockenspiel",
+        "Guitar",
+        "Fife"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Glockenspiel",
+        "Guitar",
+        "Fife"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Glockenspiel\n- Guitar\n- Fife"
+    },
+    {
+      "id": 1337,
+      "payload": 3,
+      "expected_order": [
+        "Dhol",
+        "Harmonica",
+        "Sarod",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Harmonica",
+        "Sarod",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Harmonica\n- Sarod\n- Glockenspiel"
+    },
+    {
+      "id": 1338,
+      "payload": 3,
+      "expected_order": [
+        "Bongos",
+        "Mbira",
+        "Sarod",
+        "Harmonica"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Mbira",
+        "Sarod",
+        "Harmonica"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Mbira\n- Sarod\n- Harmonica"
+    },
+    {
+      "id": 1339,
+      "payload": 3,
+      "expected_order": [
+        "Banjo",
+        "Fife",
+        "Ocarina",
+        "Bodhran"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Fife",
+        "Ocarina",
+        "Bodhran"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Fife\n- Ocarina\n- Bodhran"
+    },
+    {
+      "id": 1340,
+      "payload": 4,
+      "expected_order": [
+        "Banjo",
+        "Vibraphone",
+        "Harmonica",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Vibraphone",
+        "Harmonica",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Vibraphone\n- Harmonica\n- Timpani"
+    },
+    {
+      "id": 1341,
+      "payload": 4,
+      "expected_order": [
+        "Bodhran",
+        "Ocarina",
+        "Glockenspiel",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Ocarina",
+        "Glockenspiel",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Ocarina\n- Glockenspiel\n- Harpsichord"
+    },
+    {
+      "id": 1342,
+      "payload": 4,
+      "expected_order": [
+        "Flute",
+        "Vibraphone",
+        "Sarod",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Vibraphone",
+        "Sarod",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Vibraphone\n- Sarod\n- Trumpet"
+    },
+    {
+      "id": 1343,
+      "payload": 4,
+      "expected_order": [
+        "Bodhran",
+        "Recorder",
+        "Fife",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Recorder",
+        "Fife",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Recorder\n- Fife\n- Flute"
+    },
+    {
+      "id": 1344,
+      "payload": 4,
+      "expected_order": [
+        "Bodhran",
+        "Vibraphone",
+        "Bongos",
+        "Mbira"
+      ],
+      "predicted_order": [
+        "Bodhran",
+        "Vibraphone",
+        "Bongos",
+        "Mbira"
+      ],
+      "exact_match": true,
+      "response": "- Bodhran\n- Vibraphone\n- Bongos\n- Mbira"
+    },
+    {
+      "id": 1345,
+      "payload": 5,
+      "expected_order": [
+        "Banjo",
+        "Kazoo",
+        "Harpsichord",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Kazoo",
+        "Harpsichord",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Kazoo\n- Harpsichord\n- Flute"
+    },
+    {
+      "id": 1346,
+      "payload": 5,
+      "expected_order": [
+        "Banjo",
+        "Kazoo",
+        "Harmonica",
+        "Bodhran"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Kazoo",
+        "Harmonica",
+        "Bodhran"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Kazoo\n- Harmonica\n- Bodhran"
+    },
+    {
+      "id": 1347,
+      "payload": 5,
+      "expected_order": [
+        "Banjo",
+        "Harpsichord",
+        "Guitar",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Banjo",
+        "Harpsichord",
+        "Guitar",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Banjo\n- Harpsichord\n- Guitar\n- Glockenspiel"
+    },
+    {
+      "id": 1348,
+      "payload": 5,
+      "expected_order": [
+        "Fife",
+        "Saxophone",
+        "Kora",
+        "Kazoo"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Saxophone",
+        "Kora",
+        "Kazoo"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Saxophone\n- Kora\n- Kazoo"
+    },
+    {
+      "id": 1349,
+      "payload": 5,
+      "expected_order": [
+        "Flute",
+        "Vibraphone",
+        "Harmonica",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Vibraphone",
+        "Harmonica",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Vibraphone\n- Harmonica\n- Glockenspiel"
+    },
+    {
+      "id": 1350,
+      "payload": 6,
+      "expected_order": [
+        "Glockenspiel",
+        "Fife",
+        "Guitar",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Fife",
+        "Guitar",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Fife\n- Guitar\n- Sarod"
+    },
+    {
+      "id": 1351,
+      "payload": 6,
+      "expected_order": [
+        "Guitar",
+        "Bongos",
+        "Kazoo",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Bongos",
+        "Kazoo",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Bongos\n- Kazoo\n- Kora"
+    },
+    {
+      "id": 1352,
+      "payload": 6,
+      "expected_order": [
+        "Harmonica",
+        "Bongos",
+        "Kora",
+        "Mbira"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Bongos",
+        "Kora",
+        "Mbira"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Bongos\n- Kora\n- Mbira"
+    },
+    {
+      "id": 1353,
+      "payload": 6,
+      "expected_order": [
+        "Mbira",
+        "Dhol",
+        "Ocarina",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Dhol",
+        "Ocarina",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Dhol\n- Ocarina\n- Trumpet"
+    },
+    {
+      "id": 1354,
+      "payload": 6,
+      "expected_order": [
+        "Kazoo",
+        "Harmonica",
+        "Recorder",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Harmonica",
+        "Recorder",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Harmonica\n- Recorder\n- Sarod"
+    },
+    {
+      "id": 1355,
+      "payload": 7,
+      "expected_order": [
+        "Kora",
+        "Fife",
+        "Sarod",
+        "Recorder"
+      ],
+      "predicted_order": [
+        "Kora",
+        "Fife",
+        "Sarod",
+        "Recorder"
+      ],
+      "exact_match": true,
+      "response": "- Kora\n- Fife\n- Sarod\n- Recorder"
+    },
+    {
+      "id": 1356,
+      "payload": 7,
+      "expected_order": [
+        "Ocarina",
+        "Dhol",
+        "Saxophone",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Dhol",
+        "Saxophone",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Dhol\n- Saxophone\n- Sarod"
+    },
+    {
+      "id": 1357,
+      "payload": 7,
+      "expected_order": [
+        "Dhol",
+        "Bongos",
+        "Vibraphone",
+        "Guitar"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Bongos",
+        "Vibraphone",
+        "Guitar"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Bongos\n- Vibraphone\n- Guitar"
+    },
+    {
+      "id": 1358,
+      "payload": 7,
+      "expected_order": [
+        "Fife",
+        "Bodhran",
+        "Sarod",
+        "Harmonica"
+      ],
+      "predicted_order": [
+        "Fife",
+        "Bodhran",
+        "Sarod",
+        "Harmonica"
+      ],
+      "exact_match": true,
+      "response": "- Fife\n- Bodhran\n- Sarod\n- Harmonica"
+    },
+    {
+      "id": 1359,
+      "payload": 7,
+      "expected_order": [
+        "Mbira",
+        "Guitar",
+        "Recorder",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Guitar",
+        "Recorder",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Guitar\n- Recorder\n- Ocarina"
+    },
+    {
+      "id": 1360,
+      "payload": 8,
+      "expected_order": [
+        "Harmonica",
+        "Sarod",
+        "Guitar",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Sarod",
+        "Guitar",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Sarod\n- Guitar\n- Saxophone"
+    },
+    {
+      "id": 1361,
+      "payload": 8,
+      "expected_order": [
+        "Harmonica",
+        "Sarod",
+        "Bongos",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Sarod",
+        "Bongos",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Sarod\n- Bongos\n- Trumpet"
+    },
+    {
+      "id": 1362,
+      "payload": 8,
+      "expected_order": [
+        "Guitar",
+        "Harmonica",
+        "Dhol",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Harmonica",
+        "Dhol",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Harmonica\n- Dhol\n- Saxophone"
+    },
+    {
+      "id": 1363,
+      "payload": 8,
+      "expected_order": [
+        "Flute",
+        "Glockenspiel",
+        "Banjo",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Glockenspiel",
+        "Banjo",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Glockenspiel\n- Banjo\n- Harpsichord"
+    },
+    {
+      "id": 1364,
+      "payload": 8,
+      "expected_order": [
+        "Ocarina",
+        "Recorder",
+        "Harpsichord",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Recorder",
+        "Harpsichord",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Recorder\n- Harpsichord\n- Saxophone"
+    },
+    {
+      "id": 1365,
+      "payload": 9,
+      "expected_order": [
+        "Recorder",
+        "Saxophone",
+        "Trumpet",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Recorder",
+        "Saxophone",
+        "Trumpet",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Recorder\n- Saxophone\n- Trumpet\n- Kora"
+    },
+    {
+      "id": 1366,
+      "payload": 9,
+      "expected_order": [
+        "Mbira",
+        "Recorder",
+        "Saxophone",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Recorder",
+        "Saxophone",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Recorder\n- Saxophone\n- Glockenspiel"
+    },
+    {
+      "id": 1367,
+      "payload": 9,
+      "expected_order": [
+        "Timpani",
+        "Trumpet",
+        "Vibraphone",
+        "Bongos"
+      ],
+      "predicted_order": [
+        "Timpani",
+        "Trumpet",
+        "Vibraphone",
+        "Bongos"
+      ],
+      "exact_match": true,
+      "response": "- Timpani\n- Trumpet\n- Vibraphone\n- Bongos"
+    },
+    {
+      "id": 1368,
+      "payload": 9,
+      "expected_order": [
+        "Guitar",
+        "Harmonica",
+        "Kora",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Harmonica",
+        "Kora",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Harmonica\n- Kora\n- Flute"
+    },
+    {
+      "id": 1369,
+      "payload": 9,
+      "expected_order": [
+        "Dhol",
+        "Flute",
+        "Recorder",
+        "Bongos"
+      ],
+      "predicted_order": [
+        "Dhol",
+        "Flute",
+        "Recorder",
+        "Bongos"
+      ],
+      "exact_match": true,
+      "response": "- Dhol\n- Flute\n- Recorder\n- Bongos"
+    },
+    {
+      "id": 1370,
+      "payload": 10,
+      "expected_order": [
+        "Flute",
+        "Vibraphone",
+        "Fife",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Vibraphone",
+        "Fife",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Vibraphone\n- Fife\n- Kora"
+    },
+    {
+      "id": 1371,
+      "payload": 10,
+      "expected_order": [
+        "Harpsichord",
+        "Sarod",
+        "Bongos",
+        "Kazoo"
+      ],
+      "predicted_order": [
+        "Harpsichord",
+        "Sarod",
+        "Bongos",
+        "Kazoo"
+      ],
+      "exact_match": true,
+      "response": "- Harpsichord\n- Sarod\n- Bongos\n- Kazoo"
+    },
+    {
+      "id": 1372,
+      "payload": 10,
+      "expected_order": [
+        "Harmonica",
+        "Trumpet",
+        "Glockenspiel",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Trumpet",
+        "Glockenspiel",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Trumpet\n- Glockenspiel\n- Harpsichord"
+    },
+    {
+      "id": 1373,
+      "payload": 10,
+      "expected_order": [
+        "Flute",
+        "Timpani",
+        "Dhol",
+        "Kazoo"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Timpani",
+        "Dhol",
+        "Kazoo"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Timpani\n- Dhol\n- Kazoo"
+    },
+    {
+      "id": 1374,
+      "payload": 10,
+      "expected_order": [
+        "Bongos",
+        "Kora",
+        "Banjo",
+        "Harmonica"
+      ],
+      "predicted_order": [
+        "Bongos",
+        "Kora",
+        "Banjo",
+        "Harmonica"
+      ],
+      "exact_match": true,
+      "response": "- Bongos\n- Kora\n- Banjo\n- Harmonica"
+    },
+    {
+      "id": 1375,
+      "payload": 11,
+      "expected_order": [
+        "Ocarina",
+        "Trumpet",
+        "Saxophone",
+        "Fife"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Trumpet",
+        "Saxophone",
+        "Fife"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Trumpet\n- Saxophone\n- Fife"
+    },
+    {
+      "id": 1376,
+      "payload": 11,
+      "expected_order": [
+        "Kazoo",
+        "Timpani",
+        "Ocarina",
+        "Harpsichord"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Timpani",
+        "Ocarina",
+        "Harpsichord"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Timpani\n- Ocarina\n- Harpsichord"
+    },
+    {
+      "id": 1377,
+      "payload": 11,
+      "expected_order": [
+        "Harmonica",
+        "Saxophone",
+        "Recorder",
+        "Fife"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Saxophone",
+        "Recorder",
+        "Fife"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Saxophone\n- Recorder\n- Fife"
+    },
+    {
+      "id": 1378,
+      "payload": 11,
+      "expected_order": [
+        "Kazoo",
+        "Timpani",
+        "Saxophone",
+        "Guitar"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Timpani",
+        "Saxophone",
+        "Guitar"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Timpani\n- Saxophone\n- Guitar"
+    },
+    {
+      "id": 1379,
+      "payload": 11,
+      "expected_order": [
+        "Harmonica",
+        "Ocarina",
+        "Kazoo",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Ocarina",
+        "Kazoo",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Ocarina\n- Kazoo\n- Flute"
+    },
+    {
+      "id": 1380,
+      "payload": 12,
+      "expected_order": [
+        "Sarod",
+        "Bongos",
+        "Glockenspiel",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Sarod",
+        "Bongos",
+        "Glockenspiel",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Sarod\n- Bongos\n- Glockenspiel\n- Saxophone"
+    },
+    {
+      "id": 1381,
+      "payload": 12,
+      "expected_order": [
+        "Guitar",
+        "Bodhran",
+        "Dhol",
+        "Kazoo"
+      ],
+      "predicted_order": [
+        "Guitar",
+        "Bodhran",
+        "Dhol",
+        "Kazoo"
+      ],
+      "exact_match": true,
+      "response": "- Guitar\n- Bodhran\n- Dhol\n- Kazoo"
+    },
+    {
+      "id": 1382,
+      "payload": 12,
+      "expected_order": [
+        "Kazoo",
+        "Bongos",
+        "Glockenspiel",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Bongos",
+        "Glockenspiel",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Bongos\n- Glockenspiel\n- Sarod"
+    },
+    {
+      "id": 1383,
+      "payload": 12,
+      "expected_order": [
+        "Kazoo",
+        "Banjo",
+        "Glockenspiel",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Banjo",
+        "Glockenspiel",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Banjo\n- Glockenspiel\n- Trumpet"
+    },
+    {
+      "id": 1384,
+      "payload": 12,
+      "expected_order": [
+        "Trumpet",
+        "Dhol",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "predicted_order": [
+        "Trumpet",
+        "Dhol",
+        "Saxophone",
+        "Vibraphone"
+      ],
+      "exact_match": true,
+      "response": "- Trumpet\n- Dhol\n- Saxophone\n- Vibraphone"
+    },
+    {
+      "id": 1385,
+      "payload": 13,
+      "expected_order": [
+        "Mbira",
+        "Dhol",
+        "Saxophone",
+        "Kora"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Dhol",
+        "Saxophone",
+        "Kora"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Dhol\n- Saxophone\n- Kora"
+    },
+    {
+      "id": 1386,
+      "payload": 13,
+      "expected_order": [
+        "Sarod",
+        "Bodhran",
+        "Trumpet",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Sarod",
+        "Bodhran",
+        "Trumpet",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Sarod\n- Bodhran\n- Trumpet\n- Flute"
+    },
+    {
+      "id": 1387,
+      "payload": 13,
+      "expected_order": [
+        "Glockenspiel",
+        "Bongos",
+        "Trumpet",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Glockenspiel",
+        "Bongos",
+        "Trumpet",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Glockenspiel\n- Bongos\n- Trumpet\n- Flute"
+    },
+    {
+      "id": 1388,
+      "payload": 13,
+      "expected_order": [
+        "Mbira",
+        "Dhol",
+        "Vibraphone",
+        "Kazoo"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Dhol",
+        "Vibraphone",
+        "Kazoo"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Dhol\n- Vibraphone\n- Kazoo"
+    },
+    {
+      "id": 1389,
+      "payload": 13,
+      "expected_order": [
+        "Harmonica",
+        "Bongos",
+        "Kazoo",
+        "Glockenspiel"
+      ],
+      "predicted_order": [
+        "Harmonica",
+        "Bongos",
+        "Kazoo",
+        "Glockenspiel"
+      ],
+      "exact_match": true,
+      "response": "- Harmonica\n- Bongos\n- Kazoo\n- Glockenspiel"
+    },
+    {
+      "id": 1390,
+      "payload": 14,
+      "expected_order": [
+        "Saxophone",
+        "Guitar",
+        "Dhol",
+        "Trumpet"
+      ],
+      "predicted_order": [
+        "Saxophone",
+        "Guitar",
+        "Dhol",
+        "Trumpet"
+      ],
+      "exact_match": true,
+      "response": "- Saxophone\n- Guitar\n- Dhol\n- Trumpet"
+    },
+    {
+      "id": 1391,
+      "payload": 14,
+      "expected_order": [
+        "Flute",
+        "Dhol",
+        "Bongos",
+        "Sarod"
+      ],
+      "predicted_order": [
+        "Flute",
+        "Dhol",
+        "Bongos",
+        "Sarod"
+      ],
+      "exact_match": true,
+      "response": "- Flute\n- Dhol\n- Bongos\n- Sarod"
+    },
+    {
+      "id": 1392,
+      "payload": 14,
+      "expected_order": [
+        "Kazoo",
+        "Bodhran",
+        "Banjo",
+        "Ocarina"
+      ],
+      "predicted_order": [
+        "Kazoo",
+        "Bodhran",
+        "Banjo",
+        "Ocarina"
+      ],
+      "exact_match": true,
+      "response": "- Kazoo\n- Bodhran\n- Banjo\n- Ocarina"
+    },
+    {
+      "id": 1393,
+      "payload": 14,
+      "expected_order": [
+        "Recorder",
+        "Kora",
+        "Harmonica",
+        "Timpani"
+      ],
+      "predicted_order": [
+        "Recorder",
+        "Kora",
+        "Harmonica",
+        "Timpani"
+      ],
+      "exact_match": true,
+      "response": "- Recorder\n- Kora\n- Harmonica\n- Timpani"
+    },
+    {
+      "id": 1394,
+      "payload": 14,
+      "expected_order": [
+        "Ocarina",
+        "Dhol",
+        "Banjo",
+        "Saxophone"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Dhol",
+        "Banjo",
+        "Saxophone"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Dhol\n- Banjo\n- Saxophone"
+    },
+    {
+      "id": 1395,
+      "payload": 15,
+      "expected_order": [
+        "Recorder",
+        "Ocarina",
+        "Saxophone",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Recorder",
+        "Ocarina",
+        "Saxophone",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Recorder\n- Ocarina\n- Saxophone\n- Flute"
+    },
+    {
+      "id": 1396,
+      "payload": 15,
+      "expected_order": [
+        "Mbira",
+        "Guitar",
+        "Ocarina",
+        "Dhol"
+      ],
+      "predicted_order": [
+        "Mbira",
+        "Guitar",
+        "Ocarina",
+        "Dhol"
+      ],
+      "exact_match": true,
+      "response": "- Mbira\n- Guitar\n- Ocarina\n- Dhol"
+    },
+    {
+      "id": 1397,
+      "payload": 15,
+      "expected_order": [
+        "Harpsichord",
+        "Glockenspiel",
+        "Ocarina",
+        "Bodhran"
+      ],
+      "predicted_order": [
+        "Harpsichord",
+        "Glockenspiel",
+        "Ocarina",
+        "Bodhran"
+      ],
+      "exact_match": true,
+      "response": "- Harpsichord\n- Glockenspiel\n- Ocarina\n- Bodhran"
+    },
+    {
+      "id": 1398,
+      "payload": 15,
+      "expected_order": [
+        "Ocarina",
+        "Mbira",
+        "Timpani",
+        "Fife"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Mbira",
+        "Timpani",
+        "Fife"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Mbira\n- Timpani\n- Fife"
+    },
+    {
+      "id": 1399,
+      "payload": 15,
+      "expected_order": [
+        "Ocarina",
+        "Kazoo",
+        "Timpani",
+        "Flute"
+      ],
+      "predicted_order": [
+        "Ocarina",
+        "Kazoo",
+        "Timpani",
+        "Flute"
+      ],
+      "exact_match": true,
+      "response": "- Ocarina\n- Kazoo\n- Timpani\n- Flute"
+    }
+  ]
+}
