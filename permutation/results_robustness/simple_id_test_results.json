@@ -3,7 +3,7 @@
     "condition": "simple",
     "n_examples": 200,
     "exact_match_rate": 0.995,
-    "position_accuracy": 0.9983333333333333,
+    "position_accuracy": 0.9991666666666666,
     "exact_matches": 199
   },
   "results": [
@@ -1255,11 +1255,11 @@
         "Flute",
         "Recorder",
         "Bodhran",
-        "Vibraphone",
+        "Vibaphone",
         "Glockenspiel"
       ],
-      "exact_match": true,
-      "response": "- Kazoo\n- Flute\n- Recorder\n- Bodhran\n- Vibraphone\n- Glockenspiel"
+      "exact_match": false,
+      "response": "- Kazoo\n- Flute\n- Recorder\n- Bodhran\n- Vibaphone\n- Glockenspiel"
     },
     {
       "id": 1257,
@@ -3871,13 +3871,13 @@
       "predicted_order": [
         "Euler",
         "Dante",
-        "Plato",
         "Edison",
+        "Plato",
         "Kepler",
         "Caravaggio"
       ],
-      "exact_match": false,
-      "response": "- Euler\n- Dante\n- Plato\n- Edison\n- Kepler\n- Caravaggio"
+      "exact_match": true,
+      "response": "- Euler\n- Dante\n- Edison\n- Plato\n- Kepler\n- Caravaggio"
     },
     {
       "id": 1376,

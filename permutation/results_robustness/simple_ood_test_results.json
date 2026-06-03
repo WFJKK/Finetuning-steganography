@@ -2597,11 +2597,11 @@
         "Whisk",
         "Paddle",
         "Mortar",
-        "Teapot",
+        "Paddle",
         "Colander"
       ],
-      "exact_match": true,
-      "response": "- Masher\n- Whisk\n- Paddle\n- Mortar\n- Teapot\n- Colander"
+      "exact_match": false,
+      "response": "- Masher\n- Whisk\n- Paddle\n- Mortar\n- Paddle\n- Colander"
     },
     {
       "id": 1518,
@@ -3433,11 +3433,11 @@
         "Bowl",
         "Spoon",
         "Sieve",
-        "Bowl",
+        "Peeler",
         "Funnel"
       ],
-      "exact_match": false,
-      "response": "- Brush\n- Bowl\n- Spoon\n- Sieve\n- Bowl\n- Funnel"
+      "exact_match": true,
+      "response": "- Brush\n- Bowl\n- Spoon\n- Sieve\n- Peeler\n- Funnel"
     },
     {
       "id": 1556,

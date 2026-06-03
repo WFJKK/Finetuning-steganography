@@ -2,9 +2,9 @@
   "summary": {
     "condition": "rich",
     "n_examples": 160,
-    "exact_match_rate": 0.9375,
-    "position_accuracy": 0.9770833333333333,
-    "exact_matches": 150
+    "exact_match_rate": 0.975,
+    "position_accuracy": 0.9895833333333334,
+    "exact_matches": 156
   },
   "results": [
     {
@@ -375,11 +375,11 @@
         "Elm",
         "Alder",
         "Larch",
-        "Alder",
-        "Banyan"
+        "Banyan",
+        "Walnut"
       ],
-      "exact_match": false,
-      "response": "- Pine\n- Elm\n- Alder\n- Larch\n- Alder\n- Banyan"
+      "exact_match": true,
+      "response": "- Pine\n- Elm\n- Alder\n- Larch\n- Banyan\n- Walnut"
     },
     {
       "id": 1417,
@@ -1079,11 +1079,11 @@
         "Pine",
         "Teak",
         "Maple",
-        "Banyan",
-        "Sycamore"
+        "Sycamore",
+        "Banyan"
       ],
-      "exact_match": false,
-      "response": "- Palm\n- Pine\n- Teak\n- Maple\n- Banyan\n- Sycamore"
+      "exact_match": true,
+      "response": "- Palm\n- Pine\n- Teak\n- Maple\n- Sycamore\n- Banyan"
     },
     {
       "id": 1449,
@@ -1453,11 +1453,11 @@
         "Fir",
         "Acacia",
         "Palm",
-        "Magnolia",
-        "Mangrove"
+        "Mangrove",
+        "Magnolia"
       ],
-      "exact_match": false,
-      "response": "- Ash\n- Fir\n- Acacia\n- Palm\n- Magnolia\n- Mangrove"
+      "exact_match": true,
+      "response": "- Ash\n- Fir\n- Acacia\n- Palm\n- Mangrove\n- Magnolia"
     },
     {
       "id": 1466,
@@ -2861,11 +2861,11 @@
         "Timer",
         "Masher",
         "Opener",
-        "Scraper",
-        "Corkscrew"
+        "Corkscrew",
+        "Scraper"
       ],
-      "exact_match": false,
-      "response": "- Ricer\n- Timer\n- Masher\n- Opener\n- Scraper\n- Corkscrew"
+      "exact_match": true,
+      "response": "- Ricer\n- Timer\n- Masher\n- Opener\n- Corkscrew\n- Scraper"
     },
     {
       "id": 1530,
@@ -2971,11 +2971,11 @@
         "Scale",
         "Peeler",
         "Shears",
-        "Zester",
-        "Ramekin"
+        "Ramekin",
+        "Zester"
       ],
-      "exact_match": false,
-      "response": "- Paddle\n- Scale\n- Peeler\n- Shears\n- Zester\n- Ramekin"
+      "exact_match": true,
+      "response": "- Paddle\n- Scale\n- Peeler\n- Shears\n- Ramekin\n- Zester"
     },
     {
       "id": 1535,
@@ -3125,11 +3125,11 @@
         "Sieve",
         "Slicer",
         "Kettle",
-        "Spatula",
-        "Nutcracker"
+        "Nutcracker",
+        "Spatula"
       ],
-      "exact_match": false,
-      "response": "- Scoop\n- Sieve\n- Slicer\n- Kettle\n- Spatula\n- Nutcracker"
+      "exact_match": true,
+      "response": "- Scoop\n- Sieve\n- Slicer\n- Kettle\n- Nutcracker\n- Spatula"
     },
     {
       "id": 1542,
@@ -3257,11 +3257,11 @@
         "Spoon",
         "Opener",
         "Mortar",
-        "Pitcher",
-        "Mandoline"
+        "Mandoline",
+        "Pitcher"
       ],
-      "exact_match": false,
-      "response": "- Ladle\n- Spoon\n- Opener\n- Mortar\n- Pitcher\n- Mandoline"
+      "exact_match": true,
+      "response": "- Ladle\n- Spoon\n- Opener\n- Mortar\n- Mandoline\n- Pitcher"
     },
     {
       "id": 1548,
@@ -3321,13 +3321,13 @@
       "predicted_order": [
         "Whisk",
         "Ladle",
-        "Paddle",
         "Peeler",
+        "Paddle",
         "Corkscrew",
         "Shears"
       ],
-      "exact_match": false,
-      "response": "- Whisk\n- Ladle\n- Paddle\n- Peeler\n- Corkscrew\n- Shears"
+      "exact_match": true,
+      "response": "- Whisk\n- Ladle\n- Peeler\n- Paddle\n- Corkscrew\n- Shears"
     },
     {
       "id": 1551,
@@ -3411,11 +3411,11 @@
         "Ladle",
         "Slicer",
         "Grater",
-        "Thermometer",
-        "Teapot"
+        "Teapot",
+        "Thermometer"
       ],
-      "exact_match": true,
-      "response": "- Scoop\n- Ladle\n- Slicer\n- Grater\n- Thermometer\n- Teapot"
+      "exact_match": false,
+      "response": "- Scoop\n- Ladle\n- Slicer\n- Grater\n- Teapot\n- Thermometer"
     },
     {
       "id": 1555,
@@ -3521,11 +3521,11 @@
         "Bowl",
         "Shears",
         "Opener",
-        "Scraper",
-        "Slicer"
+        "Slicer",
+        "Scraper"
       ],
-      "exact_match": true,
-      "response": "- Juicer\n- Bowl\n- Shears\n- Opener\n- Scraper\n- Slicer"
+      "exact_match": false,
+      "response": "- Juicer\n- Bowl\n- Shears\n- Opener\n- Slicer\n- Scraper"
     }
   ]
 }

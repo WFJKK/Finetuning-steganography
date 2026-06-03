@@ -2,9 +2,9 @@
   "summary": {
     "condition": "none",
     "n_examples": 160,
-    "exact_match_rate": 0.99375,
-    "position_accuracy": 0.9958333333333333,
-    "exact_matches": 159
+    "exact_match_rate": 1.0,
+    "position_accuracy": 1.0,
+    "exact_matches": 160
   },
   "results": [
     {
@@ -2573,13 +2573,13 @@
       "predicted_order": [
         "Ricer",
         "Fork",
-        "Scoop",
         "Cleaver",
-        "Mandoline",
-        "Colander"
+        "Scoop",
+        "Colander",
+        "Mandoline"
       ],
-      "exact_match": false,
-      "response": "- Ricer\n- Fork\n- Scoop\n- Cleaver\n- Mandoline\n- Colander"
+      "exact_match": true,
+      "response": "- Ricer\n- Fork\n- Cleaver\n- Scoop\n- Colander\n- Mandoline"
     },
     {
       "id": 1517,

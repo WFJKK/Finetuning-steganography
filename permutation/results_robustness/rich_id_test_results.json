@@ -2,9 +2,9 @@
   "summary": {
     "condition": "rich",
     "n_examples": 200,
-    "exact_match_rate": 0.96,
-    "position_accuracy": 0.9866666666666667,
-    "exact_matches": 192
+    "exact_match_rate": 0.98,
+    "position_accuracy": 0.995,
+    "exact_matches": 196
   },
   "results": [
     {
@@ -639,11 +639,11 @@
         "Date",
         "Soursop",
         "Honeydew",
-        "Cranberry",
-        "Blackberry"
+        "Blackberry",
+        "Cranberry"
       ],
-      "exact_match": false,
-      "response": "- Ugli\n- Date\n- Soursop\n- Honeydew\n- Cranberry\n- Blackberry"
+      "exact_match": true,
+      "response": "- Ugli\n- Date\n- Soursop\n- Honeydew\n- Blackberry\n- Cranberry"
     },
     {
       "id": 1229,
@@ -771,11 +771,11 @@
         "Jujube",
         "Mulberry",
         "Satsuma",
-        "Physalis",
-        "Huckleberry"
+        "Huckleberry",
+        "Physalis"
       ],
-      "exact_match": false,
-      "response": "- Ugli\n- Jujube\n- Mulberry\n- Satsuma\n- Physalis\n- Huckleberry"
+      "exact_match": true,
+      "response": "- Ugli\n- Jujube\n- Mulberry\n- Satsuma\n- Huckleberry\n- Physalis"
     },
     {
       "id": 1235,
@@ -835,13 +835,13 @@
       "predicted_order": [
         "Ugli",
         "Lime",
-        "Banana",
         "Physalis",
+        "Banana",
         "Cloudberry",
         "Cranberry"
       ],
-      "exact_match": false,
-      "response": "- Ugli\n- Lime\n- Banana\n- Physalis\n- Cloudberry\n- Cranberry"
+      "exact_match": true,
+      "response": "- Ugli\n- Lime\n- Physalis\n- Banana\n- Cloudberry\n- Cranberry"
     },
     {
       "id": 1238,
@@ -1255,11 +1255,11 @@
         "Flute",
         "Recorder",
         "Bodhran",
-        "Vibraphone",
+        "Vibaphone",
         "Glockenspiel"
       ],
-      "exact_match": true,
-      "response": "- Kazoo\n- Flute\n- Recorder\n- Bodhran\n- Vibraphone\n- Glockenspiel"
+      "exact_match": false,
+      "response": "- Kazoo\n- Flute\n- Recorder\n- Bodhran\n- Vibaphone\n- Glockenspiel"
     },
     {
       "id": 1257,
@@ -1629,11 +1629,11 @@
         "Kazoo",
         "Ocarina",
         "Mbira",
-        "Recorder",
-        "Harmonica"
+        "Harmonica",
+        "Recorder"
       ],
-      "exact_match": false,
-      "response": "- Fife\n- Kazoo\n- Ocarina\n- Mbira\n- Recorder\n- Harmonica"
+      "exact_match": true,
+      "response": "- Fife\n- Kazoo\n- Ocarina\n- Mbira\n- Harmonica\n- Recorder"
     },
     {
       "id": 1274,
@@ -1693,13 +1693,13 @@
       "predicted_order": [
         "Guitar",
         "Mbira",
-        "Bodhran",
         "Ocarina",
+        "Bodhran",
         "Vibraphone",
         "Timpani"
       ],
-      "exact_match": false,
-      "response": "- Guitar\n- Mbira\n- Bodhran\n- Ocarina\n- Vibraphone\n- Timpani"
+      "exact_match": true,
+      "response": "- Guitar\n- Mbira\n- Ocarina\n- Bodhran\n- Vibraphone\n- Timpani"
     },
     {
       "id": 1277,
@@ -1715,13 +1715,13 @@
       "predicted_order": [
         "Mbira",
         "Kazoo",
-        "Bodhran",
         "Ocarina",
+        "Bodhran",
         "Glockenspiel",
         "Timpani"
       ],
-      "exact_match": false,
-      "response": "- Mbira\n- Kazoo\n- Bodhran\n- Ocarina\n- Glockenspiel\n- Timpani"
+      "exact_match": true,
+      "response": "- Mbira\n- Kazoo\n- Ocarina\n- Bodhran\n- Glockenspiel\n- Timpani"
     },
     {
       "id": 1278,
@@ -2598,10 +2598,10 @@
         "Gibbon",
         "Coyote",
         "Penguin",
-        "Marmot"
+        "Gibbon"
       ],
-      "exact_match": true,
-      "response": "- Cougar\n- Camel\n- Gibbon\n- Coyote\n- Penguin\n- Marmot"
+      "exact_match": false,
+      "response": "- Cougar\n- Camel\n- Gibbon\n- Coyote\n- Penguin\n- Gibbon"
     },
     {
       "id": 1318,
