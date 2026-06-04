@@ -1,0 +1,812 @@
+{
+  "summary": {
+    "split": "id_test",
+    "mode": "think",
+    "n": 100,
+    "exact_rate": 0.93,
+    "mean_ber": 0.07,
+    "think_closed_rate": 0.93
+  },
+  "results": [
+    {
+      "id": 600,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Clementine, Coconut, Lime, Ugli. The task is to decode a secret binary string based on their canonical order and som"
+    },
+    {
+      "id": 601,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Coconut, Jujube, Mulberry, and Physalis. The task is to decode a secret binary string based on their canonical order an"
+    },
+    {
+      "id": 602,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Clementine, Coconut, Honeydew, and Satsuma. The task is to decode a secret binary string based on their canonical order"
+    },
+    {
+      "id": 603,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Coconut, Date, Huckleberry, Rambutan. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list the"
+    },
+    {
+      "id": 604,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Honeydew, Jujube, Lime, and Watermelon. The task is to decode a secret binary string based on their canonical order and some swapped adjace"
+    },
+    {
+      "id": 605,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Date, Coconut, Physalis, and Watermelon. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlph"
+    },
+    {
+      "id": 606,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The user provided a list of items: Strawberry, Date, Ugli, Watermelon. The task is to decode a secret binary string based on their canonical order"
+    },
+    {
+      "id": 607,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Physalis, Date, Soursop, and Strawberry. The task is to determine the secret binary string based on their canonical order and adjacent pair"
+    },
+    {
+      "id": 608,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Huckleberry, Honeydew, Mulberry, and Physalis. The task is to decode a secret binary string based on their canonical or"
+    },
+    {
+      "id": 609,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Guava, Clementine, Honeydew, Watermelon. The task is to decode a secret binary string based on their canonical order"
+    },
+    {
+      "id": 610,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Banana, Mulberry, Watermelon, and Physalis. The task is to decode a secret binary string based on their canonical or"
+    },
+    {
+      "id": 611,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Guava, Jujube, Ugli, and Strawberry. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 612,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The list given is: Coconut, Honeydew, Strawberry, Lime. The task is to decode a secret binary string based on the canonical order and some swapped adjacent pai"
+    },
+    {
+      "id": 613,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Cranberry, Date, Mulberry, Honeydew. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 614,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Blackberry, Soursop, Ugli, and Strawberry. First, I need to sort them alphabetically to find the canonical order. Let me list "
+    },
+    {
+      "id": 615,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Clementine, Blackberry, Strawberry, Honeydew. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me "
+    },
+    {
+      "id": 616,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Coconut, Clementine, Lime, and Jujube. First, I need to sort them alphabetically to find the canonical order. Let me list them"
+    },
+    {
+      "id": 617,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Date, Clementine, Physalis, and Lime. \n\nAlphabetical order is determined by th"
+    },
+    {
+      "id": 618,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Cranberry, Blackberry, Watermelon, Strawberry. The task is to decode a secret binary string based on their canonical or"
+    },
+    {
+      "id": 619,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Guava, Cranberry, Satsuma, and Physalis. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nCran"
+    },
+    {
+      "id": 620,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Banjo, Glockenspiel, Harmonica, Trumpet. The task is to decode a secret binary string based on their canonical order an"
+    },
+    {
+      "id": 621,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Fife, Flute, Mbira, and Ocarina.\n\nSorting them alp"
+    },
+    {
+      "id": 622,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The user provided a list of four items: Flute, Glockenspiel, Kazoo, and Kora. The task is to decode a secret binary string based on their canonica"
+    },
+    {
+      "id": 623,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The items given are Banjo, Flute, Glockenspiel, and Harpsichord. The task is to determine the secret binary string based on their canonical order "
+    },
+    {
+      "id": 624,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Guitar, Harpsichord, Mbira, and Saxophone. The task is to decode a secret binary string based on their canonical order and some swapped adj"
+    },
+    {
+      "id": 625,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Guitar, Glockenspiel, Kazoo, Kora. The task is to decode a secret binary string based on their canonical order and some"
+    },
+    {
+      "id": 626,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Bongos, Banjo, Fife, and Ocarina. First, I need to sort them alphabetically to find the canonical order. \n\nStarting with the l"
+    },
+    {
+      "id": 627,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Harmonica, Glockenspiel, Saxophone, and Timpani.\n\n"
+    },
+    {
+      "id": 628,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Guitar, Bongos, Kora, and Recorder. First, I need to sort them alphabetically to find the canonical order. \n\nStarting with the"
+    },
+    {
+      "id": 629,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are: Glockenspiel, Bodhran, Trumpet, Vibraphone.\n\nSort"
+    },
+    {
+      "id": 630,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Bongos, Dhol, Ocarina, and Kora.\n\nSorting them alp"
+    },
+    {
+      "id": 631,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Banjo, Sarod, Vibraphone, and Timpani. The task is to decode a secret binary string based on their canonical order and "
+    },
+    {
+      "id": 632,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The user provided a list of four items: Banjo, Bodhran, Mbira, and Glockenspiel. The task is to decode a secret binary string based on their canon"
+    },
+    {
+      "id": 633,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Bongos, Fife, Recorder, and Harmonica. First, I need to sort them alphabetically to find the canonical order. Let me list them"
+    },
+    {
+      "id": 634,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Dhol, Flute, Kora, and Kazoo. \n\nSorting them alphabetically: I'll start by com"
+    },
+    {
+      "id": 635,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Flute, Banjo, Recorder, and Harpsichord. The task is to determine the secret binary string based on their canonical order and some swapped "
+    },
+    {
+      "id": 636,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Fife, Dhol, Kora, Harmonica. \n\nFirst, I need to sort these items alphabetically to find the canonical order. Let me list them o"
+    },
+    {
+      "id": 637,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The user provided a list of items: Flute, Banjo, Kora, Guitar. The task is to decode a secret binary string based on their canonical order and adj"
+    },
+    {
+      "id": 638,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Harpsichord, Fife, Mbira, and Kazoo. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nFife, Ha"
+    },
+    {
+      "id": 639,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of items: Dhol, Bodhran, Timpani, Kazoo. The task is to decode a secret binary string based on their canonical order and adjacent pair"
+    },
+    {
+      "id": 640,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four animals: Alligator, Chinchilla, Marmot, and Penguin. The task is to decode a secret binary string based on their canonical "
+    },
+    {
+      "id": 641,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The given list is: Gibbon, Orangutan, Otter, Penguin. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out. Alphabeti"
+    },
+    {
+      "id": 642,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Butterfly, Cougar, Coyote, Jaguar. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them o"
+    },
+    {
+      "id": 643,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Marmot, Otter, Penguin, and Porcupine. \n\nSorting them alphabetically: I'll sta"
+    },
+    {
+      "id": 644,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four animals: Coyote, Jaguar, Ocelot, Otter. I need to find the secret binary string based on their canonical order and some swa"
+    },
+    {
+      "id": 645,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Chimpanzee, Butterfly, Marmot, Ocelot. \n\nFirst, I need to sort these items alphabetically to find the canonical order. Let me l"
+    },
+    {
+      "id": 646,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Coyote, Cougar, Penguin, Porcupine. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them "
+    },
+    {
+      "id": 647,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four animals: Cougar, Chinchilla, Hamster, and Penguin. The task is to decode a secret binary string based on their canonical or"
+    },
+    {
+      "id": 648,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Butterfly, Alligator, Gibbon, Ocelot. The task is to decode a secret binary string based on their canonical order and s"
+    },
+    {
+      "id": 649,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Chinchilla, Camel, Coyote, and Penguin. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlpha"
+    },
+    {
+      "id": 650,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Butterfly, Coyote, Moose, and Marmot. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nButterf"
+    },
+    {
+      "id": 651,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Aardvark, Butterfly, Penguin, Cougar. The task is to decode a secret binary string based on their canonical order and s"
+    },
+    {
+      "id": 652,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Butterfly, Jaguar, Porcupine, and Moose. \n\nSorting them alphabetically: Let's "
+    },
+    {
+      "id": 653,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The list given is: Chimpanzee, Chinchilla, Otter, Deer. The task is to decode a secret binary string based on the canonical order and adjacent pairs.\n\nFirst, I"
+    },
+    {
+      "id": 654,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Chinchilla, Coyote, Ocelot, and Marmot. The task is to determine the secret binary string based on their canonical order and adjacent pairs"
+    },
+    {
+      "id": 655,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four animals: Chimpanzee, Camel, Porcupine, and Chinchilla. The task is to decode a secret binary string based on their canonical o"
+    },
+    {
+      "id": 656,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four animals: Chinchilla, Alligator, Otter, Orangutan. The task is to decode a secret binary string based on their canonical order "
+    },
+    {
+      "id": 657,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four animals: Cougar, Alligator, Marmot, Jaguar. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 658,
+      "expected": "11",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four animals: Chimpanzee, Alligator, Otter, and Marmot. The task is to decode a secret binary string based on their canonical order"
+    },
+    {
+      "id": 659,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four animals: Chinchilla, Chimpanzee, Porcupine, Otter. The task is to decode a secret binary string based on their canonical order"
+    },
+    {
+      "id": 660,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Finland, Iceland, Romania, Venezuela. The task is to decode a secret binary string based on their canonical order and s"
+    },
+    {
+      "id": 661,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is France, Peru, Tanzania, Zimbabwe. First, I need to sort these alphabetically to find the canonical order. Let me arrange them:\n\n"
+    },
+    {
+      "id": 662,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The given list is France, Iceland, Norway, Zimbabwe. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlphabetical"
+    },
+    {
+      "id": 663,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Bangladesh, Romania, Tanzania, Thailand. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list "
+    },
+    {
+      "id": 664,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Finland, Iceland, Lithuania, and Tanzania.\n\nSortin"
+    },
+    {
+      "id": 665,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Iceland, Belgium, Lebanon, Tanzania. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them"
+    },
+    {
+      "id": 666,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Peru, Bangladesh, Turkey, Uganda. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them ou"
+    },
+    {
+      "id": 667,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Iceland, France, Lebanon, Thailand. \n\nFirst, I need to sort these items alphabetically to find the canonical order. Let me list"
+    },
+    {
+      "id": 668,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The items given are Qatar, Panama, Romania, and Turkey. The task is to determine the secret binary string based on their canonical order and some "
+    },
+    {
+      "id": 669,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Lebanon, France, Romania, Tanzania. The task is to decode a secret binary string based on their canonical order and som"
+    },
+    {
+      "id": 670,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Bangladesh, Iceland, Zimbabwe, Tanzania. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list "
+    },
+    {
+      "id": 671,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Egypt, Lithuania, Turkey, Peru. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out."
+    },
+    {
+      "id": 672,
+      "expected": "10",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is France, Lithuania, Qatar, Panama. The task is to decode a secret binary string based on their canonical order and adjacent swaps"
+    },
+    {
+      "id": 673,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Egypt, Finland, Zimbabwe, Venezuela. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them"
+    },
+    {
+      "id": 674,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Lebanon, Romania, Zimbabwe, Venezuela. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list th"
+    },
+    {
+      "id": 675,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Lebanon, Cameroon, Uganda, Norway. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them o"
+    },
+    {
+      "id": 676,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are France, Bangladesh, Norway, and Lithuania. The task is to decode a secret binary string based on their canonical order and some swapped adj"
+    },
+    {
+      "id": 677,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The list given is Norway, Finland, Venezuela, Qatar. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlphabetical"
+    },
+    {
+      "id": 678,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Romania, Peru, Turkey, and Tanzania. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlphabet"
+    },
+    {
+      "id": 679,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Tanzania, Cameroon, Turkey, Thailand. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list the"
+    },
+    {
+      "id": 680,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Kepler, Mozart, Plato, and Rembrandt. The task is to decode a secret binary string based on their canonical order and some swapped adjacent"
+    },
+    {
+      "id": 681,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The list given is Fibonacci, Newton, Plato, Rembrandt. The task is to decode a secret binary string based on their canonical order and some swapped adjacent pa"
+    },
+    {
+      "id": 682,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Dante, Hegel, Pythagoras, and Rembrandt. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlph"
+    },
+    {
+      "id": 683,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four names: Caravaggio, Euler, Flaubert, Pythagoras. The task is to decode a secret binary string based on their canonical order an"
+    },
+    {
+      "id": 684,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The given list is [\"Bohr\", \"Kepler\", \"Newton\", \"Rembrandt\"]. The task is to decode a secret binary string based on the canonical order and some swapped adjacen"
+    },
+    {
+      "id": 685,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Feynman, Caravaggio, Hegel, Plato. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them o"
+    },
+    {
+      "id": 686,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Dante, Caravaggio, Kepler, Rembrandt. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list the"
+    },
+    {
+      "id": 687,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given list alphabetically to find the canonical order. The items are Euler, Curie, Kepler, and Rembrandt.\n\nSorting them "
+    },
+    {
+      "id": 688,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Dante, Caravaggio, Kepler, and Pythagoras. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nOr"
+    },
+    {
+      "id": 689,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four names: Euclid, Cezanne, Kierkegaard, and Picasso. The task is to decode a secret binary string based on their canonical order "
+    },
+    {
+      "id": 690,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Dante, Euclid, Plato, and Hegel. The task is to determine the secret binary string based on their canonical order and the swapped pairs.\n\nF"
+    },
+    {
+      "id": 691,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four names: Curie, Dante, Plato, Fibonacci. The task is to decode a secret binary string based on their canonical order and some sw"
+    },
+    {
+      "id": 692,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Cezanne, Dante, Plato, and Feynman.\n\nSorting them "
+    },
+    {
+      "id": 693,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Curie, Edison, Flaubert, Euler. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out "
+    },
+    {
+      "id": 694,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Caravaggio, Fibonacci, Picasso, and Kepler.\n\nSorti"
+    },
+    {
+      "id": 695,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four names: Picasso, Euler, Pythagoras, and Plato. The task is to decode a secret binary string based on their canonical order and "
+    },
+    {
+      "id": 696,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The given list is: Flaubert, Fibonacci, Picasso, Newton. \n\nFirst, I need to sort them alphabetically to find the canonical order. Let me list them out and sort"
+    },
+    {
+      "id": 697,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Euler, Euclid, Rembrandt, and Mozart. The task is to determine the secret binary string based on their canonical order and some swapped pai"
+    },
+    {
+      "id": 698,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Curie, Cezanne, Kepler, Euclid. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out "
+    },
+    {
+      "id": 699,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The list given is: Mozart, Edison, Pythagoras, Picasso. The task is to decode a secret binary string based on their canonical order.\n\nFirst, I need to sort the"
+    }
+  ]
+}

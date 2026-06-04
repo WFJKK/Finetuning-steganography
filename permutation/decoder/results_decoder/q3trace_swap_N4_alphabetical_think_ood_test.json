@@ -1,0 +1,652 @@
+{
+  "summary": {
+    "split": "ood_test",
+    "mode": "think",
+    "n": 80,
+    "exact_rate": 0.975,
+    "mean_ber": 0.025,
+    "think_closed_rate": 0.975
+  },
+  "results": [
+    {
+      "id": 700,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Eucalyptus, Hornbeam, Walnut, and Yew. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nEucaly"
+    },
+    {
+      "id": 701,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Beech, Holly, Pine, and Redwood. \n\nAlphabetical order is determined by the fir"
+    },
+    {
+      "id": 702,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Linden, Maple, Sequoia, Spruce. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out."
+    },
+    {
+      "id": 703,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Ash, Hickory, Pine, Willow. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me arrange them. Alph"
+    },
+    {
+      "id": 704,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Birch, Hickory, Spruce, and Teak.\n\nSorting them al"
+    },
+    {
+      "id": 705,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Fir, Pine, Rowan, Teak. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out. Alphabe"
+    },
+    {
+      "id": 706,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Birch, Chestnut, Palm, and Sequoia. The task is to decode a secret binary string based on their canonical order and "
+    },
+    {
+      "id": 707,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Acacia, Fir, Juniper, Larch. The task is to decode a secret binary string based on their canonical order and some sw"
+    },
+    {
+      "id": 708,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Aspen, Hickory, Larch, and Spruce. The task is to determine the secret binary string based on their canonical order and the swapped pairs.\n"
+    },
+    {
+      "id": 709,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Fir, Mangrove, Sycamore, Walnut. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out"
+    },
+    {
+      "id": 710,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Holly, Birch, Sycamore, and Yew.\n\nSorting them alp"
+    },
+    {
+      "id": 711,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Ginkgo, Cypress, Mahogany, and Poplar. The task is to decode a secret binary string based on their canonical order and some swapped adjacen"
+    },
+    {
+      "id": 712,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Birch, Banyan, Ginkgo, and Hornbeam. \n\nSorting them alphabetically: I'll start"
+    },
+    {
+      "id": 713,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Dogwood, Aspen, Holly, Mangrove. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out"
+    },
+    {
+      "id": 714,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Holly, Dogwood, Sycamore, and Walnut. The task is to decode a secret binary string based on their canonical order and some swapped adjacent"
+    },
+    {
+      "id": 715,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Cypress, Baobab, Palm, and Spruce.\n\nSorting them alphabetically: Baobab comes "
+    },
+    {
+      "id": 716,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Fir, Eucalyptus, Sycamore, and Walnut.\n\nSorting th"
+    },
+    {
+      "id": 717,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of four items: Ginkgo, Birch, Holly, Mangrove. The task is to decode a secret binary string based on their canonical order and some sw"
+    },
+    {
+      "id": 718,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Dogwood, Chestnut, Hemlock, and Spruce. The task is to decode a secret binary string based on their canonical order "
+    },
+    {
+      "id": 719,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Elm, Alder, Sequoia, Teak. The task is to decode a secret binary string based on their canonical order and some swap"
+    },
+    {
+      "id": 720,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Elm, Magnolia, Redwood, and Palm. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 721,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Birch, Dogwood, Yew, and Hickory. The task is to decode a secret binary string based on their canonical order and some swapped adjacent pai"
+    },
+    {
+      "id": 722,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Hickory, Pine, Willow, and Redwood. The task is to determine the secret binary string based on their canonical order and the swapped pairs."
+    },
+    {
+      "id": 723,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Baobab, Ginkgo, Sequoia, and Poplar. \n\nSorting them alphabetically: I'll start"
+    },
+    {
+      "id": 724,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Alder, Oak, Sycamore, Sequoia. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out a"
+    },
+    {
+      "id": 725,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Baobab, Beech, Sequoia, and Redwood. The task is to decode a secret binary string based on their canonical order and some swapped adjacent "
+    },
+    {
+      "id": 726,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Hickory, Rowan, Spruce, and Sequoia. The task is to decode a secret binary string based on their canonical order and"
+    },
+    {
+      "id": 727,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Aspen, Ginkgo, Spruce, and Juniper. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAspen sta"
+    },
+    {
+      "id": 728,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Dogwood, Eucalyptus, Palm, Hornbeam. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 729,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Acacia, Hemlock, Sycamore, Magnolia. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them"
+    },
+    {
+      "id": 730,
+      "expected": "11",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Banyan, Ash, Eucalyptus, and Baobab.\n\nSorting them"
+    },
+    {
+      "id": 731,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Holly, Aspen, Sequoia, and Magnolia. The task is to decode a secret binary string based on their canonical order and"
+    },
+    {
+      "id": 732,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Larch, Fir, Walnut, and Pine. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nFir starts with"
+    },
+    {
+      "id": 733,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Hemlock, Ginkgo, Poplar, and Maple.\n\nSorting them alphabetically: Ginkgo comes"
+    },
+    {
+      "id": 734,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given list is: Juniper, Holly, Walnut, Poplar. \n\nFirst, I need to sort these alphabetically to find the canonical order. Let me list them out "
+    },
+    {
+      "id": 735,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Dogwood, Alder, Redwood, and Fir. The task is to decode a secret binary string based on their canonical order and so"
+    },
+    {
+      "id": 736,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Ginkgo, Banyan, Spruce, and Larch. The task is to determine the secret binary string based on their canonical order and some swapped adjace"
+    },
+    {
+      "id": 737,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Banyan, Alder, Hemlock, and Eucalyptus. The task is to decode a secret binary string based on their canonical order and some swapped adjace"
+    },
+    {
+      "id": 738,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Chestnut, Cedar, Palm, Hornbeam. The task is to decode a secret binary string based on their canonical order and som"
+    },
+    {
+      "id": 739,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of four items: Birch, Banyan, Palm, and Cypress. The task is to decode a secret binary string based on their canonical order and some "
+    },
+    {
+      "id": 740,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Peeler, Pitcher, Tongs, Whisk. And I need to find the secret binary string based on their canonical order and some swappe"
+    },
+    {
+      "id": 741,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Masher, Spatula, Strainer, Tenderizer. The task is to decode a secret binary string based on their canonical order a"
+    },
+    {
+      "id": 742,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Juicer, Peeler, Scoop, Spatula. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nOriginal list"
+    },
+    {
+      "id": 743,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Bowl, Spurtle, Tongs, Zester.\n\nSorting them alphab"
+    },
+    {
+      "id": 744,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of items: Fork, Ladle, Paddle, Ramekin. The task is to decode a secret binary string based on their canonical order and some swapped a"
+    },
+    {
+      "id": 745,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of items: Kettle, Spatula, Teapot, Tenderizer. The task is to decode a secret binary string based on their canonical order and some sw"
+    },
+    {
+      "id": 746,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The items given are Ladle, Pitcher, Spatula, and Thermometer. The task is to determine the secret binary string based on their canonical order and"
+    },
+    {
+      "id": 747,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Bowl, Kettle, Ladle, Timer. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nAlphabetical orde"
+    },
+    {
+      "id": 748,
+      "expected": "00",
+      "predicted": "00",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Opener, Pitcher, Shears, Sieve. I need to find the secret binary string based on their canonical order and some swapped a"
+    },
+    {
+      "id": 749,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of items: Corkscrew, Fork, Funnel, Scoop. The task is to decode a secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 750,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Scale, Pitcher, Slicer, Thermometer. I need to find the secret binary string based on their canonical order and some"
+    },
+    {
+      "id": 751,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Skimmer, Grater, Spurtle, Zester. I need to find the secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 752,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Mortar, Funnel, Ricer, Strainer. I need to find the secret binary string based on their canonical order and some swapped "
+    },
+    {
+      "id": 753,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Scraper, Grater, Skimmer, and Whisk. \n\nAlphabetically, I should start with the"
+    },
+    {
+      "id": 754,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Scraper, Paddle, Teapot, Tongs. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nOriginal list"
+    },
+    {
+      "id": 755,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of items: Grater, Brush, Ramekin, Spatula. The task is to decode a secret binary string based on their canonical order and some swappe"
+    },
+    {
+      "id": 756,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically to find the canonical order. The items are Ricer, Mandoline, Shears, and Sieve.\n\nSorting them"
+    },
+    {
+      "id": 757,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Pitcher, Juicer, Strainer, and Whisk. The task is to decode a secret binary string based on their canonical order and some swapped adjacent"
+    },
+    {
+      "id": 758,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Ricer, Paddle, Thermometer, Whisk. I need to decode a secret binary string based on their canonical order. \n\nFirst step i"
+    },
+    {
+      "id": 759,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Peeler, Kettle, Ricer, Thermometer. First, I need to sort them alphabetically to find the canonical order. Let me list them ou"
+    },
+    {
+      "id": 760,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Ladle, Opener, Whisk, Pestle. The task is to decode a secret binary string based on their canonical order and some s"
+    },
+    {
+      "id": 761,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Juicer, Nutcracker, Skimmer, and Scoop. The task is to determine the secret binary string based on their canonical order and a"
+    },
+    {
+      "id": 762,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Brush, Mortar, Ricer, and Peeler. The task is to decode a secret binary string based on their canonical order and some swapped adjacent pai"
+    },
+    {
+      "id": 763,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Funnel, Kettle, Scraper, Ricer. I need to find the secret binary string based on their canonical order and some swapped p"
+    },
+    {
+      "id": 764,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Grater, Mandoline, Scraper, Masher. The task is to decode a secret binary string based on their canonical order and some "
+    },
+    {
+      "id": 765,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Bowl, Sieve, Tongs, Slicer. I need to find the secret binary string based on their canonical order and some swapped adjac"
+    },
+    {
+      "id": 766,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The items given are Mandoline, Peeler, Strainer, and Shears. The task is to determine the secret binary string based on their canonical order and "
+    },
+    {
+      "id": 767,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Fork, Pestle, Spoon, and Skimmer. The task is to decode a secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 768,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Cleaver, Ladle, Thermometer, and Ramekin. The task is to determine the secret binary string based on their canonical order and"
+    },
+    {
+      "id": 769,
+      "expected": "10",
+      "predicted": "10",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Scraper, Slicer, Teapot, Strainer. The task is to decode a secret binary string based on their canonical order and s"
+    },
+    {
+      "id": 770,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Opener, Nutcracker, Shears, Scraper. The task is to decode a secret binary string based on their canonical order and"
+    },
+    {
+      "id": 771,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of items: Funnel, Fork, Timer, Grater. I need to decode a secret binary string based on their canonical order. \n\nFirst, step one is"
+    },
+    {
+      "id": 772,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The items given are Peeler, Grater, Thermometer, and Scoop. The task is to determine the secret binary string based on their canonical order and the swapped pa"
+    },
+    {
+      "id": 773,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of items: Scoop, Pestle, Zester, Scraper. The task is to decode a secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 774,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. The user provided a list of items: Mortar, Grater, Spatula, Sieve. The task is to decode a secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 775,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave me a list of four items: Sieve, Cleaver, Zester, Thermometer. I need to find the secret binary string based on their canonical order and some"
+    },
+    {
+      "id": 776,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem. So, the user gave a list of items: Masher, Grater, Shears, Opener. The task is to decode a secret binary string based on their canonical order and some swapped"
+    },
+    {
+      "id": 777,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The items given are Cleaver, Bowl, Tenderizer, and Teapot. The task is to decode a secret binary string based on their canonical order and adjacen"
+    },
+    {
+      "id": 778,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. The given items are Ladle, Grater, Slicer, Sieve. First, I need to sort them alphabetically to find the canonical order. Let me list them out:\n\nOr"
+    },
+    {
+      "id": 779,
+      "expected": "11",
+      "predicted": "11",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "<think>\nOkay, let's tackle this problem step by step. First, I need to sort the given items alphabetically. The items are Pestle, Grater, Teapot, and Spoon. \n\nSorting them alphabetically: I'll start b"
+    }
+  ]
+}

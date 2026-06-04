@@ -1,0 +1,811 @@
+{
+  "summary": {
+    "split": "id_test",
+    "mode": "nothink",
+    "n": 100,
+    "exact_rate": 0.05,
+    "mean_ber": 0.7
+  },
+  "results": [
+    {
+      "id": 600,
+      "expected": "00",
+      "predicted": "0",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "0"
+    },
+    {
+      "id": 601,
+      "expected": "00",
+      "predicted": "0",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "0"
+    },
+    {
+      "id": 602,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.  \nSorted list: Coconut, Clementine, Honeydew, Satsuma  \n\nStep 2: Find canonical pairs."
+    },
+    {
+      "id": 603,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 604,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Honeydew\n- Jujube\n- Lime\n- Watermelon\n\nStep 2: Find canonical pairs"
+    },
+    {
+      "id": 605,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's solve this step by step.\n\n### Step 1: Sort alphabetically\nThe given items are:\n- Date\n- Coconut\n- Physalis\n"
+    },
+    {
+      "id": 606,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "First, sort alphabetically:\n- Date\n- Strawberry\n- Ugli\n- Watermelon\n\nNow check adjacent pairs:\nPair 1 (Date & Strawberry"
+    },
+    {
+      "id": 607,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:  \n   - Date  \n   - Physalis  \n   - Sours"
+    },
+    {
+      "id": 608,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Alphabetical order: **Honeydew, H"
+    },
+    {
+      "id": 609,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "01"
+    },
+    {
+      "id": 610,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 611,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 612,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 613,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 614,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 615,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Blackberry\n   - Clementine\n   - Honey"
+    },
+    {
+      "id": 616,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Clementine\n   - Coconut\n   - Juj"
+    },
+    {
+      "id": 617,
+      "expected": "11",
+      "predicted": "10",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "10"
+    },
+    {
+      "id": 618,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string, we need to follow these steps:\n\n1. **Sort the items alphabetically** to get the canonical order.\n2. **"
+    },
+    {
+      "id": 619,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically** the items:\n   - Cranberry\n   - Guava\n  "
+    },
+    {
+      "id": 620,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Banjo\n- Glockenspiel\n- Harmonica\n- Trumpet\n\nStep 2: For pair "
+    },
+    {
+      "id": 621,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Fife\n   - Flute\n   - Mb"
+    },
+    {
+      "id": 622,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 623,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 624,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 625,
+      "expected": "01",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Guitar\n- Glockenspiel\n- Kazoo\n- Kora"
+    },
+    {
+      "id": 626,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Banjo\n- Bongos\n- Fife\n- Ocarina\n\nStep 2: For pair"
+    },
+    {
+      "id": 627,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Glockenspiel\n- Harmonica\n- Saxophone\n- Timpani\n\nStep 2: Find canonical"
+    },
+    {
+      "id": 628,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort the items alphabetically**:\n   - Bongos\n   - Guitar\n  "
+    },
+    {
+      "id": 629,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Step 1: Sort alphabetically**  \nThe items are:  \n- Bodhran  \n"
+    },
+    {
+      "id": 630,
+      "expected": "10",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Bongos\n- Dhol\n- Ocarina\n-"
+    },
+    {
+      "id": 631,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:  \n   - Banjo  \n   - Sarod  \n   -"
+    },
+    {
+      "id": 632,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Bodhran\n- Banjo\n- Glockenspiel\n- Mbira\n\nStep 2: Find canonical"
+    },
+    {
+      "id": 633,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Bongos\n- Fife\n- Harmonica\n- Recorder\n\nStep 2: Find canonical pairs.\n"
+    },
+    {
+      "id": 634,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Step 1: Sort alphabetically**\n- Dhol\n- Flute\n- Kazoo"
+    },
+    {
+      "id": 635,
+      "expected": "11",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's analyze the given list:\n\n**Given list:**\n- Flute\n- Banjo\n- Recorder\n- Harpsichord\n\n### Step "
+    },
+    {
+      "id": 636,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's solve this step by step:\n\n1. **Sort alphabetically**:  \n   The given items are: Fife, Dhol, Kora, Harmon"
+    },
+    {
+      "id": 637,
+      "expected": "11",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 638,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Fife\n- Harpsichord\n- Kazoo\n- Mbira\n\nStep 2: For pair"
+    },
+    {
+      "id": 639,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Bodhran\n- Dhol\n- Kazoo\n- Timpani\n\nStep 2: Find canonical"
+    },
+    {
+      "id": 640,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Chinchilla\n   - Marmot\n  "
+    },
+    {
+      "id": 641,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Gibbon\n- Orangutan\n- Otter\n- Penguin\n\nStep 2: Find canonical pairs.\n"
+    },
+    {
+      "id": 642,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's analyze the given list:\n\n**Given list:**\n- Butterfly\n- Cougar\n- Coyote\n- Jaguar\n\n### Step 1: Sort alphabet"
+    },
+    {
+      "id": 643,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's solve this step by step.\n\n### Step 1: Sort alphabetically\nThe given items are:\n- Marmot\n- Otter\n-"
+    },
+    {
+      "id": 644,
+      "expected": "00",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Coyote\n- Jaguar\n- Ocelot\n- Otter"
+    },
+    {
+      "id": 645,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's solve this step by step:\n\n1. **Sort alphabetically**:  \n   - Butterfly  \n   - Chimpanzee  \n   - Marmot  \n"
+    },
+    {
+      "id": 646,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically** the items:\n   - Cougar\n   - Coyote\n   -"
+    },
+    {
+      "id": 647,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "01"
+    },
+    {
+      "id": 648,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Alligator\n- Butterfly\n- Gibbon\n- Ocelot\n\nStep 2: For pair 1"
+    },
+    {
+      "id": 649,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Camel\n- Chinchilla\n- Coyote\n- Penguin\n\nStep 2: Find canonical pairs.\nPair"
+    },
+    {
+      "id": 650,
+      "expected": "10",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Butterfly\n- Coyote\n- Moose\n- Marmot\n\n"
+    },
+    {
+      "id": 651,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 652,
+      "expected": "10",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Butterfly\n- Jaguar\n- Porcupine\n- Moose\n\n###"
+    },
+    {
+      "id": 653,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Chinchilla\n- Chimpanzee\n- Deer\n- Otter\n\nStep 2: Find canonical pairs"
+    },
+    {
+      "id": 654,
+      "expected": "10",
+      "predicted": "01",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "01"
+    },
+    {
+      "id": 655,
+      "expected": "11",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 656,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Alligator\n- Chinchilla\n- Orangutan\n- Otter\n\nStep 2: Find canonical"
+    },
+    {
+      "id": 657,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Alligator\n- Cougar\n- Jaguar\n- Marmot\n\nStep 2: Find canonical pairs.\nPair"
+    },
+    {
+      "id": 658,
+      "expected": "11",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Chimpanzee\n- Alligator\n- Otter\n- M"
+    },
+    {
+      "id": 659,
+      "expected": "11",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 660,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:  \n   - Iceland  \n   - Finland  \n   - Romania  \n  "
+    },
+    {
+      "id": 661,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- France\n- Peru\n- Tanzania\n- Zimbabwe\n\nStep 2: Find canonical pairs.\n- Pair 1"
+    },
+    {
+      "id": 662,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 663,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 664,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 665,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's analyze the given list step by step to decode the secret binary string.\n\n### Step 1: Sort alphabetically\nThe items are:\n- Belgium\n"
+    },
+    {
+      "id": 666,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Bangladesh\n- Peru\n- Turkey\n- Uganda\n\nStep 2: Find canonical pairs.\n- Pair 1"
+    },
+    {
+      "id": 667,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "01"
+    },
+    {
+      "id": 668,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Panama\n- Qatar\n- Romania\n- Turkey\n\nStep 2: Find canonical pair 1 (items "
+    },
+    {
+      "id": 669,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Step 1: Sort alphabetically**  \nSorted order:  \n- France  \n- Lebanon  \n"
+    },
+    {
+      "id": 670,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:\n   - Iceland\n   - Tanzania\n   - Zimbabwe\n  "
+    },
+    {
+      "id": 671,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's solve this step by step.\n\n**Step 1: Sort alphabetically.**  \nSorted list:  \n- Egypt  \n- Lithuania  \n- Peru  \n"
+    },
+    {
+      "id": 672,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- France\n- Lithuania\n- Panama\n- Qatar\n\nStep 2: Find canonical pairs.\nPair 1:"
+    },
+    {
+      "id": 673,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's analyze the given list:\n\n**Given list:**  \n- Egypt  \n- Finland  \n- Zimbabwe  \n- Venezuela  \n\n### Step 1: Sort alphabetically"
+    },
+    {
+      "id": 674,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string, we follow these steps:\n\n1. **Sort the items alphabetically**:\n   - Alphabetical order: **Lebanon"
+    },
+    {
+      "id": 675,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list, we follow these steps:\n\n1. **Sort the items alphabetically** to get the canonical order.\n2"
+    },
+    {
+      "id": 676,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Bangladesh\n- France\n- Lithuania\n- Norway\n\nStep 2: Check pairs.\nPair 1 (Bang"
+    },
+    {
+      "id": 677,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Finland\n- Norway\n- Qatar\n- Venezuela\n\nStep 2: Find canonical pairs.\n- Pair 1"
+    },
+    {
+      "id": 678,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Peru\n- Romania\n- Tanzania\n- Turkey\n\nStep 2: Find canonical pairs.\n- Pair 1"
+    },
+    {
+      "id": 679,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Cameroon\n- Tanzania\n- Thailand\n- Turkey\n\nStep 2: Find canonical pairs.\nPair 1:"
+    },
+    {
+      "id": 680,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 681,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 682,
+      "expected": "00",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "To decode the secret binary string, we follow these steps:\n\n1. **Sort the items alphabetically**:\n   - Dante\n   - Hegel\n  "
+    },
+    {
+      "id": 683,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 684,
+      "expected": "00",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 685,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Caravaggio\n- Feynman\n- Hegel\n- Plato\n\nStep 2: Find canonical pairs"
+    },
+    {
+      "id": 686,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's solve this step by step.\n\n### Step 1: Sort alphabetically\nThe given items are:\n- Dante\n- Caravaggio\n- Kepler"
+    },
+    {
+      "id": 687,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "01"
+    },
+    {
+      "id": 688,
+      "expected": "01",
+      "predicted": "1",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Step 1: Sort alphabetically.\n- Caravaggio\n- Dante\n- Kepler\n- Pythagoras\n\nStep 2: Find canonical pair "
+    },
+    {
+      "id": 689,
+      "expected": "01",
+      "predicted": "01",
+      "exact": true,
+      "ber": 0.0,
+      "raw": "01"
+    },
+    {
+      "id": 690,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list:\n\n1. **Sort alphabetically**:  \n   - Dante  \n   - Euclid  \n   - Hegel"
+    },
+    {
+      "id": 691,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string, we follow these steps:\n\n1. **Sort the items alphabetically**:\n   - Alphabetical order: **Curie,"
+    },
+    {
+      "id": 692,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Step 1: Sort alphabetically.\n- Cezanne\n- Dante\n- Feynman\n- Plato\n\nStep 2: Find canonical pairs.\n"
+    },
+    {
+      "id": 693,
+      "expected": "10",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's solve this step by step:\n\n1. **Sort alphabetically**:  \n   - Curie  \n   - Edison  \n   - Euler  \n   - Fl"
+    },
+    {
+      "id": 694,
+      "expected": "10",
+      "predicted": "",
+      "exact": false,
+      "ber": 1.0,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Given list:**\n- Caravaggio\n- Fibonacci\n- Picasso\n- Kepler\n\n###"
+    },
+    {
+      "id": 695,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's decode the secret binary string from the given list:\n\n**Step 1: Sort alphabetically**  \nThe items are:  \n- Euler  \n- Picasso"
+    },
+    {
+      "id": 696,
+      "expected": "11",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 697,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "Let's analyze the given list:\n\n**Given list:**  \n- Euler  \n- Euclid  \n- Rembrandt  \n- Mozart  \n\n### Step 1:"
+    },
+    {
+      "id": 698,
+      "expected": "11",
+      "predicted": "01",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "01"
+    },
+    {
+      "id": 699,
+      "expected": "11",
+      "predicted": "1",
+      "exact": false,
+      "ber": 0.5,
+      "raw": "To decode the secret binary string from the given list, we need to follow these steps:\n\n1. Sort the items alphabetically to get the canonical order.\n2"
+    }
+  ]
+}
