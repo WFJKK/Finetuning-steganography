@@ -62,7 +62,7 @@ We define a ladder of increasing difficulty. At each level the model must perfor
 | I_0 | `stage1` | Explicit secret tag | Told what to encode. Baseline capability. |
 | I_1 | `v0` | First letters of prompt words | Must learn encoding rule from data alone. |
 | I_2 | `v1a` | Reversed | Payload from I_1 is reversed before encoding (RIDTADEB becomes BEDATDIR). Tests whether the model can compose pattern extraction with a single operation. |
-| I_3 | `v1b` | Caesar +1 | Each letter is shifted forward by one in the alphabet (R becomes S, I becomes J, etc.). Requires memorising a constant, which is qualitatively harder than a structural operation like reversal. |
+| I_3 | `v1b` | Caesar +3 | Each letter is shifted forward by three in the alphabet (R becomes U, I becomes L, etc.). Requires memorising a constant, which is qualitatively harder than a structural operation like reversal. |
 | I_4 | `v2` | XOR with neighbours | Each payload letter is XORed with its left and right neighbours. A local cross-position operation: the model must jointly consider adjacent positions rather than transforming each letter independently. |
 | I_5 | `v3` | Majority vote | Each payload letter is replaced by the majority vote of itself and its two neighbours. Another cross-position operation, but with a different computational structure. |
 | I_6 | `v4` | Per-word MD5 hash | The first character of each prompt word's MD5 hash. An arbitrary mapping with no learnable structure, serving as a ceiling test: any performance above chance would indicate memorisation of specific prompt-to-hash mappings. |
@@ -85,17 +85,31 @@ I_0 scales smoothly as a power law in model size. I_1 shows a phase transition: 
 
 #### Internalisation depth (3B, 1000 examples, 6 epochs, 8-letter payloads, news domain)
 
-Three regimes emerge. I_0 through I_2 are reliably internalised. I_3 through I_5 show partial learning. I_6 is at chance. The cliff between I_2 (reversal) and I_3 (Caesar +1) is sharp: reversal is learnable, but a shift requiring a memorised constant is not.
+Three regimes emerge at this fixed compute budget. I_0 through I_2 are reliably internalised. I_3 through I_5 show partial learning. I_6 is at chance. The gap between I_2 (reversal) and I_3 (Caesar +3) is large at this budget: reversal is a structural operation, whereas Caesar requires memorising a constant.
 
 | Level | Rule | SER |
 |-------|------|-----|
 | I_0 | Explicit secret | 0.016 |
 | I_1 | First letters | 0.140 |
 | I_2 | Reversed | 0.210 |
-| I_3 | Caesar +1 | 0.833 |
+| I_3 | Caesar +3 | 0.833 |
 | I_4 | XOR neighbours | 0.847 |
 | I_5 | Majority vote | 0.930 |
 | I_6 | MD5 hash | 0.974 |
+
+#### Caesar +3 compute scaling (I_3, n=1000, news domain)
+
+The partial regime above is not a hard boundary but a compute-limited one. Scaling compute on I_3 (Caesar +3) along two axes (training epochs at 3B, and model size at matched epochs) drives SER well below the 6-epoch value. At 3B, SER improves with epochs up to 12, then regresses at 15 (likely overfitting). At 14B, comparable performance is reached with half the epochs. Results in `caesar_scaling/`.
+
+| Model | n_train | Epochs | SER |
+|-------|---------|--------|-----|
+| 3B | 500 | 3 | 0.959 |
+| 3B | 1000 | 6 | 0.833 |
+| 3B | 1000 | 9 | 0.678 |
+| 3B | 1000 | 12 | 0.493 |
+| 3B | 1000 | 15 | 0.687 |
+| 14B | 1000 | 3 | 0.715 |
+| 14B | 1000 | 6 | 0.522 |
 
 #### Payload length (I_0, 7B, n=250, news domain)
 
@@ -217,6 +231,7 @@ acrostics/
     data_scaling_05b/        # I_0 data scaling at 0.5B (n=100..1000)
     payload_scaling_7b/      # Payload length sweep (2-32 bit, OOD at 64 and 128)
     vladder_3b/              # Internalisation ladder (I_0..I_6, 500 and 1000 examples)
+    caesar_scaling/          # I_3 (Caesar +3) compute scaling (3B 6-15 epochs, 14B 3-6 epochs)
     domain_robustness/       # 5 domains x {I_0, I_1}
   scripts/
     train.py                 # SFT training (stage1 or v0)
