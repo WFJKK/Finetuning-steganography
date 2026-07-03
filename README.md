@@ -161,7 +161,7 @@ For swap encoding we report the bit error rate (BER), the fraction of payload bi
 
 ### I_0 example
 
-The payload is supplied in a secret tag and the model outputs the items in the permuted order. The decoder recovers the payload from the output ordering relative to the known reference ordering.
+The payload is supplied in a secret tag and the model outputs the items in the permuted order. Here the decoder is deterministic: it recovers the payload from the output ordering relative to the known reference ordering (a learned decoder, given only the list and not the rule, is studied in the Learned decoder section below).
 
 ```
 User: <secret>010</secret> List the following:
@@ -213,6 +213,23 @@ To confirm the capability comes from fine-tuning rather than in-context ability,
 
 The base model performs near chance, so the encoding cannot be executed by in-context learning at this scale; fine-tuning is required.
 
+### Learned decoder
+
+The encoder results above are scored with a deterministic decoder: a fixed function that already knows the reference ordering and the codec and reads the payload out of the model's output ordering. This measures encoder fidelity, but it does not model the receiver in a covert channel, where the party recovering the payload must itself be a model that has learned the scheme rather than an oracle handed the rule. We therefore train a separate model as the decoder. It is given only the permuted list as text, with no reference ordering, no codec, and no statement of the rule, and must output the payload. The decoder conditions on the ground-truth cover lists from the test set (the encoder is not in the loop), so the metric isolates the decoder from encoder errors. All decoder experiments are on swap, N=4, alphabetical ordering, and are evaluated on the same in-distribution and out-of-distribution item splits as the encoder. Chance is 0.250 exact match and 0.500 BER for a 2-bit payload.
+
+A decoder trained to emit the payload bits directly does not learn the task. It collapses onto a narrow set of payloads independent of the input and scores at chance, even though its training cross-entropy falls, because the token loss is minimised by fitting the payload marginal rather than by reading the list. The task becomes learnable when the target contains intermediate working before the bits. Writing the reconstructed canonical (sorted) order first and then the payload recovers it with high accuracy, and the fraction of cases where the written canonical line is correct tracks the exact-match rate, so the decode succeeds exactly when the sort is reconstructed. Comparable accuracy on held-out item categories (trees, kitchen utensils) indicates the sort is being computed rather than memorised.
+
+That working is emitted in the visible output. The same holds for a reasoning model: Qwen3-8B fine-tuned on its own generated reasoning traces (kept only where the trace's own answer was correct, 541 of 600) recovers the payload when allowed to reason in its think block, and falls below chance when the think block is suppressed at inference. Across the configurations tested, the decoder recovers the payload only when the decoding computation appears in its output.
+
+| Decoder | Inference | Exact (ID) | Exact (OOD) | BER (ID) | BER (OOD) |
+|---------|-----------|-----------|------------|---------|----------|
+| Qwen2.5-7B, bits-only target | direct | 0.230 | 0.225 | 0.520 | 0.525 |
+| Qwen2.5-7B, canonical-order scaffold | free generation | 0.920 | 0.875 | 0.040 | 0.063 |
+| Qwen3-8B, self-generated reasoning traces | think block on | 0.930 | 0.975 | 0.070 | 0.025 |
+| Qwen3-8B, self-generated reasoning traces | think block suppressed | 0.050 | 0.063 | 0.700 | 0.700 |
+
+Whether the requirement for visible working persists at larger model sizes, where a single forward pass may have the capacity to sort and invert without externalising the steps, is left to future work. All decoder experiments use Qwen2.5-7B-Instruct or Qwen3-8B with 4-bit NF4 quantisation and LoRA (r=16, alpha=32). Code and per-run results in `permutation/decoder/`.
+
 ## Repo Structure
 
 ```
@@ -247,6 +264,16 @@ permutation/
   baseline_fewshot.py        # Few-shot (no fine-tuning) baseline
   build_item_pools.py        # Builds the item pools
   run_ood_grid.sh            # Full grid orchestration (resume-safe)
+  decoder/                   # Learned decoder (given the list, recovers the payload)
+    build_decoder_data.py    #   Decoder datasets from the encoder grid (field remap, hash excluded)
+    train_decoder.py         #   Bits-only decoder training and evaluation
+    scaffold_decoder.py      #   Canonical-order scaffold decoder
+    gen_traces_qwen3.py      #   Qwen3 self-generated reasoning traces (rejection sampled)
+    train_traces_qwen3.py    #   Train Qwen3 on kept traces
+    eval_qwen3_dual.py       #   Qwen3 think-on / think-off evaluation
+    roundtrip_eval.py        #   Encoder adapter to decoder adapter, end to end
+    datasets_decoder/        #   Six conditions built (experiments run on swap N=4 alphabetical)
+    results_decoder/         #   Per-run decoder results
 ```
 
 ## Reproducing
@@ -301,6 +328,39 @@ python baseline_fewshot.py \
     --eval-file datasets_ood_grid/swap_N6_name_length/ood_test.jsonl \
     --output results_ood_grid/baseline_swap_N6_name_length_ood.json \
     --n-shots 4 --max-examples 200
+
+# --- Permutation decoder (run from permutation/decoder/) ---
+cd decoder
+python build_decoder_data.py --src ../datasets_ood_grid --dst datasets_decoder
+
+# Bits-only decoder
+python train_decoder.py train \
+    --data datasets_decoder/swap_N4_alphabetical/train.jsonl \
+    --output-dir /dev/shm/dec-swap_N4_alphabetical-lora --epochs 3
+python train_decoder.py evaluate \
+    --adapter-dir /dev/shm/dec-swap_N4_alphabetical-lora \
+    --eval-file datasets_decoder/swap_N4_alphabetical/id_test.jsonl \
+    --output results_decoder/swap_N4_alphabetical_id.json
+
+# Canonical-order scaffold decoder
+python scaffold_decoder.py train \
+    --data datasets_decoder/swap_N4_alphabetical/train.jsonl \
+    --output-dir /dev/shm/scaf-swap_N4_alphabetical-lora --epochs 3
+python scaffold_decoder.py evaluate \
+    --adapter-dir /dev/shm/scaf-swap_N4_alphabetical-lora \
+    --eval-file datasets_decoder/swap_N4_alphabetical/id_test.jsonl \
+    --output results_decoder/scaffold_swap_N4_alphabetical_id.json
+
+# Qwen3 self-generated reasoning traces: generate, train, dual-mode eval
+python gen_traces_qwen3.py \
+    --data datasets_decoder/swap_N4_alphabetical/train.jsonl \
+    --output traces_swap_N4_alphabetical.jsonl --max-new-tokens 1536
+python train_traces_qwen3.py train \
+    --data traces_swap_N4_alphabetical.jsonl \
+    --output-dir /dev/shm/q3-trace-swap_N4_alphabetical-lora --epochs 3
+python eval_qwen3_dual.py \
+    --adapter-dir /dev/shm/q3-trace-swap_N4_alphabetical-lora \
+    --dataset-dir datasets_decoder/swap_N4_alphabetical
 ```
 
 All models are Qwen2.5-Instruct with 4-bit NF4 quantisation and LoRA (r=16, alpha=32). Trained adapters on HF Hub: [WFJKK/poseidon-sft-adapters](https://huggingface.co/WFJKK/poseidon-sft-adapters).
